@@ -132,8 +132,8 @@ export function SentenceBlock({
             ))}
             {showSyntax && group.nounPhrase && (
               <span
-                className="absolute -bottom-1 left-0 right-0 h-[2.5px] rounded-full"
-                style={{ backgroundColor: getCaseColor(group.nounPhrase.case) }}
+                className="absolute left-0 right-0 h-[2.5px] rounded-full"
+                style={{ bottom: "-4px", backgroundColor: getCaseColor(group.nounPhrase.case) }}
               />
             )}
           </span>
