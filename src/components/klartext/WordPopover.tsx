@@ -277,7 +277,6 @@ export function WordPopover({
   if (isVerbGrouped && verbPhrase) {
     // Find the main verb token (has conjugation)
     const mainVerb = verbPhraseTokens.find((t) => t.conjugation);
-    const translation = mainVerb ? getTranslation(mainVerb) : null;
 
     return (
       <div
