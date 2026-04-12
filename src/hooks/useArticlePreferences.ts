@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useCallback, useSyncExternalStore } from "react";
 
 const STORAGE_KEY = "sprachkasten:preferences";
 
@@ -22,8 +22,17 @@ const DEFAULT_PREFERENCES: ArticlePreferences = {
   filterExpanded: false,
 };
 
-function loadPreferences(): ArticlePreferences {
-  if (typeof window === "undefined") return DEFAULT_PREFERENCES;
+// In-memory cache for current preferences
+let cachedPrefs: ArticlePreferences = DEFAULT_PREFERENCES;
+let listeners: Array<() => void> = [];
+
+function emitChange() {
+  for (const listener of listeners) {
+    listener();
+  }
+}
+
+function loadFromStorage(): ArticlePreferences {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored) {
@@ -35,8 +44,7 @@ function loadPreferences(): ArticlePreferences {
   return DEFAULT_PREFERENCES;
 }
 
-function savePreferences(prefs: ArticlePreferences): void {
-  if (typeof window === "undefined") return;
+function saveToStorage(prefs: ArticlePreferences): void {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(prefs));
   } catch {
@@ -44,46 +52,60 @@ function savePreferences(prefs: ArticlePreferences): void {
   }
 }
 
-export function useArticlePreferences() {
-  // Use lazy initialization to load from localStorage
-  const [prefs, setPrefs] = useState<ArticlePreferences>(() => loadPreferences());
-  const mountedRef = useRef(false);
+function subscribe(callback: () => void) {
+  listeners.push(callback);
+  // Initialize from storage on first subscription (client-side only)
+  if (listeners.length === 1) {
+    cachedPrefs = loadFromStorage();
+  }
+  return () => {
+    listeners = listeners.filter((l) => l !== callback);
+  };
+}
 
-  // Save to localStorage on change (skip initial render)
-  useEffect(() => {
-    if (mountedRef.current) {
-      savePreferences(prefs);
-    } else {
-      mountedRef.current = true;
-    }
-  }, [prefs]);
+function getSnapshot(): ArticlePreferences {
+  return cachedPrefs;
+}
+
+function getServerSnapshot(): ArticlePreferences {
+  return DEFAULT_PREFERENCES;
+}
+
+function updatePrefs(updater: (prev: ArticlePreferences) => ArticlePreferences): void {
+  cachedPrefs = updater(cachedPrefs);
+  saveToStorage(cachedPrefs);
+  emitChange();
+}
+
+export function useArticlePreferences() {
+  const prefs = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
   const setShowSyntax = useCallback((value: boolean) => {
-    setPrefs((p) => ({ ...p, showSyntax: value }));
+    updatePrefs((p) => ({ ...p, showSyntax: value }));
   }, []);
 
   const setShowGrammar = useCallback((value: boolean) => {
-    setPrefs((p) => ({ ...p, showGrammar: value }));
+    updatePrefs((p) => ({ ...p, showGrammar: value }));
   }, []);
 
   const setShowClauses = useCallback((value: boolean) => {
-    setPrefs((p) => ({ ...p, showClauses: value }));
+    updatePrefs((p) => ({ ...p, showClauses: value }));
   }, []);
 
   const setSelectedLevels = useCallback((value: string[]) => {
-    setPrefs((p) => ({ ...p, selectedLevels: value }));
+    updatePrefs((p) => ({ ...p, selectedLevels: value }));
   }, []);
 
   const setSelectedTopics = useCallback((value: string[]) => {
-    setPrefs((p) => ({ ...p, selectedTopics: value }));
+    updatePrefs((p) => ({ ...p, selectedTopics: value }));
   }, []);
 
   const setFilterExpanded = useCallback((value: boolean) => {
-    setPrefs((p) => ({ ...p, filterExpanded: value }));
+    updatePrefs((p) => ({ ...p, filterExpanded: value }));
   }, []);
 
   const toggleLevel = useCallback((level: string, topicIdsAtLevel: string[] = []) => {
-    setPrefs((p) => {
+    updatePrefs((p) => {
       const isSelected = p.selectedLevels.includes(level);
       if (isSelected) {
         // Deselecting level: remove level and all its topics
@@ -110,7 +132,7 @@ export function useArticlePreferences() {
   }, []);
 
   const toggleTopic = useCallback((topic: string) => {
-    setPrefs((p) => ({
+    updatePrefs((p) => ({
       ...p,
       selectedTopics: p.selectedTopics.includes(topic)
         ? p.selectedTopics.filter((t) => t !== topic)
