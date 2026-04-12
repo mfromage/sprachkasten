@@ -48,9 +48,15 @@ export interface VocabEntry {
   example: string;
 }
 
+export interface QuizQuestion {
+  question: string;
+  hint: string;
+}
+
 export interface Article {
   slug: string;
   title: string;
   paragraphs: Paragraph[];
   vocabulary: VocabEntry[];
+  quiz: QuizQuestion[];
 }

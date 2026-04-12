@@ -6,6 +6,7 @@ import { getArticle } from "@/lib/fixtures";
 import { ArticleToolbar } from "@/components/klartext/ArticleToolbar";
 import { SentenceBlock } from "@/components/klartext/SentenceBlock";
 import { VocabList } from "@/components/klartext/VocabList";
+import { QuizSection } from "@/components/klartext/QuizSection";
 
 export default function KlartextPage({
   params,
@@ -51,6 +52,8 @@ export default function KlartextPage({
       </article>
 
       <VocabList vocabulary={article.vocabulary} />
+
+      <QuizSection quiz={article.quiz} />
     </main>
   );
 }

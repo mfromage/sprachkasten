@@ -80,6 +80,28 @@ const FIXTURES: Record<string, Article> = {
         example: "Die fortgesetzten israelischen Schläge gefährden auch die amerikanisch-iranischen Verhandlungen.",
       },
     ],
+    quiz: [
+      {
+        question: "Was will Israel laut dem Text mit der libanesischen Regierung erreichen?",
+        hint: "Israel will über ein Ende des Libanonkrieges verhandeln und direkte Gespräche mit der Regierung in Beirut aufnehmen.",
+      },
+      {
+        question: "Welche Bedingung stellt der Libanon vor Verhandlungen?",
+        hint: "Die libanesische Führung verlangt ein Ende der israelischen Attacken vor dem Beginn von Verhandlungen.",
+      },
+      {
+        question: "Wovor warnt US-Vizepräsident Vance den Iran?",
+        hint: 'Vance warnte Iran davor, \u201emit uns zu spielen\u201c. Darauf würden die USA sich nicht einlassen.',
+      },
+      {
+        question: "Was ist seit 1948 zwischen Israel und dem Libanon der Fall?",
+        hint: "Beide Länder befinden sich seit 1948 offiziell im Kriegszustand.",
+      },
+      {
+        question: "Was passierte am Mittwoch laut dem Text?",
+        hint: "Am Mittwoch waren im Zuge einer groß angelegten israelischen Luftangriffswelle mehr als 300 Menschen getötet worden.",
+      },
+    ],
   },
 };
 
