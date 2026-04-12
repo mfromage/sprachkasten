@@ -117,7 +117,7 @@ export function SentenceBlock({
       return (
         <span key={`phrase-${gi}`} className="relative inline">
           {needsSpace && " "}
-          <span className="relative inline pb-1">
+          <span className="relative inline-block pb-1">
             {group.tokens.map((token, i) => (
               <span key={token.id}>
                 {i > 0 && token.pos !== "PUNCT" && " "}
