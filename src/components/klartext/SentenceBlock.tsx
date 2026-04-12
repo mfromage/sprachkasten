@@ -21,6 +21,17 @@ interface HighlightState {
   color: string;
 }
 
+const CASE_COLORS: Record<string, string> = {
+  Nom: "var(--color-nom, #22c55e)",
+  Acc: "var(--color-acc, #f97316)",
+  Dat: "var(--color-dat, #3b82f6)",
+  Gen: "var(--color-gen, #a855f7)",
+};
+
+function getCaseColor(caseKey: string): string {
+  return CASE_COLORS[caseKey] ?? "#9ca3af";
+}
+
 export function SentenceBlock({
   sentence,
   showSyntax,
@@ -64,53 +75,80 @@ export function SentenceBlock({
     return sentence.noun_phrases?.find((np) => np.token_ids.includes(tokenId));
   };
 
-  // Render tokens with clause brackets if showClauses is on
-  const renderTokens = () => {
-    if (showClauses && sentence.clauses && sentence.clauses.length > 0) {
-      return sentence.clauses.map((clause, ci) => {
-        const clauseTokens = sentence.tokens.filter((t) => clause.token_ids.includes(t.id));
-        const label = clause.type === "main"
-          ? "Hauptsatz"
-          : `Nebensatz${clause.connector ? ` (${clause.connector})` : ""}`;
-        const borderColor = clause.type === "main"
-          ? "border-gray-400 dark:border-gray-500"
-          : "border-blue-400 dark:border-blue-500";
+  // Group tokens by noun_phrase for continuous underlines
+  const groupTokensByPhrase = (tokens: typeof sentence.tokens) => {
+    const groups: { tokens: typeof sentence.tokens; nounPhrase?: typeof sentence.noun_phrases[0] }[] = [];
+    let currentGroup: typeof sentence.tokens = [];
+    let currentNP: typeof sentence.noun_phrases[0] | undefined;
 
+    tokens.forEach((token) => {
+      const np = getNounPhraseForToken(token.id);
+      if (np && np === currentNP) {
+        currentGroup.push(token);
+      } else {
+        if (currentGroup.length > 0) {
+          groups.push({ tokens: currentGroup, nounPhrase: currentNP });
+        }
+        currentGroup = [token];
+        currentNP = np;
+      }
+    });
+    if (currentGroup.length > 0) {
+      groups.push({ tokens: currentGroup, nounPhrase: currentNP });
+    }
+    return groups;
+  };
+
+  // Render tokens grouped by phrase
+  const renderTokens = () => {
+    const groups = groupTokensByPhrase(sentence.tokens);
+
+    return groups.map((group, gi) => {
+      const firstToken = group.tokens[0];
+      const needsSpace = gi > 0 && firstToken.pos !== "PUNCT";
+
+      if (group.tokens.length === 1) {
+        // Single token - render normally
+        const token = group.tokens[0];
         return (
-          <span key={ci} className="relative inline">
-            <span className={`text-[10px] text-gray-500 dark:text-gray-400 absolute -top-4 left-0`}>
-              {label}
-            </span>
-            <span className={`border-l-2 border-r-2 ${borderColor} rounded-sm px-1 mx-0.5`}>
-              {clauseTokens.map((token, i) => (
-                <span key={token.id}>
-                  {i > 0 && token.pos !== "PUNCT" && " "}
-                  <TokenWord
-                    token={token}
-                    showSyntax={showSyntax}
-                    highlightColor={activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined}
-                    nounPhrase={getNounPhraseForToken(token.id)}
-                  />
-                </span>
-              ))}
-            </span>
-            {ci < sentence.clauses.length - 1 && " "}
+          <span key={token.id}>
+            {needsSpace && " "}
+            <TokenWord
+              token={token}
+              showSyntax={showSyntax}
+              highlightColor={activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined}
+              nounPhrase={group.nounPhrase}
+            />
           </span>
         );
-      });
-    }
+      }
 
-    return sentence.tokens.map((token, i) => (
-      <span key={token.id}>
-        {i > 0 && token.pos !== "PUNCT" && " "}
-        <TokenWord
-          token={token}
-          showSyntax={showSyntax}
-          highlightColor={activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined}
-          nounPhrase={getNounPhraseForToken(token.id)}
-        />
-      </span>
-    ));
+      // Multi-token phrase - wrap with continuous underline
+      return (
+        <span key={`phrase-${gi}`} className="relative inline">
+          {needsSpace && " "}
+          <span className="relative">
+            {group.tokens.map((token, i) => (
+              <span key={token.id}>
+                {i > 0 && token.pos !== "PUNCT" && " "}
+                <TokenWord
+                  token={token}
+                  showSyntax={false}
+                  highlightColor={activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined}
+                  nounPhrase={group.nounPhrase}
+                />
+              </span>
+            ))}
+            {showSyntax && group.nounPhrase && (
+              <span
+                className="absolute -bottom-1 left-0 right-0 h-[2.5px] rounded-full"
+                style={{ backgroundColor: getCaseColor(group.nounPhrase.case) }}
+              />
+            )}
+          </span>
+        </span>
+      );
+    });
   };
 
   return (
