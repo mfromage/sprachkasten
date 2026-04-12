@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 
 const STORAGE_KEY = "sprachkasten:preferences";
 
@@ -45,21 +45,18 @@ function savePreferences(prefs: ArticlePreferences): void {
 }
 
 export function useArticlePreferences() {
-  const [prefs, setPrefs] = useState<ArticlePreferences>(DEFAULT_PREFERENCES);
-  const [mounted, setMounted] = useState(false);
+  // Use lazy initialization to load from localStorage
+  const [prefs, setPrefs] = useState<ArticlePreferences>(() => loadPreferences());
+  const mountedRef = useRef(false);
 
-  // Load from localStorage on mount
+  // Save to localStorage on change (skip initial render)
   useEffect(() => {
-    setPrefs(loadPreferences());
-    setMounted(true);
-  }, []);
-
-  // Save to localStorage on change (after mount)
-  useEffect(() => {
-    if (mounted) {
+    if (mountedRef.current) {
       savePreferences(prefs);
+    } else {
+      mountedRef.current = true;
     }
-  }, [prefs, mounted]);
+  }, [prefs]);
 
   const setShowSyntax = useCallback((value: boolean) => {
     setPrefs((p) => ({ ...p, showSyntax: value }));
@@ -123,7 +120,6 @@ export function useArticlePreferences() {
 
   return {
     ...prefs,
-    mounted,
     setShowSyntax,
     setShowGrammar,
     setShowClauses,

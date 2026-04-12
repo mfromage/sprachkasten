@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import type { Sentence, GrammarTheme } from "@/lib/types";
+import type { Sentence } from "@/lib/types";
 import { TokenWord } from "./TokenWord";
 import { GrammarCard } from "./GrammarCard";
 import { getLevelHighlightColor } from "@/lib/highlight-colors";

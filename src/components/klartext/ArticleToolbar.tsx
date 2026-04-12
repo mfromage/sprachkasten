@@ -6,14 +6,12 @@ import { FilterPanel } from "./FilterPanel";
 interface ArticleToolbarProps {
   showSyntax: boolean;
   showGrammar: boolean;
-  showClauses: boolean;
   filterExpanded: boolean;
   selectedLevels: string[];
   selectedTopics: string[];
   availableTopics: { id: string; name: string; level: string }[];
   onToggleSyntax: () => void;
   onToggleGrammar: () => void;
-  onToggleClauses: () => void;
   onToggleFilter: () => void;
   onToggleLevel: (level: string) => void;
   onToggleTopic: (topic: string) => void;
@@ -22,14 +20,12 @@ interface ArticleToolbarProps {
 export function ArticleToolbar({
   showSyntax,
   showGrammar,
-  showClauses,
   filterExpanded,
   selectedLevels,
   selectedTopics,
   availableTopics,
   onToggleSyntax,
   onToggleGrammar,
-  onToggleClauses,
   onToggleFilter,
   onToggleLevel,
   onToggleTopic,

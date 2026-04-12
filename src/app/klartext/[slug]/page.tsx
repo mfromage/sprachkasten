@@ -32,14 +32,12 @@ export default function KlartextPage({ params }: { params: Promise<{ slug: strin
       <ArticleToolbar
         showSyntax={prefs.showSyntax}
         showGrammar={prefs.showGrammar}
-        showClauses={prefs.showClauses}
         filterExpanded={prefs.filterExpanded}
         selectedLevels={prefs.selectedLevels}
         selectedTopics={prefs.selectedTopics}
         availableTopics={availableTopics}
         onToggleSyntax={() => prefs.setShowSyntax(!prefs.showSyntax)}
         onToggleGrammar={() => prefs.setShowGrammar(!prefs.showGrammar)}
-        onToggleClauses={() => prefs.setShowClauses(!prefs.showClauses)}
         onToggleFilter={() => prefs.setFilterExpanded(!prefs.filterExpanded)}
         onToggleLevel={prefs.toggleLevel}
         onToggleTopic={prefs.toggleTopic}
