@@ -1,17 +1,20 @@
-import { SYNTAX_GROUP_COLORS, SYNTAX_GROUP_LABELS, type SyntaxGroup } from "@/lib/syntax-colors";
-
-const GROUPS: SyntaxGroup[] = ["subject", "predicate", "object", "modifier", "connector", "other"];
+const CASES = [
+  { key: "Nom", label: "Nominativ", color: "var(--color-nom, #22c55e)" },
+  { key: "Acc", label: "Akkusativ", color: "var(--color-acc, #f97316)" },
+  { key: "Dat", label: "Dativ", color: "var(--color-dat, #3b82f6)" },
+  { key: "Gen", label: "Genitiv", color: "var(--color-gen, #a855f7)" },
+];
 
 export function SyntaxLegend() {
   return (
     <div className="flex flex-wrap gap-3 text-xs text-gray-600 dark:text-gray-400 animate-in fade-in slide-in-from-top-1 duration-300">
-      {GROUPS.map((group) => (
-        <div key={group} className="flex items-center gap-1.5">
+      {CASES.map((c) => (
+        <div key={c.key} className="flex items-center gap-1.5">
           <span
             className="inline-block w-4 h-1 rounded-full"
-            style={{ backgroundColor: SYNTAX_GROUP_COLORS[group] }}
+            style={{ backgroundColor: c.color }}
           />
-          <span>{SYNTAX_GROUP_LABELS[group]}</span>
+          <span>{c.label}</span>
         </div>
       ))}
     </div>

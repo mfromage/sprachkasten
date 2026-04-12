@@ -1,3 +1,9 @@
+export interface TokenTranslation {
+  pos: string;
+  gender: string;
+  translations: string[];
+}
+
 export interface Token {
   id: number;
   text: string;
@@ -12,6 +18,7 @@ export interface Token {
     mood: string | null;
     person: string | null;
   };
+  translations?: TokenTranslation[];
 }
 
 export interface Unit {
