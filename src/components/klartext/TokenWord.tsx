@@ -25,14 +25,15 @@ export function TokenWord({ token, showSyntax }: TokenWordProps) {
     <span className="relative inline" ref={spanRef}>
       <span
         onClick={() => setOpen(!open)}
-        className="cursor-pointer transition-all duration-200 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-sm px-0.5 -mx-0.5"
-        style={
-          showSyntax
-            ? { borderBottom: `2.5px solid ${color}`, paddingBottom: "3px" }
-            : undefined
-        }
+        className="cursor-pointer transition-all duration-200 hover:bg-gray-100/70 dark:hover:bg-gray-800/70 rounded-sm px-0.5 -mx-0.5 pb-1"
       >
         {token.text}
+        {showSyntax && (
+          <span
+            className="absolute bottom-0 left-0 right-0 h-[2.5px] rounded-full transition-colors duration-200"
+            style={{ backgroundColor: color }}
+          />
+        )}
       </span>
       {open && <WordPopover token={token} onClose={() => setOpen(false)} />}
     </span>
