@@ -30,7 +30,7 @@ export function TokenWord({ token, showSyntax }: TokenWordProps) {
         {token.text}
         {showSyntax && (
           <span
-            className="absolute bottom-0 left-0 right-0 h-[2.5px] rounded-full transition-colors duration-200"
+            className="absolute -bottom-1 left-0 right-0 h-[2.5px] rounded-full transition-colors duration-200"
             style={{ backgroundColor: color }}
           />
         )}
