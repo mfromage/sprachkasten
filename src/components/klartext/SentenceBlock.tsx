@@ -136,6 +136,7 @@ export function SentenceBlock({
                   showSyntax={false}
                   highlightColor={activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined}
                   nounPhrase={group.nounPhrase}
+                  phraseTokens={group.tokens}
                 />
               </span>
             ))}

@@ -7,6 +7,7 @@ import { POS_LABELS_DE } from "@/lib/syntax-colors";
 interface WordPopoverProps {
   token: Token;
   nounPhrase?: NounPhrase;
+  phraseTokens?: Token[];
   onClose: () => void;
 }
 
@@ -28,8 +29,34 @@ const NUMBER_DE: Record<string, string> = {
   Plur: "Plural",
 };
 
-export function WordPopover({ token, nounPhrase, onClose }: WordPopoverProps) {
+function TokenInfo({ token }: { token: Token }) {
+  const gender = token.morphology.gender;
+  const kasus = token.morphology.case;
+  const posLabel = POS_LABELS_DE[token.pos] ?? token.pos;
+
+  return (
+    <div className="flex items-center gap-2">
+      <span className="font-medium text-gray-800 dark:text-gray-200">{token.text}</span>
+      {gender && (
+        <span className="text-xs text-gray-400 dark:text-gray-500">
+          ({GENDER_SHORT[gender] ?? gender})
+        </span>
+      )}
+      <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2 py-0.5 text-xs text-gray-600 dark:text-gray-400">
+        {posLabel}
+      </span>
+      {kasus && (
+        <span className="inline-block rounded-full bg-blue-50 dark:bg-blue-900/30 px-2 py-0.5 text-xs text-blue-700 dark:text-blue-300">
+          {CASE_SHORT[kasus] ?? kasus}
+        </span>
+      )}
+    </div>
+  );
+}
+
+export function WordPopover({ token, nounPhrase, phraseTokens, onClose }: WordPopoverProps) {
   const ref = useRef<HTMLDivElement>(null);
+  const isGrouped = phraseTokens && phraseTokens.length > 1;
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -48,14 +75,66 @@ export function WordPopover({ token, nounPhrase, onClose }: WordPopoverProps) {
     };
   }, [onClose]);
 
+  // For grouped phrases: show phrase info first, then member words
+  if (isGrouped && nounPhrase) {
+    return (
+      <div
+        ref={ref}
+        className="absolute z-50 mt-2 w-auto min-w-56 max-w-72 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
+      >
+        {/* Phrase info */}
+        <p className="text-base font-semibold text-gray-900 dark:text-gray-100 mb-2">
+          {nounPhrase.text}
+        </p>
+        <div className="flex flex-wrap items-center gap-1.5 mb-2">
+          <span className="inline-block rounded-full bg-blue-50 dark:bg-blue-900/30 px-2.5 py-0.5 text-xs font-medium text-blue-700 dark:text-blue-300">
+            {CASE_SHORT[nounPhrase.case] ?? nounPhrase.case}
+          </span>
+          <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-400">
+            {NUMBER_DE[nounPhrase.number] ?? nounPhrase.number}
+          </span>
+          {nounPhrase.gender && (
+            <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-400">
+              {GENDER_SHORT[nounPhrase.gender] ?? nounPhrase.gender}
+            </span>
+          )}
+        </div>
+        <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">
+          {nounPhrase.case_reason}
+        </p>
+        {nounPhrase.notes.length > 0 && (
+          <div className="mb-3 flex flex-wrap gap-1">
+            {nounPhrase.notes.map((note, i) => (
+              <span
+                key={i}
+                className={`inline-block rounded px-2 py-0.5 text-xs font-medium ${
+                  note.includes("N-Deklination")
+                    ? "bg-amber-50 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300"
+                    : "bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300"
+                }`}
+              >
+                {note}
+              </span>
+            ))}
+          </div>
+        )}
+
+        {/* Member words */}
+        <div className="pt-3 border-t border-gray-200 dark:border-gray-700 space-y-2">
+          <p className="text-xs text-gray-400 dark:text-gray-500 uppercase tracking-wide">Wörter</p>
+          {phraseTokens.map((t) => (
+            <TokenInfo key={t.id} token={t} />
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // Single word popover
   const gender = token.morphology.gender;
   const kasus = token.morphology.case;
   const tense = token.morphology.tense;
   const mood = token.morphology.mood;
-
-  // Build compact info line: e.g. "planen · Verb" or "Washington (n.) · Eigenname · Dativ"
-  const infoParts: string[] = [];
-  if (gender) infoParts.push(GENDER_SHORT[gender] ?? gender);
   const posLabel = POS_LABELS_DE[token.pos] ?? token.pos;
 
   return (
