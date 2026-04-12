@@ -163,7 +163,7 @@ export function WordPopover({
     return (
       <div
         ref={ref}
-        className="absolute z-50 mt-2 w-auto min-w-56 max-w-80 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
+        className="fixed left-4 right-4 sm:absolute sm:left-auto sm:right-auto z-50 mt-2 sm:w-80 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
       >
         {/* Phrase info */}
         <p className="text-base font-semibold text-gray-900 dark:text-gray-100 mb-2">
@@ -222,7 +222,7 @@ export function WordPopover({
     return (
       <div
         ref={ref}
-        className="absolute z-50 mt-2 w-auto min-w-56 max-w-80 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
+        className="fixed left-4 right-4 sm:absolute sm:left-auto sm:right-auto z-50 mt-2 sm:w-80 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
       >
         {/* Verb phrase info */}
         <p className="text-base font-semibold text-gray-900 dark:text-gray-100 mb-1">
@@ -265,7 +265,7 @@ export function WordPopover({
   return (
     <div
       ref={ref}
-      className="absolute z-50 mt-2 w-auto min-w-48 max-w-72 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
+      className="fixed left-4 right-4 sm:absolute sm:left-auto sm:right-auto z-50 mt-2 sm:w-72 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
     >
       <div className="flex items-baseline gap-2 mb-1.5">
         <span className="text-lg font-sans font-semibold">{token.text}</span>
