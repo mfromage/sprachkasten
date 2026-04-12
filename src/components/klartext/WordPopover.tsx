@@ -9,13 +9,17 @@ interface WordPopoverProps {
   onClose: () => void;
 }
 
-const MORPHOLOGY_LABELS: Record<string, string> = {
-  case: "Kasus",
-  number: "Numerus",
-  gender: "Genus",
-  tense: "Tempus",
-  mood: "Modus",
-  person: "Person",
+const GENDER_SHORT: Record<string, string> = {
+  Masc: "m.",
+  Fem: "f.",
+  Neut: "n.",
+};
+
+const CASE_SHORT: Record<string, string> = {
+  Nom: "Nominativ",
+  Acc: "Akkusativ",
+  Dat: "Dativ",
+  Gen: "Genitiv",
 };
 
 export function WordPopover({ token, onClose }: WordPopoverProps) {
@@ -38,40 +42,56 @@ export function WordPopover({ token, onClose }: WordPopoverProps) {
     };
   }, [onClose]);
 
-  const morphEntries = Object.entries(token.morphology).filter(
-    ([, v]) => v !== null
-  );
+  const gender = token.morphology.gender;
+  const kasus = token.morphology.case;
+  const tense = token.morphology.tense;
+  const mood = token.morphology.mood;
+
+  // Build compact info line: e.g. "planen · Verb" or "Washington (n.) · Eigenname · Dativ"
+  const infoParts: string[] = [];
+  if (gender) infoParts.push(GENDER_SHORT[gender] ?? gender);
+  const posLabel = POS_LABELS_DE[token.pos] ?? token.pos;
 
   return (
     <div
       ref={ref}
-      className="absolute z-50 mt-2 w-56 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
+      className="absolute z-50 mt-2 w-auto min-w-48 max-w-64 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
     >
-      <div className="mb-2">
-        <p className="text-lg font-serif font-semibold">{token.text}</p>
-        {token.lemma !== token.text.toLowerCase() && (
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            Lemma: {token.lemma}
-          </p>
+      <div className="flex items-baseline gap-2 mb-1.5">
+        <span className="text-lg font-serif font-semibold">{token.text}</span>
+        {gender && (
+          <span className="text-sm text-gray-400 dark:text-gray-500">
+            ({GENDER_SHORT[gender] ?? gender})
+          </span>
         )}
       </div>
-      <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-700 dark:text-gray-300 mb-3">
-        {POS_LABELS_DE[token.pos] ?? token.pos}
-      </span>
-      {morphEntries.length > 0 && (
-        <table className="w-full text-sm">
-          <tbody>
-            {morphEntries.map(([key, value]) => (
-              <tr key={key} className="border-t border-gray-100 dark:border-gray-700">
-                <td className="py-1 pr-2 text-gray-500 dark:text-gray-400">
-                  {MORPHOLOGY_LABELS[key] ?? key}
-                </td>
-                <td className="py-1 font-medium">{value}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+
+      {token.lemma.toLowerCase() !== token.text.toLowerCase() && (
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+          Grundform: <span className="font-medium text-gray-700 dark:text-gray-300">{token.lemma}</span>
+        </p>
       )}
+
+      <div className="flex flex-wrap items-center gap-1.5 mt-1">
+        <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-700 dark:text-gray-300">
+          {posLabel}
+        </span>
+        {kasus && (
+          <span className="inline-block rounded-full bg-blue-50 dark:bg-blue-900/30 px-2.5 py-0.5 text-xs font-medium text-blue-700 dark:text-blue-300">
+            {CASE_SHORT[kasus] ?? kasus}
+          </span>
+        )}
+        {tense && (
+          <span className="inline-block rounded-full bg-amber-50 dark:bg-amber-900/30 px-2.5 py-0.5 text-xs font-medium text-amber-700 dark:text-amber-300">
+            {tense}
+          </span>
+        )}
+        {mood && mood !== "Ind" && (
+          <span className="inline-block rounded-full bg-purple-50 dark:bg-purple-900/30 px-2.5 py-0.5 text-xs font-medium text-purple-700 dark:text-purple-300">
+            {mood}
+          </span>
+        )}
+      </div>
     </div>
   );
 }

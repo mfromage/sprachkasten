@@ -28,7 +28,7 @@ export function TokenWord({ token, showSyntax }: TokenWordProps) {
         className="cursor-pointer transition-all duration-200 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-sm px-0.5 -mx-0.5"
         style={
           showSyntax
-            ? { borderBottom: `3px solid ${color}`, paddingBottom: "2px" }
+            ? { borderBottom: `2.5px solid ${color}`, paddingBottom: "3px" }
             : undefined
         }
       >

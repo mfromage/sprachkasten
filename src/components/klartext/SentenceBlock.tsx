@@ -10,19 +10,19 @@ interface SentenceBlockProps {
 
 export function SentenceBlock({ sentence, showSyntax, showGrammar }: SentenceBlockProps) {
   return (
-    <div className={showGrammar ? "pb-4 mb-4 border-b border-gray-200 dark:border-gray-800" : ""}>
-      <p className="font-serif text-lg leading-relaxed">
+    <div className={showGrammar ? "pb-5 mb-5 border-b border-gray-200 dark:border-gray-800" : "mb-1"}>
+      <div className="font-serif text-xl leading-[2]">
         {sentence.tokens.map((token, i) => (
           <span key={token.id}>
             {i > 0 && token.pos !== "PUNCT" && " "}
             <TokenWord token={token} showSyntax={showSyntax} />
           </span>
         ))}
-      </p>
+      </div>
       {showGrammar && sentence.grammar_themes.length > 0 && (
         <div className="mt-3 space-y-2">
-          {sentence.grammar_themes.map((theme) => (
-            <GrammarCard key={theme.theme_id} theme={theme} />
+          {sentence.grammar_themes.map((theme, i) => (
+            <GrammarCard key={`${theme.theme_id}-${i}`} theme={theme} />
           ))}
         </div>
       )}
