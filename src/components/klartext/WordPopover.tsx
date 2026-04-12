@@ -1,13 +1,15 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import type { Token, NounPhrase } from "@/lib/types";
+import type { Token, NounPhrase, VerbPhrase, Conjugation } from "@/lib/types";
 import { POS_LABELS_DE } from "@/lib/syntax-colors";
 
 interface WordPopoverProps {
   token: Token;
   nounPhrase?: NounPhrase;
   phraseTokens?: Token[];
+  verbPhrase?: VerbPhrase;
+  verbPhraseTokens?: Token[];
   onClose: () => void;
 }
 
@@ -28,6 +30,46 @@ const NUMBER_DE: Record<string, string> = {
   Sing: "Singular",
   Plur: "Plural",
 };
+
+const TENSE_LABELS: Record<string, string> = {
+  praesens: "Präsens",
+  praeteritum: "Präteritum",
+  perfekt: "Perfekt",
+};
+
+function ConjugationTable({ conjugation }: { conjugation: Conjugation }) {
+  const tenses = Object.entries(conjugation).filter(([, forms]) => forms !== undefined) as [
+    string,
+    { ich: string; du: string; er: string; wir: string; ihr: string; sie: string },
+  ][];
+
+  if (tenses.length === 0) return null;
+
+  return (
+    <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
+      <p className="text-xs text-gray-400 dark:text-gray-500 uppercase tracking-wide mb-2">
+        Konjugation
+      </p>
+      <div className="space-y-3">
+        {tenses.map(([tense, forms]) => (
+          <div key={tense}>
+            <p className="text-xs font-medium text-gray-600 dark:text-gray-400 mb-1">
+              {TENSE_LABELS[tense] ?? tense}
+            </p>
+            <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 text-xs">
+              <span className="text-gray-500 dark:text-gray-400">ich {forms.ich}</span>
+              <span className="text-gray-500 dark:text-gray-400">wir {forms.wir}</span>
+              <span className="text-gray-500 dark:text-gray-400">du {forms.du}</span>
+              <span className="text-gray-500 dark:text-gray-400">ihr {forms.ihr}</span>
+              <span className="text-gray-500 dark:text-gray-400">er {forms.er}</span>
+              <span className="text-gray-500 dark:text-gray-400">sie {forms.sie}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 // Get first translation from token
 function getTranslation(token: Token): string | null {
@@ -70,9 +112,17 @@ function TokenInfo({ token }: { token: Token }) {
   );
 }
 
-export function WordPopover({ token, nounPhrase, phraseTokens, onClose }: WordPopoverProps) {
+export function WordPopover({
+  token,
+  nounPhrase,
+  phraseTokens,
+  verbPhrase,
+  verbPhraseTokens,
+  onClose,
+}: WordPopoverProps) {
   const ref = useRef<HTMLDivElement>(null);
   const isGrouped = phraseTokens && phraseTokens.length > 1;
+  const isVerbGrouped = verbPhraseTokens && verbPhraseTokens.length > 1;
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -163,6 +213,47 @@ export function WordPopover({ token, nounPhrase, phraseTokens, onClose }: WordPo
     );
   }
 
+  // For separable verbs: show verb phrase info first, then parts
+  if (isVerbGrouped && verbPhrase) {
+    // Find the main verb token (has conjugation)
+    const mainVerb = verbPhraseTokens.find((t) => t.conjugation);
+    const translation = mainVerb ? getTranslation(mainVerb) : null;
+
+    return (
+      <div
+        ref={ref}
+        className="absolute z-50 mt-2 w-auto min-w-56 max-w-80 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
+      >
+        {/* Verb phrase info */}
+        <p className="text-base font-semibold text-gray-900 dark:text-gray-100 mb-1">
+          {verbPhrase.text}
+        </p>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+          Grundform:{" "}
+          <span className="font-medium text-gray-700 dark:text-gray-300">{verbPhrase.lemma}</span>
+        </p>
+        {translation && (
+          <p className="text-sm text-gray-600 dark:text-gray-400 italic mb-2">{translation}</p>
+        )}
+        <div className="flex flex-wrap items-center gap-1.5 mb-2">
+          <span className="inline-block rounded-full bg-emerald-50 dark:bg-emerald-900/30 px-2.5 py-0.5 text-xs font-medium text-emerald-700 dark:text-emerald-300">
+            Trennbares Verb
+          </span>
+        </div>
+
+        {verbPhrase.conjugation && <ConjugationTable conjugation={verbPhrase.conjugation} />}
+
+        {/* Member words */}
+        <div className="pt-3 mt-3 border-t border-gray-200 dark:border-gray-700 space-y-3">
+          <p className="text-xs text-gray-400 dark:text-gray-500 uppercase tracking-wide">Teile</p>
+          {verbPhraseTokens.map((t) => (
+            <TokenInfo key={t.id} token={t} />
+          ))}
+        </div>
+      </div>
+    );
+  }
+
   // Single word popover
   const gender = token.morphology.gender;
   const kasus = token.morphology.case;
@@ -216,6 +307,8 @@ export function WordPopover({ token, nounPhrase, phraseTokens, onClose }: WordPo
           </span>
         )}
       </div>
+
+      {token.conjugation && <ConjugationTable conjugation={token.conjugation} />}
 
       {nounPhrase && (
         <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">

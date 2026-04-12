@@ -4,6 +4,21 @@ export interface TokenTranslation {
   translations: string[];
 }
 
+export interface ConjugationPersons {
+  ich: string;
+  du: string;
+  er: string;
+  wir: string;
+  ihr: string;
+  sie: string;
+}
+
+export interface Conjugation {
+  praesens?: ConjugationPersons;
+  praeteritum?: ConjugationPersons;
+  perfekt?: ConjugationPersons;
+}
+
 export interface Token {
   id: number;
   text: string;
@@ -19,6 +34,7 @@ export interface Token {
     person: string | null;
   };
   translations?: TokenTranslation[];
+  conjugation?: Conjugation | null;
 }
 
 export interface Unit {
@@ -52,6 +68,13 @@ export interface Clause {
   token_ids: number[];
   connector: string | null;
   verb: string;
+}
+
+export interface VerbPhrase {
+  text: string;
+  token_ids: number[];
+  lemma: string;
+  conjugation?: Conjugation | null;
 }
 
 export interface Sentence {

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import type { Token, NounPhrase } from "@/lib/types";
+import type { Token, NounPhrase, VerbPhrase } from "@/lib/types";
 import { getSyntaxGroup, SYNTAX_GROUP_COLORS } from "@/lib/syntax-colors";
 import { CASE_COLORS } from "@/lib/case-colors";
 import { WordPopover } from "./WordPopover";
@@ -12,6 +12,8 @@ interface TokenWordProps {
   highlightColor?: string;
   nounPhrase?: NounPhrase;
   phraseTokens?: Token[];
+  verbPhrase?: VerbPhrase;
+  verbPhraseTokens?: Token[];
 }
 
 export function TokenWord({
@@ -20,6 +22,8 @@ export function TokenWord({
   highlightColor,
   nounPhrase,
   phraseTokens,
+  verbPhrase,
+  verbPhraseTokens,
 }: TokenWordProps) {
   const [open, setOpen] = useState(false);
   const spanRef = useRef<HTMLSpanElement>(null);
@@ -54,6 +58,8 @@ export function TokenWord({
           token={token}
           nounPhrase={nounPhrase}
           phraseTokens={phraseTokens}
+          verbPhrase={verbPhrase}
+          verbPhraseTokens={verbPhraseTokens}
           onClose={() => setOpen(false)}
         />
       )}

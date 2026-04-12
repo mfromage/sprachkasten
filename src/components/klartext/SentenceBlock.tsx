@@ -1,11 +1,10 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import type { Sentence } from "@/lib/types";
+import type { Sentence, VerbPhrase } from "@/lib/types";
 import { TokenWord } from "./TokenWord";
 import { GrammarCard } from "./GrammarCard";
 import { getLevelHighlightColor } from "@/lib/highlight-colors";
-import { getCaseColor } from "@/lib/case-colors";
 import { themePassesFilter } from "./FilterPanel";
 
 interface SentenceBlockProps {
@@ -60,6 +59,39 @@ export function SentenceBlock({
     themePassesFilter(theme, selectedLevels, selectedTopics),
   );
 
+  // Detect separable verb phrases (e.g., "fügte...hinzu" from "hinzufügen")
+  const detectVerbPhrases = (): VerbPhrase[] => {
+    const phrases: VerbPhrase[] = [];
+    const prefixTokens = sentence.tokens.filter((t) => t.syntactic_role === "separable_prefix");
+
+    for (const prefix of prefixTokens) {
+      // Find the verb whose lemma starts with this prefix
+      const verb = sentence.tokens.find(
+        (t) => t.pos === "VERB" && t.lemma.toLowerCase().startsWith(prefix.text.toLowerCase()),
+      );
+      if (verb) {
+        const tokenIds = [verb.id, prefix.id].sort((a, b) => a - b);
+        const text = tokenIds
+          .map((id) => sentence.tokens.find((t) => t.id === id)?.text)
+          .join("...");
+        phrases.push({
+          text,
+          token_ids: tokenIds,
+          lemma: verb.lemma,
+          conjugation: verb.conjugation,
+        });
+      }
+    }
+    return phrases;
+  };
+
+  const verbPhrases = detectVerbPhrases();
+
+  // Find verb phrase for each token
+  const getVerbPhraseForToken = (tokenId: number): VerbPhrase | undefined => {
+    return verbPhrases.find((vp) => vp.token_ids.includes(tokenId));
+  };
+
   // Find noun phrase for each token
   const getNounPhraseForToken = (tokenId: number) => {
     return sentence.noun_phrases?.find((np) => np.token_ids.includes(tokenId));
@@ -103,6 +135,12 @@ export function SentenceBlock({
       if (group.tokens.length === 1) {
         // Single token - render normally
         const token = group.tokens[0];
+        const verbPhrase = getVerbPhraseForToken(token.id);
+        const verbPhraseTokens = verbPhrase
+          ? verbPhrase.token_ids
+              .map((id) => sentence.tokens.find((t) => t.id === id)!)
+              .filter(Boolean)
+          : undefined;
         return (
           <span key={token.id}>
             {needsSpace && " "}
@@ -113,6 +151,8 @@ export function SentenceBlock({
                 activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined
               }
               nounPhrase={group.nounPhrase}
+              verbPhrase={verbPhrase}
+              verbPhraseTokens={verbPhraseTokens}
             />
           </span>
         );
@@ -122,20 +162,30 @@ export function SentenceBlock({
       return (
         <span key={`phrase-${gi}`}>
           {needsSpace && " "}
-          {group.tokens.map((token, i) => (
-            <span key={token.id}>
-              {i > 0 && token.pos !== "PUNCT" && " "}
-              <TokenWord
-                token={token}
-                showSyntax={showSyntax}
-                highlightColor={
-                  activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined
-                }
-                nounPhrase={group.nounPhrase}
-                phraseTokens={group.tokens}
-              />
-            </span>
-          ))}
+          {group.tokens.map((token, i) => {
+            const verbPhrase = getVerbPhraseForToken(token.id);
+            const verbPhraseTokens = verbPhrase
+              ? verbPhrase.token_ids
+                  .map((id) => sentence.tokens.find((t) => t.id === id)!)
+                  .filter(Boolean)
+              : undefined;
+            return (
+              <span key={token.id}>
+                {i > 0 && token.pos !== "PUNCT" && " "}
+                <TokenWord
+                  token={token}
+                  showSyntax={showSyntax}
+                  highlightColor={
+                    activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined
+                  }
+                  nounPhrase={group.nounPhrase}
+                  phraseTokens={group.tokens}
+                  verbPhrase={verbPhrase}
+                  verbPhraseTokens={verbPhraseTokens}
+                />
+              </span>
+            );
+          })}
         </span>
       );
     });
