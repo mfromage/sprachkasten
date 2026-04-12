@@ -118,32 +118,24 @@ export function SentenceBlock({
         );
       }
 
-      // Multi-token phrase - wrap with continuous underline
+      // Multi-token phrase - render inline with underline on each word
       return (
-        <span key={`phrase-${gi}`} className="relative inline">
+        <span key={`phrase-${gi}`}>
           {needsSpace && " "}
-          <span className="relative inline-block">
-            {group.tokens.map((token, i) => (
-              <span key={token.id}>
-                {i > 0 && token.pos !== "PUNCT" && " "}
-                <TokenWord
-                  token={token}
-                  showSyntax={false}
-                  highlightColor={
-                    activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined
-                  }
-                  nounPhrase={group.nounPhrase}
-                  phraseTokens={group.tokens}
-                />
-              </span>
-            ))}
-            {showSyntax && group.nounPhrase && (
-              <span
-                className="absolute left-0 right-0 h-[2.5px] rounded-full"
-                style={{ bottom: "4px", backgroundColor: getCaseColor(group.nounPhrase.case) }}
+          {group.tokens.map((token, i) => (
+            <span key={token.id}>
+              {i > 0 && token.pos !== "PUNCT" && " "}
+              <TokenWord
+                token={token}
+                showSyntax={showSyntax}
+                highlightColor={
+                  activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined
+                }
+                nounPhrase={group.nounPhrase}
+                phraseTokens={group.tokens}
               />
-            )}
-          </span>
+            </span>
+          ))}
         </span>
       );
     });
