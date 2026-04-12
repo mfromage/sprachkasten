@@ -71,12 +71,72 @@ function ConjugationTable({ conjugation }: { conjugation: Conjugation }) {
   );
 }
 
-// Get first translation from token
+// Map token POS to translation pos codes
+const POS_TO_TRANS: Record<string, string> = {
+  VERB: "v",
+  NOUN: "n",
+  ADJ: "adj",
+  ADV: "adv",
+  ADP: "prep",
+  PROPN: "n",
+};
+
+const TRANS_POS_LABELS: Record<string, string> = {
+  v: "Verb",
+  n: "Nomen",
+  adj: "Adjektiv",
+  adv: "Adverb",
+  prep: "Präposition",
+};
+
+// Get first matching translation for preview
 function getTranslation(token: Token): string | null {
   if (!token.translations || token.translations.length === 0) return null;
-  const first = token.translations[0];
-  if (first.translations.length === 0) return null;
-  return first.translations.slice(0, 2).join(", ");
+  const matchPos = POS_TO_TRANS[token.pos];
+  const match = matchPos
+    ? token.translations.find((t) => t.pos === matchPos)
+    : token.translations[0];
+  const entry = match || token.translations[0];
+  if (!entry || entry.translations.length === 0) return null;
+  return entry.translations.slice(0, 2).join(", ");
+}
+
+// Translation section showing all translations grouped by POS match
+function TranslationSection({ token }: { token: Token }) {
+  if (!token.translations || token.translations.length === 0) return null;
+
+  const matchPos = POS_TO_TRANS[token.pos];
+  const matching = matchPos ? token.translations.filter((t) => t.pos === matchPos) : [];
+  const others = token.translations.filter((t) => t.pos !== matchPos);
+
+  return (
+    <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
+      <p className="text-xs text-gray-400 dark:text-gray-500 uppercase tracking-wide mb-2">
+        Übersetzungen
+      </p>
+      {matching.length > 0 && (
+        <div className="mb-2">
+          {matching.map((entry, i) => (
+            <p key={i} className="text-sm text-gray-700 dark:text-gray-300">
+              {entry.translations.join(", ")}
+            </p>
+          ))}
+        </div>
+      )}
+      {others.length > 0 && (
+        <div className="space-y-1">
+          {others.map((entry, i) => (
+            <p key={i} className="text-xs text-gray-500 dark:text-gray-400">
+              <span className="text-gray-400 dark:text-gray-500">
+                ({TRANS_POS_LABELS[entry.pos] ?? entry.pos})
+              </span>{" "}
+              {entry.translations.slice(0, 3).join(", ")}
+            </p>
+          ))}
+        </div>
+      )}
+    </div>
+  );
 }
 
 function TokenInfo({ token }: { token: Token }) {
@@ -260,7 +320,6 @@ export function WordPopover({
   const tense = token.morphology.tense;
   const mood = token.morphology.mood;
   const posLabel = POS_LABELS_DE[token.pos] ?? token.pos;
-  const translation = getTranslation(token);
 
   return (
     <div
@@ -281,10 +340,6 @@ export function WordPopover({
           Grundform:{" "}
           <span className="font-medium text-gray-700 dark:text-gray-300">{token.lemma}</span>
         </p>
-      )}
-
-      {translation && (
-        <p className="text-sm text-gray-600 dark:text-gray-400 italic mb-2">{translation}</p>
       )}
 
       <div className="flex flex-wrap items-center gap-1.5 mt-1">
@@ -309,6 +364,8 @@ export function WordPopover({
       </div>
 
       {token.conjugation && <ConjugationTable conjugation={token.conjugation} />}
+
+      <TranslationSection token={token} />
 
       {nounPhrase && (
         <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
