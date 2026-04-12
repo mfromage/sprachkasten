@@ -5,6 +5,7 @@ import type { Sentence, GrammarTheme } from "@/lib/types";
 import { TokenWord } from "./TokenWord";
 import { GrammarCard } from "./GrammarCard";
 import { getLevelHighlightColor } from "@/lib/highlight-colors";
+import { getCaseColor } from "@/lib/case-colors";
 import { themePassesFilter } from "./FilterPanel";
 
 interface SentenceBlockProps {
@@ -19,17 +20,6 @@ interface SentenceBlockProps {
 interface HighlightState {
   tokenIds: Set<number>;
   color: string;
-}
-
-const CASE_COLORS: Record<string, string> = {
-  Nom: "var(--color-nom, #22c55e)",
-  Acc: "var(--color-acc, #f97316)",
-  Dat: "var(--color-dat, #3b82f6)",
-  Gen: "var(--color-gen, #a855f7)",
-};
-
-function getCaseColor(caseKey: string): string {
-  return CASE_COLORS[caseKey] ?? "#9ca3af";
 }
 
 export function SentenceBlock({

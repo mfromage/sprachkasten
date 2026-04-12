@@ -1,9 +1,10 @@
-const CASES = [
-  { key: "Nom", label: "Nominativ", color: "var(--color-nom, #22c55e)" },
-  { key: "Acc", label: "Akkusativ", color: "var(--color-acc, #f97316)" },
-  { key: "Dat", label: "Dativ", color: "var(--color-dat, #3b82f6)" },
-  { key: "Gen", label: "Genitiv", color: "var(--color-gen, #a855f7)" },
-];
+import { CASE_COLORS, CASE_LABELS } from "@/lib/case-colors";
+
+const CASES = Object.entries(CASE_COLORS).map(([key, color]) => ({
+  key,
+  label: CASE_LABELS[key] ?? key,
+  color,
+}));
 
 export function SyntaxLegend() {
   return (

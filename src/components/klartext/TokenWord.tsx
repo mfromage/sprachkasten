@@ -3,14 +3,8 @@
 import { useState, useRef } from "react";
 import type { Token, NounPhrase } from "@/lib/types";
 import { getSyntaxGroup, SYNTAX_GROUP_COLORS } from "@/lib/syntax-colors";
+import { CASE_COLORS } from "@/lib/case-colors";
 import { WordPopover } from "./WordPopover";
-
-const CASE_COLORS: Record<string, string> = {
-  Nom: "var(--color-nom, #22c55e)",
-  Acc: "var(--color-acc, #f97316)",
-  Dat: "var(--color-dat, #3b82f6)",
-  Gen: "var(--color-gen, #a855f7)",
-};
 
 interface TokenWordProps {
   token: Token;
