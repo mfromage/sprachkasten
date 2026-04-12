@@ -1,0 +1,6294 @@
+{
+  "slug": "stuttgarts-nationalspieler-glaenzen-gegen-den-hsv-2026-04-12",
+  "title": "Stuttgarts Nationalspieler glänzen gegen den HSV",
+  "source": "Sportschau",
+  "date": "2026-04-12",
+  "level": "B1",
+  "paragraphs": [
+    {
+      "text": "Stuttgart hat den HSV deutlich mit 4:0 geschlagen. Das Team war über fast die gesamte Partie besser und nutzte seine Chancen effektiv.",
+      "sentences": [
+        {
+          "sentence": "Stuttgart hat den HSV deutlich mit 4:0 geschlagen.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Stuttgart",
+              "lemma": "Stuttgart",
+              "pos": "PROPN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["Stuttgart"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "hat",
+              "lemma": "haben",
+              "pos": "AUX",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Pres",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "AUX",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["have"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "habe",
+                  "du": "hast",
+                  "er": "hat",
+                  "wir": "haben",
+                  "ihr": "habt",
+                  "sie": "haben"
+                },
+                "praeteritum": {
+                  "ich": "hatte",
+                  "du": "hattest",
+                  "er": "hatte",
+                  "wir": "hatten",
+                  "ihr": "hattet",
+                  "sie": "hatten"
+                },
+                "perfekt": {
+                  "ich": "habe gehabt",
+                  "du": "hast gehabt",
+                  "er": "hat gehabt",
+                  "wir": "haben gehabt",
+                  "ihr": "habt gehabt",
+                  "sie": "haben gehabt"
+                }
+              }
+            },
+            {
+              "id": 2,
+              "text": "den",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 3,
+              "text": "HSV",
+              "lemma": "HSV",
+              "pos": "PROPN",
+              "syntactic_role": "accusative_object",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [],
+              "conjugation": null
+            },
+            {
+              "id": 4,
+              "text": "deutlich",
+              "lemma": "deutlich",
+              "pos": "ADV",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADV",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["clearly"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 5,
+              "text": "mit",
+              "lemma": "mit",
+              "pos": "ADP",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [],
+              "conjugation": null
+            },
+            {
+              "id": 6,
+              "text": "4:0",
+              "lemma": "4:0",
+              "pos": "NUM",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [],
+              "conjugation": null
+            },
+            {
+              "id": 7,
+              "text": "geschlagen",
+              "lemma": "schlagen",
+              "pos": "VERB",
+              "syntactic_role": "clausal_object",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": [
+                    "fell",
+                    "felling",
+                    "cutting",
+                    "wood-cutting",
+                    "wood-felling",
+                    "tree-felling",
+                    "lumbering",
+                    "knock"
+                  ]
+                },
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["beat", "tattoo"]
+                },
+                {
+                  "pos": "v",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "to ping",
+                    "to ping sth.",
+                    "to wash",
+                    "to flap sth.",
+                    "to fell trees",
+                    "to cut down trees",
+                    "to chop down trees",
+                    "to wobble"
+                  ]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "schlage",
+                  "du": "schlägst",
+                  "er": "schlägt",
+                  "wir": "schlagen",
+                  "ihr": "schlagt",
+                  "sie": "schlagen"
+                },
+                "praeteritum": {
+                  "ich": "schlug",
+                  "du": "schlugst",
+                  "er": "schlug",
+                  "wir": "schlugen",
+                  "ihr": "schlugt",
+                  "sie": "schlugen"
+                },
+                "perfekt": {
+                  "ich": "habe geschlagen",
+                  "du": "hast geschlagen",
+                  "er": "hat geschlagen",
+                  "wir": "haben geschlagen",
+                  "ihr": "habt geschlagen",
+                  "sie": "haben geschlagen"
+                }
+              }
+            },
+            {
+              "id": 8,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "Stuttgart",
+              "token_ids": [0],
+              "head_token_id": 0,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Neut",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "den HSV",
+              "token_ids": [2, 3],
+              "head_token_id": 3,
+              "case": "Acc",
+              "case_reason": "Accusative object of \"schlagen\"",
+              "gender": "Masc",
+              "number": "Sing",
+              "notes": []
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [0, 1, 2, 3, 4, 5, 6, 7],
+              "connector": null,
+              "verb": "haben"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "akkusativ",
+              "theme": "Akkusativ",
+              "level": "A1",
+              "token_ids": [3],
+              "evidence": "HSV (Akkusativ, direktes Objekt)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [0],
+              "evidence": "Stuttgart (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "perfekt",
+              "theme": "Perfekt",
+              "level": "A1",
+              "token_ids": [1, 7],
+              "evidence": "hat ... geschlagen (Perfekt)"
+            },
+            {
+              "theme_id": "praesens",
+              "theme": "Präsens",
+              "level": "A1",
+              "token_ids": [1],
+              "evidence": "hat (Indikativ Präsens)"
+            }
+          ]
+        },
+        {
+          "sentence": "Das Team war über fast die gesamte Partie besser und nutzte seine Chancen effektiv.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Das",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "Team",
+              "lemma": "Team",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["the fold", "band", "sports team", "team"]
+                },
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": [
+                    "panel",
+                    "posse",
+                    "team",
+                    "administrative body",
+                    "body",
+                    "administrative forum",
+                    "forum",
+                    "outfit"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 2,
+              "text": "war",
+              "lemma": "sein",
+              "pos": "AUX",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "AUX",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["to be"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "bin",
+                  "du": "bist",
+                  "er": "ist",
+                  "wir": "sind",
+                  "ihr": "seid",
+                  "sie": "sind"
+                },
+                "praeteritum": {
+                  "ich": "war",
+                  "du": "warst",
+                  "er": "war",
+                  "wir": "waren",
+                  "ihr": "wart",
+                  "sie": "waren"
+                },
+                "perfekt": {
+                  "ich": "bin gewesen",
+                  "du": "bist gewesen",
+                  "er": "ist gewesen",
+                  "wir": "sind gewesen",
+                  "ihr": "seid gewesen",
+                  "sie": "sind gewesen"
+                }
+              }
+            },
+            {
+              "id": 3,
+              "text": "über",
+              "lemma": "über",
+              "pos": "ADP",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADP",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "on",
+                    "towards",
+                    "toward",
+                    "upwards of",
+                    "by way of",
+                    "in excess of",
+                    "over"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 4,
+              "text": "fast",
+              "lemma": "fast",
+              "pos": "ADV",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "almost",
+                    "nearly",
+                    "near",
+                    "if anything",
+                    "most of the time",
+                    "mostly",
+                    "well-nigh",
+                    "nigh on"
+                  ]
+                },
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["shy"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 5,
+              "text": "die",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 6,
+              "text": "gesamte",
+              "lemma": "gesamt",
+              "pos": "ADJ",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["all of"]
+                },
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["total", "whole", "entire", "consolidated"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 7,
+              "text": "Partie",
+              "lemma": "Partie",
+              "pos": "NOUN",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["work gang", "gang", "work squad", "squad"]
+                },
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["batch", "game", "fixture", "lot"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 8,
+              "text": "besser",
+              "lemma": "gut",
+              "pos": "ADV",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": [
+                    "good",
+                    "commodity",
+                    "manorial estate",
+                    "estate",
+                    "demesne",
+                    "manor",
+                    "feudal estate"
+                  ]
+                },
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "good",
+                    "namby-pamby",
+                    "proficient",
+                    "well",
+                    "fine",
+                    "nice",
+                    "light",
+                    "complimentary"
+                  ]
+                },
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["well", "thoroughly", "rigorously", "a good"]
+                },
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["okay", "OK", "O.K.", "okey"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 9,
+              "text": "und",
+              "lemma": "und",
+              "pos": "CCONJ",
+              "syntactic_role": "coordinated",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "CCONJ",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["and"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 10,
+              "text": "nutzte",
+              "lemma": "nutzen",
+              "pos": "VERB",
+              "syntactic_role": "conjunct",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "VERB",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["benefit"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "nutze",
+                  "du": "nutzt",
+                  "er": "nutzt",
+                  "wir": "nutzen",
+                  "ihr": "nutzt",
+                  "sie": "nutzen"
+                },
+                "praeteritum": {
+                  "ich": "nutzte",
+                  "du": "nutztest",
+                  "er": "nutzte",
+                  "wir": "nutzten",
+                  "ihr": "nutztet",
+                  "sie": "nutzten"
+                },
+                "perfekt": {
+                  "ich": "habe genutzt",
+                  "du": "hast genutzt",
+                  "er": "hat genutzt",
+                  "wir": "haben genutzt",
+                  "ihr": "habt genutzt",
+                  "sie": "haben genutzt"
+                }
+              }
+            },
+            {
+              "id": 11,
+              "text": "seine",
+              "lemma": "sein",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Plur",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["to be"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 12,
+              "text": "Chancen",
+              "lemma": "Chance",
+              "pos": "NOUN",
+              "syntactic_role": "accusative_object",
+              "morphology": {
+                "case": "Acc",
+                "number": "Plur",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["opportunity", "chance", "way"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 13,
+              "text": "effektiv",
+              "lemma": "effektiv",
+              "pos": "ADV",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["actual", "effective", "effectual", "impactful"]
+                },
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "effectively",
+                    "effectually",
+                    "efficaciously",
+                    "efficiently",
+                    "tellingly"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 14,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "Das Team",
+              "token_ids": [0, 1],
+              "head_token_id": 1,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Neut",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "die gesamte Partie",
+              "token_ids": [5, 6, 7],
+              "head_token_id": 7,
+              "case": "Acc",
+              "case_reason": "Governed by preposition \"über\" (Acc)",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "seine Chancen",
+              "token_ids": [11, 12],
+              "head_token_id": 12,
+              "case": "Acc",
+              "case_reason": "Accusative object of \"nutzen\"",
+              "gender": "Fem",
+              "number": "Plur",
+              "notes": ["N-Deklination (weak masculine noun)"]
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+              "connector": null,
+              "verb": "sein"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "adjektivdeklination",
+              "theme": "Adjektivdeklination",
+              "level": "A2",
+              "token_ids": [6, 7],
+              "evidence": "gesamte Partie (Adjektivdeklination, Acc)"
+            },
+            {
+              "theme_id": "akkusativ",
+              "theme": "Akkusativ",
+              "level": "A1",
+              "token_ids": [12],
+              "evidence": "Chancen (Akkusativ, direktes Objekt)"
+            },
+            {
+              "theme_id": "hauptsaetze_verbinden",
+              "theme": "Hauptsätze verbinden (und, aber, oder, denn)",
+              "level": "A1",
+              "token_ids": [9],
+              "evidence": "und (koordinierende Konjunktion)"
+            },
+            {
+              "theme_id": "komparativ",
+              "theme": "Komparativ",
+              "level": "A2",
+              "token_ids": [8],
+              "evidence": "besser (Komparativ von gut)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [1],
+              "evidence": "Team (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "partizip_als_adjektiv",
+              "theme": "Partizip I/II als Adjektiv",
+              "level": "B1",
+              "token_ids": [6],
+              "evidence": "gesamte (Partizip II als Adjektiv)"
+            },
+            {
+              "theme_id": "possessivartikel",
+              "theme": "Possessivartikel",
+              "level": "A1",
+              "token_ids": [11],
+              "evidence": "seine (Possessivartikel)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [2],
+              "evidence": "war (Indikativ Präteritum)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [10],
+              "evidence": "nutzte (Indikativ Präteritum)"
+            },
+            {
+              "theme_id": "wechselpraepositionen",
+              "theme": "Wechselpräpositionen",
+              "level": "A1",
+              "token_ids": [3, 7],
+              "evidence": "über (Wechselpräposition, Acc)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Schon in der ersten Halbzeit zeigte Stuttgart mehr Kontrolle. Die Mannschaft gewann viele zweite Bälle und setzte den HSV im Aufbau unter Druck. Dadurch entstanden gute Torchancen.",
+      "sentences": [
+        {
+          "sentence": "Schon in der ersten Halbzeit zeigte Stuttgart mehr Kontrolle.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Schon",
+              "lemma": "schon",
+              "pos": "ADV",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "reflexive",
+                  "translations": [
+                    "inherently",
+                    "innately",
+                    "do + verb",
+                    "indeed",
+                    "just",
+                    "not to hesitate",
+                    "as early as",
+                    "as soon as"
+                  ]
+                },
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "for goodness’ sake  / for heaven’s sake  / for pity’s sake   / for Pete’s sake"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "in",
+              "lemma": "in",
+              "pos": "ADP",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADP",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["and"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 2,
+              "text": "der",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 3,
+              "text": "ersten",
+              "lemma": "erster",
+              "pos": "ADJ",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["first", "the first", "the best"]
+                },
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["first", "1st"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 4,
+              "text": "Halbzeit",
+              "lemma": "Halbzeit",
+              "pos": "NOUN",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": [
+                    "half-time",
+                    "halftime",
+                    "hump day",
+                    "half of a/the match",
+                    "half of a/the game"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 5,
+              "text": "zeigte",
+              "lemma": "zeigen",
+              "pos": "VERB",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "v",
+                  "gender": "",
+                  "usage": "transitive",
+                  "translations": [
+                    "to televise sth.",
+                    "to telecast sth.",
+                    "to have/hold in store",
+                    "to appear",
+                    "to make an appearance",
+                    "to put in an appearance",
+                    "to crop up",
+                    "to arise"
+                  ]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "zeige",
+                  "du": "zeigst",
+                  "er": "zeigt",
+                  "wir": "zeigen",
+                  "ihr": "zeigt",
+                  "sie": "zeigen"
+                },
+                "praeteritum": {
+                  "ich": "zeigte",
+                  "du": "zeigtest",
+                  "er": "zeigte",
+                  "wir": "zeigten",
+                  "ihr": "zeigtet",
+                  "sie": "zeigten"
+                },
+                "perfekt": {
+                  "ich": "habe gezeigt",
+                  "du": "hast gezeigt",
+                  "er": "hat gezeigt",
+                  "wir": "haben gezeigt",
+                  "ihr": "habt gezeigt",
+                  "sie": "haben gezeigt"
+                }
+              }
+            },
+            {
+              "id": 6,
+              "text": "Stuttgart",
+              "lemma": "Stuttgart",
+              "pos": "PROPN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PROPN",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["Stuttgart"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 7,
+              "text": "mehr",
+              "lemma": "mehr",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["increase", "surplus", "growth", "majority", "more"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 8,
+              "text": "Kontrolle",
+              "lemma": "Kontrolle",
+              "pos": "NOUN",
+              "syntactic_role": "accusative_object",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": [
+                    "control",
+                    "rule",
+                    "reign",
+                    "lordship",
+                    "mastery",
+                    "dominion",
+                    "check",
+                    "controls"
+                  ]
+                },
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": ["checking"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 9,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "der ersten Halbzeit",
+              "token_ids": [2, 3, 4],
+              "head_token_id": 4,
+              "case": "Dat",
+              "case_reason": "Governed by preposition \"in\" (Dat)",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "Stuttgart",
+              "token_ids": [6],
+              "head_token_id": 6,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Neut",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "mehr Kontrolle",
+              "token_ids": [7, 8],
+              "head_token_id": 8,
+              "case": "Acc",
+              "case_reason": "Accusative object of \"zeigen\"",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+              "connector": null,
+              "verb": "zeigen"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "adjektivdeklination",
+              "theme": "Adjektivdeklination",
+              "level": "A2",
+              "token_ids": [3, 4],
+              "evidence": "ersten Halbzeit (Adjektivdeklination, Dat)"
+            },
+            {
+              "theme_id": "akkusativ",
+              "theme": "Akkusativ",
+              "level": "A1",
+              "token_ids": [8],
+              "evidence": "Kontrolle (Akkusativ, direktes Objekt)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [6],
+              "evidence": "Stuttgart (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "praepositionen_mit_dativ",
+              "theme": "Präpositionen mit Dativ",
+              "level": "A1",
+              "token_ids": [1, 4],
+              "evidence": "in + Halbzeit (Präposition mit Dativ)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [5],
+              "evidence": "zeigte (Indikativ Präteritum)"
+            },
+            {
+              "theme_id": "wechselpraepositionen",
+              "theme": "Wechselpräpositionen",
+              "level": "A1",
+              "token_ids": [1, 4],
+              "evidence": "in (Wechselpräposition, Dat)"
+            }
+          ]
+        },
+        {
+          "sentence": "Die Mannschaft gewann viele zweite Bälle und setzte den HSV im Aufbau unter Druck.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Die",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "Mannschaft",
+              "lemma": "Mannschaft",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["crew", "sports team", "team"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 2,
+              "text": "gewann",
+              "lemma": "gewinnen",
+              "pos": "VERB",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "VERB",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "to mine",
+                    "to extract",
+                    "to win sth.",
+                    "to expedite",
+                    "to subserve sth.",
+                    "to support sb.",
+                    "to support sb.’s career",
+                    "to cultivate",
+                    "winnable"
+                  ]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "gewinne",
+                  "du": "gewinnst",
+                  "er": "gewinnt",
+                  "wir": "gewinnen",
+                  "ihr": "gewinnt",
+                  "sie": "gewinnen"
+                },
+                "praeteritum": {
+                  "ich": "gewann",
+                  "du": "gewannst",
+                  "er": "gewann",
+                  "wir": "gewannen",
+                  "ihr": "gewannt",
+                  "sie": "gewannen"
+                },
+                "perfekt": {
+                  "ich": "habe gewonnen",
+                  "du": "hast gewonnen",
+                  "er": "hat gewonnen",
+                  "wir": "haben gewonnen",
+                  "ihr": "habt gewonnen",
+                  "sie": "haben gewonnen"
+                }
+              }
+            },
+            {
+              "id": 3,
+              "text": "viele",
+              "lemma": "vieler",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Plur",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["many"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 4,
+              "text": "zweite",
+              "lemma": "zweiter",
+              "pos": "ADJ",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Plur",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "masc/fem",
+                  "usage": "",
+                  "translations": ["runner-up"]
+                },
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["second", "2nd"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 5,
+              "text": "Bälle",
+              "lemma": "Ball",
+              "pos": "NOUN",
+              "syntactic_role": "accusative_object",
+              "morphology": {
+                "case": "Acc",
+                "number": "Plur",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["ball", "orb"]
+                },
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["ball", "formal dance"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 6,
+              "text": "und",
+              "lemma": "und",
+              "pos": "CCONJ",
+              "syntactic_role": "coordinated",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "CCONJ",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["and"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 7,
+              "text": "setzte",
+              "lemma": "setzen",
+              "pos": "VERB",
+              "syntactic_role": "conjunct",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "VERB",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["set"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "setze",
+                  "du": "setzt",
+                  "er": "setzt",
+                  "wir": "setzen",
+                  "ihr": "setzt",
+                  "sie": "setzen"
+                },
+                "praeteritum": {
+                  "ich": "setzte",
+                  "du": "setztest",
+                  "er": "setzte",
+                  "wir": "setzten",
+                  "ihr": "setztet",
+                  "sie": "setzten"
+                },
+                "perfekt": {
+                  "ich": "habe gesetzt",
+                  "du": "hast gesetzt",
+                  "er": "hat gesetzt",
+                  "wir": "haben gesetzt",
+                  "ihr": "habt gesetzt",
+                  "sie": "haben gesetzt"
+                }
+              }
+            },
+            {
+              "id": 8,
+              "text": "den",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 9,
+              "text": "HSV",
+              "lemma": "HSV",
+              "pos": "PROPN",
+              "syntactic_role": "accusative_object",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [],
+              "conjugation": null
+            },
+            {
+              "id": 10,
+              "text": "im",
+              "lemma": "in",
+              "pos": "ADP",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADP",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["and"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 11,
+              "text": "Aufbau",
+              "lemma": "Aufbau",
+              "pos": "NOUN",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": [
+                    "set-up",
+                    "setup",
+                    "assembly",
+                    "configuration",
+                    "construction",
+                    "design",
+                    "mounting",
+                    "surface structure"
+                  ]
+                },
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": [
+                    "structure",
+                    "building-up",
+                    "build-up",
+                    "building",
+                    "construction",
+                    "work",
+                    "design",
+                    "superstructure"
+                  ]
+                },
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": ["set-up", "setting-up", "setup", "scheme"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 12,
+              "text": "unter",
+              "lemma": "unter",
+              "pos": "ADP",
+              "syntactic_role": "cvc",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADP",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["jack", "knave", "beneath", "underneath", "below"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 13,
+              "text": "Druck",
+              "lemma": "Druck",
+              "pos": "NOUN",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": [
+                    "buffeting",
+                    "pressure",
+                    "arm-twisting",
+                    "print",
+                    "oppressiveness",
+                    "thrust",
+                    "shear"
+                  ]
+                },
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": ["printing"]
+                },
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["axial thrust", "thrust"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 14,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "Die Mannschaft",
+              "token_ids": [0, 1],
+              "head_token_id": 1,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "viele zweite Bälle",
+              "token_ids": [3, 4, 5],
+              "head_token_id": 5,
+              "case": "Acc",
+              "case_reason": "Accusative object of \"gewinnen\"",
+              "gender": "Masc",
+              "number": "Plur",
+              "notes": []
+            },
+            {
+              "text": "den HSV",
+              "token_ids": [8, 9],
+              "head_token_id": 9,
+              "case": "Acc",
+              "case_reason": "Accusative object of \"setzen\"",
+              "gender": "Masc",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "Aufbau",
+              "token_ids": [11],
+              "head_token_id": 11,
+              "case": "Dat",
+              "case_reason": "Governed by preposition \"im\" (Dat)",
+              "gender": "Masc",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "Druck",
+              "token_ids": [13],
+              "head_token_id": 13,
+              "case": "Dat",
+              "case_reason": "Governed by preposition \"unter\" (Dat)",
+              "gender": "Masc",
+              "number": "Sing",
+              "notes": []
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+              "connector": null,
+              "verb": "gewinnen"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "adjektivdeklination",
+              "theme": "Adjektivdeklination",
+              "level": "A2",
+              "token_ids": [4, 5],
+              "evidence": "zweite Bälle (Adjektivdeklination, Acc)"
+            },
+            {
+              "theme_id": "akkusativ",
+              "theme": "Akkusativ",
+              "level": "A1",
+              "token_ids": [5],
+              "evidence": "Bälle (Akkusativ, direktes Objekt)"
+            },
+            {
+              "theme_id": "akkusativ",
+              "theme": "Akkusativ",
+              "level": "A1",
+              "token_ids": [9],
+              "evidence": "HSV (Akkusativ, direktes Objekt)"
+            },
+            {
+              "theme_id": "hauptsaetze_verbinden",
+              "theme": "Hauptsätze verbinden (und, aber, oder, denn)",
+              "level": "A1",
+              "token_ids": [6],
+              "evidence": "und (koordinierende Konjunktion)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [1],
+              "evidence": "Mannschaft (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "positions_direktionsverben",
+              "theme": "Positions-/Direktionsverben",
+              "level": "B1",
+              "token_ids": [7],
+              "evidence": "setzte (Positions-/Direktionsverb: setzen)"
+            },
+            {
+              "theme_id": "praepositionen_mit_dativ",
+              "theme": "Präpositionen mit Dativ",
+              "level": "A1",
+              "token_ids": [10, 11],
+              "evidence": "im + Aufbau (Präposition mit Dativ)"
+            },
+            {
+              "theme_id": "praepositionen_mit_dativ",
+              "theme": "Präpositionen mit Dativ",
+              "level": "A1",
+              "token_ids": [12, 13],
+              "evidence": "unter + Druck (Präposition mit Dativ)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [2],
+              "evidence": "gewann (Indikativ Präteritum)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [7],
+              "evidence": "setzte (Indikativ Präteritum)"
+            },
+            {
+              "theme_id": "wechselpraepositionen",
+              "theme": "Wechselpräpositionen",
+              "level": "A1",
+              "token_ids": [10, 11],
+              "evidence": "im (Wechselpräposition, Dat)"
+            },
+            {
+              "theme_id": "wechselpraepositionen",
+              "theme": "Wechselpräpositionen",
+              "level": "A1",
+              "token_ids": [12, 13],
+              "evidence": "unter (Wechselpräposition, Dat)"
+            }
+          ]
+        },
+        {
+          "sentence": "Dadurch entstanden gute Torchancen.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Dadurch",
+              "lemma": "dadurch",
+              "pos": "ADV",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "thereby",
+                    "thus",
+                    "with that",
+                    "with it",
+                    "therewith",
+                    "like this",
+                    "like that",
+                    "in this manner"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "entstanden",
+              "lemma": "entstehen",
+              "pos": "VERB",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Plur",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["accrual", "genesis", "origination"]
+                },
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": ["development", "becoming"]
+                },
+                {
+                  "pos": "v",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "to accrue",
+                    "to come up",
+                    "to crop up",
+                    "to attack sb.",
+                    "to arise",
+                    "to come into being",
+                    "to come into existence",
+                    "to emerge"
+                  ]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "entstehe",
+                  "du": "entstehst",
+                  "er": "entsteht",
+                  "wir": "entstehen",
+                  "ihr": "entsteht",
+                  "sie": "entstehen"
+                },
+                "praeteritum": {
+                  "ich": "entstand",
+                  "du": "entstandest",
+                  "er": "entstand",
+                  "wir": "entstanden",
+                  "ihr": "entstandet",
+                  "sie": "entstanden"
+                },
+                "perfekt": {
+                  "ich": "bin entstanden",
+                  "du": "bist entstanden",
+                  "er": "ist entstanden",
+                  "wir": "sind entstanden",
+                  "ihr": "seid entstanden",
+                  "sie": "sind entstanden"
+                }
+              }
+            },
+            {
+              "id": 2,
+              "text": "gute",
+              "lemma": "gut",
+              "pos": "ADJ",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Plur",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": [
+                    "good",
+                    "commodity",
+                    "manorial estate",
+                    "estate",
+                    "demesne",
+                    "manor",
+                    "feudal estate"
+                  ]
+                },
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "good",
+                    "namby-pamby",
+                    "proficient",
+                    "well",
+                    "fine",
+                    "nice",
+                    "light",
+                    "complimentary"
+                  ]
+                },
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["well", "thoroughly", "rigorously", "a good"]
+                },
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["okay", "OK", "O.K.", "okey"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 3,
+              "text": "Torchancen",
+              "lemma": "Torchance",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Plur",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["goal-scoring chance", "goalscoring opportunity"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 4,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "gute Torchancen",
+              "token_ids": [2, 3],
+              "head_token_id": 3,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Fem",
+              "number": "Plur",
+              "notes": []
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [0, 1, 2, 3],
+              "connector": null,
+              "verb": "entstehen"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "adjektivdeklination",
+              "theme": "Adjektivdeklination",
+              "level": "A2",
+              "token_ids": [2, 3],
+              "evidence": "gute Torchancen (Adjektivdeklination, Nom)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [3],
+              "evidence": "Torchancen (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "praepositionaladverbien",
+              "theme": "Präpositionaladverbien (dafür, damit, darauf)",
+              "level": "B1",
+              "token_ids": [0],
+              "evidence": "Dadurch (Präpositionaladverb)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [1],
+              "evidence": "entstanden (Indikativ Präteritum)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Der HSV hatte zwar einzelne Kontermomente, aber im letzten Drittel fehlte Präzision. Außerdem musste der Torwart viele Schüsse abwehren, sodass die Defensive dauerhaft belastet war.",
+      "sentences": [
+        {
+          "sentence": "Der HSV hatte zwar einzelne Kontermomente, aber im letzten Drittel fehlte Präzision.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Der",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "HSV",
+              "lemma": "HSV",
+              "pos": "PROPN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [],
+              "conjugation": null
+            },
+            {
+              "id": 2,
+              "text": "hatte",
+              "lemma": "haben",
+              "pos": "AUX",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "AUX",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["have"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "habe",
+                  "du": "hast",
+                  "er": "hat",
+                  "wir": "haben",
+                  "ihr": "habt",
+                  "sie": "haben"
+                },
+                "praeteritum": {
+                  "ich": "hatte",
+                  "du": "hattest",
+                  "er": "hatte",
+                  "wir": "hatten",
+                  "ihr": "hattet",
+                  "sie": "hatten"
+                },
+                "perfekt": {
+                  "ich": "habe gehabt",
+                  "du": "hast gehabt",
+                  "er": "hat gehabt",
+                  "wir": "haben gehabt",
+                  "ihr": "habt gehabt",
+                  "sie": "haben gehabt"
+                }
+              }
+            },
+            {
+              "id": 3,
+              "text": "zwar",
+              "lemma": "zwar",
+              "pos": "ADV",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADV",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["although"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 4,
+              "text": "einzelne",
+              "lemma": "einzeln",
+              "pos": "ADJ",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "single",
+                    "separate",
+                    "discrete",
+                    "solitary",
+                    "cellular",
+                    "odd",
+                    "individual",
+                    "unattached"
+                  ]
+                },
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["singly", "solitarily", "apart", "individually"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 5,
+              "text": "Kontermomente",
+              "lemma": "Kontermomente",
+              "pos": "NOUN",
+              "syntactic_role": "accusative_object",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [],
+              "conjugation": null
+            },
+            {
+              "id": 6,
+              "text": ",",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 7,
+              "text": "aber",
+              "lemma": "aber",
+              "pos": "CCONJ",
+              "syntactic_role": "coordinated",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "CCONJ",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "but",
+                    "but",
+                    "though",
+                    "however",
+                    "mind you",
+                    "mind",
+                    "you know …",
+                    "yet",
+                    "meanwhile",
+                    "in the meanwhile",
+                    "in the meantime",
+                    "Having said that, …",
+                    "That said, …",
+                    "That being said, …"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 8,
+              "text": "im",
+              "lemma": "in",
+              "pos": "ADP",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADP",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["and"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 9,
+              "text": "letzten",
+              "lemma": "letzter",
+              "pos": "ADJ",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["ultimate", "final", "last", "endmost"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 10,
+              "text": "Drittel",
+              "lemma": "Drittel",
+              "pos": "NOUN",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["third", "3rd"]
+                },
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": ["third"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 11,
+              "text": "fehlte",
+              "lemma": "fehlen",
+              "pos": "VERB",
+              "syntactic_role": "conjunct",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": [
+                    "absence",
+                    "privation",
+                    "deprivation",
+                    "malfunction",
+                    "glitch",
+                    "failing",
+                    "mangle",
+                    "wringer"
+                  ]
+                },
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["lack", "want"]
+                },
+                {
+                  "pos": "v",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "to be absent",
+                    "to be away",
+                    "to be missing",
+                    "to lack sth.",
+                    "to err",
+                    "to wander",
+                    "to stray",
+                    "to be short of sth."
+                  ]
+                },
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "transitive",
+                  "translations": ["to lack sth.", "to want sth."]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "fehle",
+                  "du": "fehlst",
+                  "er": "fehlt",
+                  "wir": "fehlen",
+                  "ihr": "fehlt",
+                  "sie": "fehlen"
+                },
+                "praeteritum": {
+                  "ich": "fehlte",
+                  "du": "fehltest",
+                  "er": "fehlte",
+                  "wir": "fehlten",
+                  "ihr": "fehltet",
+                  "sie": "fehlten"
+                },
+                "perfekt": {
+                  "ich": "habe gefehlt",
+                  "du": "hast gefehlt",
+                  "er": "hat gefehlt",
+                  "wir": "haben gefehlt",
+                  "ihr": "habt gefehlt",
+                  "sie": "haben gefehlt"
+                }
+              }
+            },
+            {
+              "id": 12,
+              "text": "Präzision",
+              "lemma": "Präzision",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": [
+                    "accuracy",
+                    "exactness",
+                    "exactitude",
+                    "precision",
+                    "preciseness"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 13,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "Der HSV",
+              "token_ids": [0, 1],
+              "head_token_id": 1,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Masc",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "einzelne Kontermomente",
+              "token_ids": [4, 5],
+              "head_token_id": 5,
+              "case": "Acc",
+              "case_reason": "Accusative object of \"haben\"",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "letzten Drittel",
+              "token_ids": [9, 10],
+              "head_token_id": 10,
+              "case": "Dat",
+              "case_reason": "Governed by preposition \"im\" (Dat)",
+              "gender": "Neut",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "Präzision",
+              "token_ids": [12],
+              "head_token_id": 12,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12],
+              "connector": null,
+              "verb": "haben"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "adjektivdeklination",
+              "theme": "Adjektivdeklination",
+              "level": "A2",
+              "token_ids": [4, 5],
+              "evidence": "einzelne Kontermomente (Adjektivdeklination, Acc)"
+            },
+            {
+              "theme_id": "adjektivdeklination",
+              "theme": "Adjektivdeklination",
+              "level": "A2",
+              "token_ids": [9, 10],
+              "evidence": "letzten Drittel (Adjektivdeklination, Dat)"
+            },
+            {
+              "theme_id": "akkusativ",
+              "theme": "Akkusativ",
+              "level": "A1",
+              "token_ids": [5],
+              "evidence": "Kontermomente (Akkusativ, direktes Objekt)"
+            },
+            {
+              "theme_id": "doppelkonnektoren",
+              "theme": "Doppelkonnektoren (entweder...oder, weder...noch)",
+              "level": "B1",
+              "token_ids": [3, 7],
+              "evidence": "zwar ... aber (Doppelkonnektor)"
+            },
+            {
+              "theme_id": "hauptsaetze_verbinden",
+              "theme": "Hauptsätze verbinden (und, aber, oder, denn)",
+              "level": "A1",
+              "token_ids": [7],
+              "evidence": "aber (koordinierende Konjunktion)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [1],
+              "evidence": "HSV (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [12],
+              "evidence": "Präzision (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "praepositionen_mit_dativ",
+              "theme": "Präpositionen mit Dativ",
+              "level": "A1",
+              "token_ids": [8, 10],
+              "evidence": "im + Drittel (Präposition mit Dativ)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [2],
+              "evidence": "hatte (Indikativ Präteritum)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [11],
+              "evidence": "fehlte (Indikativ Präteritum)"
+            },
+            {
+              "theme_id": "wechselpraepositionen",
+              "theme": "Wechselpräpositionen",
+              "level": "A1",
+              "token_ids": [8, 10],
+              "evidence": "im (Wechselpräposition, Dat)"
+            }
+          ]
+        },
+        {
+          "sentence": "Außerdem musste der Torwart viele Schüsse abwehren, sodass die Defensive dauerhaft belastet war.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Außerdem",
+              "lemma": "außerdem",
+              "pos": "ADV",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "also",
+                    "too",
+                    "as well",
+                    "in addition",
+                    "additionally",
+                    "besides",
+                    "what is more",
+                    "moreover"
+                  ]
+                },
+                {
+                  "pos": "conj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["plus"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "musste",
+              "lemma": "mussen",
+              "pos": "AUX",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [],
+              "conjugation": null
+            },
+            {
+              "id": 2,
+              "text": "der",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 3,
+              "text": "Torwart",
+              "lemma": "Torwart",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["goal keeper", "goalkeeper", "goalie", "netminder", "goaltender"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 4,
+              "text": "viele",
+              "lemma": "vieler",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Plur",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["many"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 5,
+              "text": "Schüsse",
+              "lemma": "Schuß",
+              "pos": "NOUN",
+              "syntactic_role": "accusative_object",
+              "morphology": {
+                "case": "Acc",
+                "number": "Plur",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [],
+              "conjugation": null
+            },
+            {
+              "id": 6,
+              "text": "abwehren",
+              "lemma": "abwehren",
+              "pos": "VERB",
+              "syntactic_role": "clausal_object",
+              "morphology": {
+                "case": null,
+                "number": "Plur",
+                "gender": null,
+                "tense": "Pres",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": ["repelling"]
+                },
+                {
+                  "pos": "v",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "to ward",
+                    "to parry sth.",
+                    "to stave  off ⇆ sth.",
+                    "to ward off ⇆ sth.",
+                    "to forfend sth.",
+                    "to bear sth. off",
+                    "to repulse",
+                    "to defend sb./sth."
+                  ]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "wehre ab",
+                  "du": "wehrst ab",
+                  "er": "wehrt ab",
+                  "wir": "wehren ab",
+                  "ihr": "wehrt ab",
+                  "sie": "wehren ab"
+                },
+                "praeteritum": {
+                  "ich": "wehrte ab",
+                  "du": "wehrtest ab",
+                  "er": "wehrte ab",
+                  "wir": "wehrten ab",
+                  "ihr": "wehrtet ab",
+                  "sie": "wehrten ab"
+                },
+                "perfekt": {
+                  "ich": "habe abgewehrt",
+                  "du": "hast abgewehrt",
+                  "er": "hat abgewehrt",
+                  "wir": "haben abgewehrt",
+                  "ihr": "habt abgewehrt",
+                  "sie": "haben abgewehrt"
+                }
+              }
+            },
+            {
+              "id": 7,
+              "text": ",",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 8,
+              "text": "sodass",
+              "lemma": "sodass",
+              "pos": "AUX",
+              "syntactic_role": "conjunct",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Pres",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "conj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["so that", "so", "which means that", "with the result that"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 9,
+              "text": "die",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 10,
+              "text": "Defensive",
+              "lemma": "Defensive",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["defensive"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 11,
+              "text": "dauerhaft",
+              "lemma": "dauerhaft",
+              "pos": "ADV",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "permanent",
+                    "enduring",
+                    "durable",
+                    "lasting",
+                    "sustainable",
+                    "sustained",
+                    "non-transient",
+                    "uninterrupted"
+                  ]
+                },
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "permanently",
+                    "durably",
+                    "lastingly",
+                    "indelibly",
+                    "inextinguishably",
+                    "irrecoverably",
+                    "irretrievably",
+                    "irremediably"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 12,
+              "text": "belastet",
+              "lemma": "belasten",
+              "pos": "VERB",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": ["application of load", "loading"]
+                },
+                {
+                  "pos": "v",
+                  "gender": "",
+                  "usage": "transitive (acc)",
+                  "translations": [
+                    "to bother sb.",
+                    "to trouble sb.",
+                    "to fret sb.",
+                    "to ail sb.",
+                    "to chagrin",
+                    "to encumber sth.",
+                    "to cumber sth.",
+                    "to stretch sth."
+                  ]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "belaste",
+                  "du": "belastest",
+                  "er": "belastet",
+                  "wir": "belasten",
+                  "ihr": "belastet",
+                  "sie": "belasten"
+                },
+                "praeteritum": {
+                  "ich": "belastete",
+                  "du": "belastetest",
+                  "er": "belastete",
+                  "wir": "belasteten",
+                  "ihr": "belastetet",
+                  "sie": "belasteten"
+                },
+                "perfekt": {
+                  "ich": "habe belastet",
+                  "du": "hast belastet",
+                  "er": "hat belastet",
+                  "wir": "haben belastet",
+                  "ihr": "habt belastet",
+                  "sie": "haben belastet"
+                }
+              }
+            },
+            {
+              "id": 13,
+              "text": "war",
+              "lemma": "sein",
+              "pos": "AUX",
+              "syntactic_role": "clausal_object",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "AUX",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["to be"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "bin",
+                  "du": "bist",
+                  "er": "ist",
+                  "wir": "sind",
+                  "ihr": "seid",
+                  "sie": "sind"
+                },
+                "praeteritum": {
+                  "ich": "war",
+                  "du": "warst",
+                  "er": "war",
+                  "wir": "waren",
+                  "ihr": "wart",
+                  "sie": "waren"
+                },
+                "perfekt": {
+                  "ich": "bin gewesen",
+                  "du": "bist gewesen",
+                  "er": "ist gewesen",
+                  "wir": "sind gewesen",
+                  "ihr": "seid gewesen",
+                  "sie": "sind gewesen"
+                }
+              }
+            },
+            {
+              "id": 14,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "der Torwart",
+              "token_ids": [2, 3],
+              "head_token_id": 3,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Masc",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "viele Schüsse",
+              "token_ids": [4, 5],
+              "head_token_id": 5,
+              "case": "Acc",
+              "case_reason": "Accusative object of \"abwehren\"",
+              "gender": "Masc",
+              "number": "Plur",
+              "notes": []
+            },
+            {
+              "text": "die Defensive",
+              "token_ids": [9, 10],
+              "head_token_id": 10,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13],
+              "connector": null,
+              "verb": "mussen"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "adverbiale_konnektoren",
+              "theme": "Adverbiale Konnektoren (deshalb, trotzdem, dann)",
+              "level": "A2",
+              "token_ids": [0],
+              "evidence": "Außerdem (adverbialer Konnektor)"
+            },
+            {
+              "theme_id": "akkusativ",
+              "theme": "Akkusativ",
+              "level": "A1",
+              "token_ids": [5],
+              "evidence": "Schüsse (Akkusativ, direktes Objekt)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [3],
+              "evidence": "Torwart (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [10],
+              "evidence": "Defensive (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "passiv_zustandspassiv",
+              "theme": "Zustandspassiv",
+              "level": "B2",
+              "token_ids": [13, 12],
+              "evidence": "war belastet (Zustandspassiv)"
+            },
+            {
+              "theme_id": "perfekt",
+              "theme": "Perfekt",
+              "level": "A1",
+              "token_ids": [13, 12],
+              "evidence": "war ... belastet (Perfekt)"
+            },
+            {
+              "theme_id": "plusquamperfekt",
+              "theme": "Plusquamperfekt",
+              "level": "B1",
+              "token_ids": [13, 12],
+              "evidence": "war ... belastet (Plusquamperfekt)"
+            },
+            {
+              "theme_id": "praesens",
+              "theme": "Präsens",
+              "level": "A1",
+              "token_ids": [6],
+              "evidence": "abwehren (Indikativ Präsens)"
+            },
+            {
+              "theme_id": "praesens",
+              "theme": "Präsens",
+              "level": "A1",
+              "token_ids": [8],
+              "evidence": "sodass (Indikativ Präsens)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [1],
+              "evidence": "musste (Indikativ Präteritum)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [13],
+              "evidence": "war (Indikativ Präteritum)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Nach der Pause blieb Stuttgart dominant. Auch wenn ein Tor nicht zählte und ein Elfmeter verschossen wurde, änderte sich die Richtung des Spiels nicht. Das vierte Tor war deshalb eine logische Folge.",
+      "sentences": [
+        {
+          "sentence": "Nach der Pause blieb Stuttgart dominant.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Nach",
+              "lemma": "nach",
+              "pos": "ADP",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "prep",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["on", "towards", "toward"]
+                },
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["pursuant to sth.", "under sth.", "as defined in sth."]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "der",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 2,
+              "text": "Pause",
+              "lemma": "Pause",
+              "pos": "NOUN",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": [
+                    "time-out",
+                    "time out",
+                    "downtime",
+                    "hiatus",
+                    "pause",
+                    "rest",
+                    "extra time",
+                    "interlude"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 3,
+              "text": "blieb",
+              "lemma": "bleiben",
+              "pos": "VERB",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "VERB",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["stay"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "bleibe",
+                  "du": "bleibst",
+                  "er": "bleibt",
+                  "wir": "bleiben",
+                  "ihr": "bleibt",
+                  "sie": "bleiben"
+                },
+                "praeteritum": {
+                  "ich": "blieb",
+                  "du": "bliebst",
+                  "er": "blieb",
+                  "wir": "blieben",
+                  "ihr": "bliebt",
+                  "sie": "blieben"
+                },
+                "perfekt": {
+                  "ich": "bin geblieben",
+                  "du": "bist geblieben",
+                  "er": "ist geblieben",
+                  "wir": "sind geblieben",
+                  "ihr": "seid geblieben",
+                  "sie": "sind geblieben"
+                }
+              }
+            },
+            {
+              "id": 4,
+              "text": "Stuttgart",
+              "lemma": "Stuttgart",
+              "pos": "PROPN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PROPN",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["Stuttgart"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 5,
+              "text": "dominant",
+              "lemma": "dominant",
+              "pos": "ADV",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "dominant",
+                    "pervasive",
+                    "pervading",
+                    "determined",
+                    "resolute",
+                    "determinative",
+                    "domineering",
+                    "controlling"
+                  ]
+                },
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["dominantly"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 6,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "der Pause",
+              "token_ids": [1, 2],
+              "head_token_id": 2,
+              "case": "Dat",
+              "case_reason": "Governed by preposition \"Nach\" (Dat)",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "Stuttgart",
+              "token_ids": [4],
+              "head_token_id": 4,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Neut",
+              "number": "Sing",
+              "notes": []
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [0, 1, 2, 3, 4, 5],
+              "connector": null,
+              "verb": "bleiben"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [4],
+              "evidence": "Stuttgart (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "praepositionen_mit_dativ",
+              "theme": "Präpositionen mit Dativ",
+              "level": "A1",
+              "token_ids": [0, 2],
+              "evidence": "Nach + Pause (Präposition mit Dativ)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [3],
+              "evidence": "blieb (Indikativ Präteritum)"
+            }
+          ]
+        },
+        {
+          "sentence": "Auch wenn ein Tor nicht zählte und ein Elfmeter verschossen wurde, änderte sich die Richtung des Spiels nicht.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Auch",
+              "lemma": "auch",
+              "pos": "ADV",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADV",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["also"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "wenn",
+              "lemma": "wenn",
+              "pos": "SCONJ",
+              "syntactic_role": "complementizer",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "conj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["if", "should", "when", "whenever"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 2,
+              "text": "ein",
+              "lemma": "ein",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["one"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 3,
+              "text": "Tor",
+              "lemma": "Tor",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": [
+                    "fool",
+                    "jerk",
+                    "airhead",
+                    "clod",
+                    "clodhopper",
+                    "nitwit",
+                    "twit",
+                    "lemon"
+                  ]
+                },
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": ["gateway", "gate", "goal", "hit"]
+                },
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["gate", "gateway"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 4,
+              "text": "nicht",
+              "lemma": "nicht",
+              "pos": "PART",
+              "syntactic_role": "negation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PART",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["not"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 5,
+              "text": "zählte",
+              "lemma": "zählen",
+              "pos": "VERB",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": ["metering"]
+                },
+                {
+                  "pos": "v",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "to rank sb./sth.",
+                    "to be among",
+                    "to number among",
+                    "to be numbered among",
+                    "to count among",
+                    "to be counted among",
+                    "to rely on",
+                    "to count on"
+                  ]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "zähle",
+                  "du": "zählst",
+                  "er": "zählt",
+                  "wir": "zählen",
+                  "ihr": "zählt",
+                  "sie": "zählen"
+                },
+                "praeteritum": {
+                  "ich": "zählte",
+                  "du": "zähltest",
+                  "er": "zählte",
+                  "wir": "zählten",
+                  "ihr": "zähltet",
+                  "sie": "zählten"
+                },
+                "perfekt": {
+                  "ich": "habe gezählt",
+                  "du": "hast gezählt",
+                  "er": "hat gezählt",
+                  "wir": "haben gezählt",
+                  "ihr": "habt gezählt",
+                  "sie": "haben gezählt"
+                }
+              }
+            },
+            {
+              "id": 6,
+              "text": "und",
+              "lemma": "und",
+              "pos": "CCONJ",
+              "syntactic_role": "coordinated",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "CCONJ",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["and"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 7,
+              "text": "ein",
+              "lemma": "ein",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["one"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 8,
+              "text": "Elfmeter",
+              "lemma": "Elfmeter",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["penalty kick", "penalty", "pen"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 9,
+              "text": "verschossen",
+              "lemma": "verschießen",
+              "pos": "VERB",
+              "syntactic_role": "clausal_object",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": ["fading", "discolouration", "discoloration"]
+                },
+                {
+                  "pos": "v",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["to miss"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "verschieße",
+                  "du": "verschießt",
+                  "er": "verschießt",
+                  "wir": "verschießen",
+                  "ihr": "verschießt",
+                  "sie": "verschießen"
+                },
+                "praeteritum": {
+                  "ich": "verschoss",
+                  "du": "verschossest",
+                  "er": "verschoss",
+                  "wir": "verschossen",
+                  "ihr": "verschosset",
+                  "sie": "verschossen"
+                },
+                "perfekt": {
+                  "ich": "habe verschossen",
+                  "du": "hast verschossen",
+                  "er": "hat verschossen",
+                  "wir": "haben verschossen",
+                  "ihr": "habt verschossen",
+                  "sie": "haben verschossen"
+                }
+              }
+            },
+            {
+              "id": 10,
+              "text": "wurde",
+              "lemma": "werden",
+              "pos": "AUX",
+              "syntactic_role": "conjunct",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "AUX",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["will"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "werde",
+                  "du": "wirst",
+                  "er": "wird",
+                  "wir": "werden",
+                  "ihr": "werdet",
+                  "sie": "werden"
+                },
+                "praeteritum": {
+                  "ich": "wurde/ward⁶",
+                  "du": "wurdest/wardest⁶",
+                  "er": "wurde/ward⁶",
+                  "wir": "wurden/warden⁶",
+                  "ihr": "wurdet/wardet⁶",
+                  "sie": "wurden/warden⁶"
+                },
+                "perfekt": {
+                  "ich": "bin geworden",
+                  "du": "bist geworden",
+                  "er": "ist geworden",
+                  "wir": "sind geworden",
+                  "ihr": "seid geworden",
+                  "sie": "sind geworden"
+                }
+              }
+            },
+            {
+              "id": 11,
+              "text": ",",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 12,
+              "text": "änderte",
+              "lemma": "ändern",
+              "pos": "VERB",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "v",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "to help",
+                    "to change sth.",
+                    "to change",
+                    "to modify sth.",
+                    "to amend sth.",
+                    "to alter sth.",
+                    "to reform",
+                    "to redeem"
+                  ]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "ändere",
+                  "du": "änderst",
+                  "er": "ändert",
+                  "wir": "ändern",
+                  "ihr": "ändert",
+                  "sie": "ändern"
+                },
+                "praeteritum": {
+                  "ich": "änderte",
+                  "du": "ändertest",
+                  "er": "änderte",
+                  "wir": "änderten",
+                  "ihr": "ändertet",
+                  "sie": "änderten"
+                },
+                "perfekt": {
+                  "ich": "habe geändert",
+                  "du": "hast geändert",
+                  "er": "hat geändert",
+                  "wir": "haben geändert",
+                  "ihr": "habt geändert",
+                  "sie": "haben geändert"
+                }
+              }
+            },
+            {
+              "id": 13,
+              "text": "sich",
+              "lemma": "sich",
+              "pos": "PRON",
+              "syntactic_role": "accusative_object",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "PRON",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["themselves"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 14,
+              "text": "die",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 15,
+              "text": "Richtung",
+              "lemma": "Richtung",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": [
+                    "line",
+                    "strain",
+                    "strand",
+                    "curve",
+                    "reveal",
+                    "direction",
+                    "trend",
+                    "current"
+                  ]
+                },
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["one-way"]
+                },
+                {
+                  "pos": "prep",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["towards", "toward"]
+                },
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["unidirectional"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 16,
+              "text": "des",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Gen",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 17,
+              "text": "Spiels",
+              "lemma": "Spiel",
+              "pos": "NOUN",
+              "syntactic_role": "genitive_attribute",
+              "morphology": {
+                "case": "Gen",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": [
+                    "bearing play",
+                    "free play",
+                    "play",
+                    "bearing gap",
+                    "game",
+                    "match",
+                    "allowance",
+                    "clearance"
+                  ]
+                },
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["game", "style of play", "playing style", "play"]
+                },
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["equation"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 18,
+              "text": "nicht",
+              "lemma": "nicht",
+              "pos": "PART",
+              "syntactic_role": "negation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PART",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["not"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 19,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "ein Tor",
+              "token_ids": [2, 3],
+              "head_token_id": 3,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Neut",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "ein Elfmeter",
+              "token_ids": [7, 8],
+              "head_token_id": 8,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Masc",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "sich",
+              "token_ids": [13],
+              "head_token_id": 13,
+              "case": "Acc",
+              "case_reason": "Accusative object of \"ändern\"",
+              "gender": null,
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "die Richtung",
+              "token_ids": [14, 15],
+              "head_token_id": 15,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "des Spiels",
+              "token_ids": [16, 17],
+              "head_token_id": 17,
+              "case": "Gen",
+              "case_reason": "Genitive attribute of \"Richtung\" (possession/belonging)",
+              "gender": "Neut",
+              "number": "Sing",
+              "notes": ["Genitive -s ending (strong masculine/neuter)"]
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [12, 13, 14, 15, 16, 17, 18],
+              "connector": null,
+              "verb": "ändern"
+            },
+            {
+              "type": "subordinate",
+              "token_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+              "connector": "wenn",
+              "verb": "zählen"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "genitiv",
+              "theme": "Genitiv",
+              "level": "B1",
+              "token_ids": [16, 17],
+              "evidence": "des Spiels (Genitiv)"
+            },
+            {
+              "theme_id": "hauptsaetze_verbinden",
+              "theme": "Hauptsätze verbinden (und, aber, oder, denn)",
+              "level": "A1",
+              "token_ids": [6],
+              "evidence": "und (koordinierende Konjunktion)"
+            },
+            {
+              "theme_id": "konditionale_nebensaetze",
+              "theme": "Konditionale Nebensätze (wenn, falls)",
+              "level": "B2",
+              "token_ids": [1, 5],
+              "evidence": "wenn ... (konditionaler Nebensatz)"
+            },
+            {
+              "theme_id": "negation",
+              "theme": "Negation",
+              "level": "A1",
+              "token_ids": [4],
+              "evidence": "nicht (Negation)"
+            },
+            {
+              "theme_id": "negation",
+              "theme": "Negation",
+              "level": "A1",
+              "token_ids": [18],
+              "evidence": "nicht (Negation)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [3],
+              "evidence": "Tor (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [8],
+              "evidence": "Elfmeter (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [15],
+              "evidence": "Richtung (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "passiv_vorgangspassiv",
+              "theme": "Vorgangspassiv",
+              "level": "B1",
+              "token_ids": [10, 9],
+              "evidence": "wurde ... verschossen (Vorgangspassiv)"
+            },
+            {
+              "theme_id": "personalpronomen",
+              "theme": "Personalpronomen",
+              "level": "A1",
+              "token_ids": [13],
+              "evidence": "sich (Personalpronomen, Acc)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [5],
+              "evidence": "zählte (Indikativ Präteritum)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [10],
+              "evidence": "wurde (Indikativ Präteritum)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [12],
+              "evidence": "änderte (Indikativ Präteritum)"
+            },
+            {
+              "theme_id": "reflexive_verben",
+              "theme": "Reflexive Verben",
+              "level": "A2",
+              "token_ids": [12, 13],
+              "evidence": "sich änderte (reflexives Verb)"
+            },
+            {
+              "theme_id": "verb_am_ende",
+              "theme": "Verb am Ende (Nebensatz)",
+              "level": "A2",
+              "token_ids": [1, 10],
+              "evidence": "wenn ... wurde (Verb am Ende im Nebensatz)"
+            }
+          ]
+        },
+        {
+          "sentence": "Das vierte Tor war deshalb eine logische Folge.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Das",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "vierte",
+              "lemma": "vierter",
+              "pos": "ADJ",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["fourth"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 2,
+              "text": "Tor",
+              "lemma": "Tor",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "NOUN",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "fool",
+                    "jerk",
+                    "airhead",
+                    "clod",
+                    "clodhopper",
+                    "nitwit",
+                    "twit",
+                    "lemon",
+                    "gateway",
+                    "gate",
+                    "goal",
+                    "hit",
+                    "gate",
+                    "gateway"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 3,
+              "text": "war",
+              "lemma": "sein",
+              "pos": "AUX",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Past",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "AUX",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["to be"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "bin",
+                  "du": "bist",
+                  "er": "ist",
+                  "wir": "sind",
+                  "ihr": "seid",
+                  "sie": "sind"
+                },
+                "praeteritum": {
+                  "ich": "war",
+                  "du": "warst",
+                  "er": "war",
+                  "wir": "waren",
+                  "ihr": "wart",
+                  "sie": "waren"
+                },
+                "perfekt": {
+                  "ich": "bin gewesen",
+                  "du": "bist gewesen",
+                  "er": "ist gewesen",
+                  "wir": "sind gewesen",
+                  "ihr": "seid gewesen",
+                  "sie": "sind gewesen"
+                }
+              }
+            },
+            {
+              "id": 4,
+              "text": "deshalb",
+              "lemma": "deshalb",
+              "pos": "ADV",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADV",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["that is why"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 5,
+              "text": "eine",
+              "lemma": "ein",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["one"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 6,
+              "text": "logische",
+              "lemma": "logisch",
+              "pos": "ADJ",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["logical", "moral"]
+                },
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["logically", "consequentially"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 7,
+              "text": "Folge",
+              "lemma": "Folge",
+              "pos": "NOUN",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": [
+                    "succession",
+                    "consecutiveness",
+                    "successiveness",
+                    "run",
+                    "consequence",
+                    "product",
+                    "outgrowth",
+                    "episode"
+                  ]
+                },
+                {
+                  "pos": "",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "along the line",
+                    "down the line",
+                    "along the road",
+                    "down the road"
+                  ]
+                },
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "in series",
+                    "straight",
+                    "in a row",
+                    "on the trot",
+                    "tandem",
+                    "consecutively",
+                    "successively",
+                    "one after another"
+                  ]
+                },
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["sequela", "sequelae"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 8,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "Das vierte Tor",
+              "token_ids": [0, 1, 2],
+              "head_token_id": 2,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Neut",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "eine logische Folge",
+              "token_ids": [5, 6, 7],
+              "head_token_id": 7,
+              "case": "Nom",
+              "case_reason": "Predicate nominative (after sein/werden)",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [0, 1, 2, 3, 4, 5, 6, 7],
+              "connector": null,
+              "verb": "sein"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "adjektivdeklination",
+              "theme": "Adjektivdeklination",
+              "level": "A2",
+              "token_ids": [1, 2],
+              "evidence": "vierte Tor (Adjektivdeklination, Nom)"
+            },
+            {
+              "theme_id": "adjektivdeklination",
+              "theme": "Adjektivdeklination",
+              "level": "A2",
+              "token_ids": [6, 7],
+              "evidence": "logische Folge (Adjektivdeklination, Nom)"
+            },
+            {
+              "theme_id": "adverbiale_konnektoren",
+              "theme": "Adverbiale Konnektoren (deshalb, trotzdem, dann)",
+              "level": "A2",
+              "token_ids": [4],
+              "evidence": "deshalb (adverbialer Konnektor)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [2],
+              "evidence": "Tor (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "praeteritum",
+              "theme": "Präteritum",
+              "level": "A2",
+              "token_ids": [3],
+              "evidence": "war (Indikativ Präteritum)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Für Stuttgart ist der Sieg im Tabellenkampf sehr wertvoll. Für den HSV wird die Lage schwieriger, weil die kommenden Spiele gegen starke Gegner viel Stabilität und Effizienz verlangen.",
+      "sentences": [
+        {
+          "sentence": "Für Stuttgart ist der Sieg im Tabellenkampf sehr wertvoll.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Für",
+              "lemma": "für",
+              "pos": "ADP",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADP",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["for"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "Stuttgart",
+              "lemma": "Stuttgart",
+              "pos": "PROPN",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PROPN",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["Stuttgart"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 2,
+              "text": "ist",
+              "lemma": "sein",
+              "pos": "AUX",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Pres",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "AUX",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["to be"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "bin",
+                  "du": "bist",
+                  "er": "ist",
+                  "wir": "sind",
+                  "ihr": "seid",
+                  "sie": "sind"
+                },
+                "praeteritum": {
+                  "ich": "war",
+                  "du": "warst",
+                  "er": "war",
+                  "wir": "waren",
+                  "ihr": "wart",
+                  "sie": "waren"
+                },
+                "perfekt": {
+                  "ich": "bin gewesen",
+                  "du": "bist gewesen",
+                  "er": "ist gewesen",
+                  "wir": "sind gewesen",
+                  "ihr": "seid gewesen",
+                  "sie": "sind gewesen"
+                }
+              }
+            },
+            {
+              "id": 3,
+              "text": "der",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 4,
+              "text": "Sieg",
+              "lemma": "Sieg",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["victory", "triumph"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 5,
+              "text": "im",
+              "lemma": "in",
+              "pos": "ADP",
+              "syntactic_role": "postnominal_modifier",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADP",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["and"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 6,
+              "text": "Tabellenkampf",
+              "lemma": "Tabellenkampf",
+              "pos": "NOUN",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Dat",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [],
+              "conjugation": null
+            },
+            {
+              "id": 7,
+              "text": "sehr",
+              "lemma": "sehr",
+              "pos": "ADV",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "damned",
+                    "greatly",
+                    "thoroughly",
+                    "jolly",
+                    "right",
+                    "fucking",
+                    "very",
+                    "much"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 8,
+              "text": "wertvoll",
+              "lemma": "wertvoll",
+              "pos": "ADV",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["precious", "treasurable", "valuable"]
+                },
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["valuably"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 9,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "Stuttgart",
+              "token_ids": [1],
+              "head_token_id": 1,
+              "case": "Acc",
+              "case_reason": "Governed by preposition \"Für\" (Acc)",
+              "gender": "Neut",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "der Sieg",
+              "token_ids": [3, 4],
+              "head_token_id": 4,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Masc",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "Tabellenkampf",
+              "token_ids": [6],
+              "head_token_id": 6,
+              "case": "Dat",
+              "case_reason": "Governed by preposition \"im\" (Dat)",
+              "gender": "Masc",
+              "number": "Sing",
+              "notes": []
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+              "connector": null,
+              "verb": "sein"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [4],
+              "evidence": "Sieg (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "praepositionen_mit_akkusativ",
+              "theme": "Präpositionen mit Akkusativ",
+              "level": "A1",
+              "token_ids": [0, 1],
+              "evidence": "Für + Stuttgart (Präposition mit Akkusativ)"
+            },
+            {
+              "theme_id": "praepositionen_mit_dativ",
+              "theme": "Präpositionen mit Dativ",
+              "level": "A1",
+              "token_ids": [5, 6],
+              "evidence": "im + Tabellenkampf (Präposition mit Dativ)"
+            },
+            {
+              "theme_id": "praesens",
+              "theme": "Präsens",
+              "level": "A1",
+              "token_ids": [2],
+              "evidence": "ist (Indikativ Präsens)"
+            },
+            {
+              "theme_id": "wechselpraepositionen",
+              "theme": "Wechselpräpositionen",
+              "level": "A1",
+              "token_ids": [5, 6],
+              "evidence": "im (Wechselpräposition, Dat)"
+            }
+          ]
+        },
+        {
+          "sentence": "Für den HSV wird die Lage schwieriger, weil die kommenden Spiele gegen starke Gegner viel Stabilität und Effizienz verlangen.",
+          "tokens": [
+            {
+              "id": 0,
+              "text": "Für",
+              "lemma": "für",
+              "pos": "ADP",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "ADP",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["for"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 1,
+              "text": "den",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 2,
+              "text": "HSV",
+              "lemma": "HSV",
+              "pos": "PROPN",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [],
+              "conjugation": null
+            },
+            {
+              "id": 3,
+              "text": "wird",
+              "lemma": "werden",
+              "pos": "AUX",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": "Sing",
+                "gender": null,
+                "tense": "Pres",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "AUX",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["will"]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "werde",
+                  "du": "wirst",
+                  "er": "wird",
+                  "wir": "werden",
+                  "ihr": "werdet",
+                  "sie": "werden"
+                },
+                "praeteritum": {
+                  "ich": "wurde/ward⁶",
+                  "du": "wurdest/wardest⁶",
+                  "er": "wurde/ward⁶",
+                  "wir": "wurden/warden⁶",
+                  "ihr": "wurdet/wardet⁶",
+                  "sie": "wurden/warden⁶"
+                },
+                "perfekt": {
+                  "ich": "bin geworden",
+                  "du": "bist geworden",
+                  "er": "ist geworden",
+                  "wir": "sind geworden",
+                  "ihr": "seid geworden",
+                  "sie": "sind geworden"
+                }
+              }
+            },
+            {
+              "id": 4,
+              "text": "die",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 5,
+              "text": "Lage",
+              "lemma": "Lage",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": [
+                    "coat",
+                    "location",
+                    "situation",
+                    "posture",
+                    "ply",
+                    "course",
+                    "position",
+                    "quire"
+                  ]
+                },
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["tier"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 6,
+              "text": "schwieriger",
+              "lemma": "schwierig",
+              "pos": "ADV",
+              "syntactic_role": "predicate",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "awkward",
+                    "defiant",
+                    "truculent",
+                    "demanding",
+                    "exigent",
+                    "fractious",
+                    "rebellious",
+                    "recalcitrant"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 7,
+              "text": ",",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 8,
+              "text": "weil",
+              "lemma": "weil",
+              "pos": "SCONJ",
+              "syntactic_role": "complementizer",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "SCONJ",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["because", "cos", "cuz"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 9,
+              "text": "die",
+              "lemma": "der",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Plur",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "DET",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["the"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 10,
+              "text": "kommenden",
+              "lemma": "kommend",
+              "pos": "ADJ",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Nom",
+                "number": "Plur",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "coming",
+                    "forthcoming",
+                    "upcoming",
+                    "approaching",
+                    "future",
+                    "to come"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 11,
+              "text": "Spiele",
+              "lemma": "Spiel",
+              "pos": "NOUN",
+              "syntactic_role": "subject",
+              "morphology": {
+                "case": "Nom",
+                "number": "Plur",
+                "gender": "Neut",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "NOUN",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "bearing play",
+                    "free play",
+                    "play",
+                    "bearing gap",
+                    "game",
+                    "match",
+                    "allowance",
+                    "clearance",
+                    "game",
+                    "style of play",
+                    "playing style",
+                    "play",
+                    "equation"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 12,
+              "text": "gegen",
+              "lemma": "gegen",
+              "pos": "ADP",
+              "syntactic_role": "postnominal_modifier",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["about", "around"]
+                },
+                {
+                  "pos": "prep",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["versus /vs./"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 13,
+              "text": "starke",
+              "lemma": "stark",
+              "pos": "ADJ",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Plur",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "pronouncedly",
+                    "exceptionally",
+                    "distinctly",
+                    "markedly",
+                    "decidedly",
+                    "grossly",
+                    "flagrantly",
+                    "deeply"
+                  ]
+                },
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "good at",
+                    "fierce",
+                    "sound",
+                    "violent",
+                    "heavy",
+                    "keen",
+                    "driving",
+                    "intense"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 14,
+              "text": "Gegner",
+              "lemma": "Gegner",
+              "pos": "NOUN",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": "Acc",
+                "number": "Plur",
+                "gender": "Masc",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": [
+                    "adversary",
+                    "enemy",
+                    "foe",
+                    "opponent",
+                    "rival",
+                    "opposer",
+                    "challenger",
+                    "deprecator"
+                  ]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 15,
+              "text": "viel",
+              "lemma": "viel",
+              "pos": "DET",
+              "syntactic_role": "noun_kernel",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "adj",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["much", "a lot of", "lots of", "lotta", "a good deal of"]
+                },
+                {
+                  "pos": "adv",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["much", "a good deal", "a lot", "a whole lot", "lots"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 16,
+              "text": "Stabilität",
+              "lemma": "Stabilität",
+              "pos": "NOUN",
+              "syntactic_role": "accusative_object",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["stability", "dependability"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 17,
+              "text": "und",
+              "lemma": "und",
+              "pos": "CCONJ",
+              "syntactic_role": "coordinated",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "CCONJ",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["and"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 18,
+              "text": "Effizienz",
+              "lemma": "Effizienz",
+              "pos": "NOUN",
+              "syntactic_role": "conjunct",
+              "morphology": {
+                "case": "Acc",
+                "number": "Sing",
+                "gender": "Fem",
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["efficiency"]
+                }
+              ],
+              "conjugation": null
+            },
+            {
+              "id": 19,
+              "text": "verlangen",
+              "lemma": "verlangen",
+              "pos": "VERB",
+              "syntactic_role": "modifier",
+              "morphology": {
+                "case": null,
+                "number": "Plur",
+                "gender": null,
+                "tense": "Pres",
+                "mood": "Ind",
+                "person": "3"
+              },
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "fem",
+                  "usage": "",
+                  "translations": ["requisition", "demand", "request"]
+                },
+                {
+                  "pos": "n",
+                  "gender": "neut",
+                  "usage": "",
+                  "translations": ["a yen for sth.", "appetites", "hankering"]
+                },
+                {
+                  "pos": "n",
+                  "gender": "masc",
+                  "usage": "",
+                  "translations": ["desire", "sb.’s wish"]
+                },
+                {
+                  "pos": "v",
+                  "gender": "",
+                  "usage": "",
+                  "translations": [
+                    "to requisition",
+                    "to charge sb. sth.",
+                    "to charge sth. from sb.",
+                    "to charge/put sth. to sb.’s account",
+                    "to bill sb. for sth.",
+                    "to invoice sb. for sth.",
+                    "to call for sth.",
+                    "to mandate sth."
+                  ]
+                }
+              ],
+              "conjugation": {
+                "praesens": {
+                  "ich": "verlange",
+                  "du": "verlangst",
+                  "er": "verlangt",
+                  "wir": "verlangen",
+                  "ihr": "verlangt",
+                  "sie": "verlangen"
+                },
+                "praeteritum": {
+                  "ich": "verlangte",
+                  "du": "verlangtest",
+                  "er": "verlangte",
+                  "wir": "verlangten",
+                  "ihr": "verlangtet",
+                  "sie": "verlangten"
+                },
+                "perfekt": {
+                  "ich": "habe verlangt",
+                  "du": "hast verlangt",
+                  "er": "hat verlangt",
+                  "wir": "haben verlangt",
+                  "ihr": "habt verlangt",
+                  "sie": "haben verlangt"
+                }
+              }
+            },
+            {
+              "id": 20,
+              "text": ".",
+              "lemma": "--",
+              "pos": "PUNCT",
+              "syntactic_role": "punctuation",
+              "morphology": {
+                "case": null,
+                "number": null,
+                "gender": null,
+                "tense": null,
+                "mood": null,
+                "person": null
+              },
+              "translations": [
+                {
+                  "pos": "PUNCT",
+                  "gender": "",
+                  "usage": "",
+                  "translations": ["--"]
+                }
+              ],
+              "conjugation": null
+            }
+          ],
+          "units": [],
+          "noun_phrases": [
+            {
+              "text": "den HSV",
+              "token_ids": [1, 2],
+              "head_token_id": 2,
+              "case": "Acc",
+              "case_reason": "Governed by preposition \"Für\" (Acc)",
+              "gender": "Masc",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "die Lage",
+              "token_ids": [4, 5],
+              "head_token_id": 5,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "die kommenden Spiele",
+              "token_ids": [9, 10, 11],
+              "head_token_id": 11,
+              "case": "Nom",
+              "case_reason": "Subject (always nominative)",
+              "gender": "Neut",
+              "number": "Plur",
+              "notes": []
+            },
+            {
+              "text": "starke Gegner",
+              "token_ids": [13, 14],
+              "head_token_id": 14,
+              "case": "Acc",
+              "case_reason": "Governed by preposition \"gegen\" (Acc)",
+              "gender": "Masc",
+              "number": "Plur",
+              "notes": []
+            },
+            {
+              "text": "viel Stabilität",
+              "token_ids": [15, 16],
+              "head_token_id": 16,
+              "case": "Acc",
+              "case_reason": "Accusative object of \"verlangen\"",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            },
+            {
+              "text": "Effizienz",
+              "token_ids": [18],
+              "head_token_id": 18,
+              "case": "Acc",
+              "case_reason": "Dependency: cj",
+              "gender": "Fem",
+              "number": "Sing",
+              "notes": []
+            }
+          ],
+          "clauses": [
+            {
+              "type": "main",
+              "token_ids": [0, 1, 2, 3, 4, 5, 6],
+              "connector": null,
+              "verb": "werden"
+            },
+            {
+              "type": "subordinate",
+              "token_ids": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+              "connector": "weil",
+              "verb": "verlangen"
+            }
+          ],
+          "grammar_themes": [
+            {
+              "theme_id": "adjektivdeklination",
+              "theme": "Adjektivdeklination",
+              "level": "A2",
+              "token_ids": [10, 11],
+              "evidence": "kommenden Spiele (Adjektivdeklination, Nom)"
+            },
+            {
+              "theme_id": "adjektivdeklination",
+              "theme": "Adjektivdeklination",
+              "level": "A2",
+              "token_ids": [13, 14],
+              "evidence": "starke Gegner (Adjektivdeklination, Acc)"
+            },
+            {
+              "theme_id": "akkusativ",
+              "theme": "Akkusativ",
+              "level": "A1",
+              "token_ids": [16],
+              "evidence": "Stabilität (Akkusativ, direktes Objekt)"
+            },
+            {
+              "theme_id": "kausale_nebensaetze",
+              "theme": "Kausale Nebensätze (weil, da)",
+              "level": "A2",
+              "token_ids": [8, 19],
+              "evidence": "weil ... (kausaler Nebensatz)"
+            },
+            {
+              "theme_id": "komparativ",
+              "theme": "Komparativ",
+              "level": "A2",
+              "token_ids": [6],
+              "evidence": "schwieriger (Komparativ von schwierig)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [5],
+              "evidence": "Lage (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "nominativ",
+              "theme": "Nominativ",
+              "level": "A1",
+              "token_ids": [11],
+              "evidence": "Spiele (Nominativ, Subjekt)"
+            },
+            {
+              "theme_id": "partizip_als_adjektiv",
+              "theme": "Partizip I/II als Adjektiv",
+              "level": "B1",
+              "token_ids": [10],
+              "evidence": "kommenden (Partizip I als Adjektiv)"
+            },
+            {
+              "theme_id": "praepositionen_mit_akkusativ",
+              "theme": "Präpositionen mit Akkusativ",
+              "level": "A1",
+              "token_ids": [0, 2],
+              "evidence": "Für + HSV (Präposition mit Akkusativ)"
+            },
+            {
+              "theme_id": "praepositionen_mit_akkusativ",
+              "theme": "Präpositionen mit Akkusativ",
+              "level": "A1",
+              "token_ids": [12, 14],
+              "evidence": "gegen + Gegner (Präposition mit Akkusativ)"
+            },
+            {
+              "theme_id": "praesens",
+              "theme": "Präsens",
+              "level": "A1",
+              "token_ids": [3],
+              "evidence": "wird (Indikativ Präsens)"
+            },
+            {
+              "theme_id": "praesens",
+              "theme": "Präsens",
+              "level": "A1",
+              "token_ids": [19],
+              "evidence": "verlangen (Indikativ Präsens)"
+            },
+            {
+              "theme_id": "verb_am_ende",
+              "theme": "Verb am Ende (Nebensatz)",
+              "level": "A2",
+              "token_ids": [8, 19],
+              "evidence": "weil ... verlangen (Verb am Ende im Nebensatz)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "Pressing",
+      "article": "das",
+      "translation": "pressing",
+      "example": "Besonders im Pressing und in der Chancenqualität war der Unterschied sichtbar."
+    },
+    {
+      "word": "Ballverlust",
+      "article": "der",
+      "translation": "loss of possession",
+      "example": "Beim zweiten Tor nutzte der VfB einen Hamburger Ballverlust im Aufbau konsequent aus."
+    },
+    {
+      "word": "Konteransatz",
+      "article": "der",
+      "translation": "counterattack phase",
+      "example": "Einzelne Konteransätze waren vorhanden, wurden aber nicht effizient abgeschlossen."
+    },
+    {
+      "word": "Paraden",
+      "article": "die",
+      "translation": "saves",
+      "example": "Gleichzeitig musste Torwart Heuer Fernandes mehrfach stark parieren."
+    },
+    {
+      "word": "Strafstoß",
+      "article": "der",
+      "translation": "penalty kick",
+      "example": "Ein aberkanntes Tor und der vergebene Strafstoß änderten nichts am klaren Spielbild."
+    },
+    {
+      "word": "Überlegenheit",
+      "article": "die",
+      "translation": "superiority",
+      "example": "Der vierte Treffer fiel dennoch spät und bestätigte die Überlegenheit."
+    },
+    {
+      "word": "Klassenerhalt",
+      "article": "der",
+      "translation": "avoiding relegation",
+      "example": "Der HSV bleibt trotz der Niederlage im Kampf um den Klassenerhalt unter Druck."
+    },
+    {
+      "word": "Tabellenkampf",
+      "article": "der",
+      "translation": "race in standings",
+      "example": "Für Stuttgart ist der Sieg im Tabellenkampf sehr wertvoll."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Warum war der Sieg für Stuttgart insgesamt verdient?",
+      "options": [
+        "Weil Stuttgart über weite Strecken das Spiel kontrollierte und die besseren Chancen hatte.",
+        "Nicht im Text erwähnt.",
+        "Nur teilweise richtig.",
+        "Das Gegenteil ist richtig."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Welche Probleme hatte der HSV laut Spielverlauf?",
+      "options": [
+        "Personalausfälle, wenig Effizienz bei Kontern und hoher Defensivdruck.",
+        "Nicht im Text erwähnt.",
+        "Nur teilweise richtig.",
+        "Das Gegenteil ist richtig."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Welche Bedeutung hat das Ergebnis für beide Teams?",
+      "options": [
+        "Stuttgart sammelt wichtige Punkte für die Champions-League-Plätze, der HSV bleibt im Abstiegskampf unter Druck.",
+        "Nicht im Text erwähnt.",
+        "Nur teilweise richtig.",
+        "Das Gegenteil ist richtig."
+      ],
+      "correct": 0
+    }
+  ]
+}
