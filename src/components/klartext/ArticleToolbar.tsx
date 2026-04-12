@@ -4,6 +4,7 @@ import { SyntaxLegend } from "./SyntaxLegend";
 import { FilterPanel } from "./FilterPanel";
 
 interface ArticleToolbarProps {
+  hidden?: boolean;
   showSyntax: boolean;
   showGrammar: boolean;
   filterExpanded: boolean;
@@ -18,6 +19,7 @@ interface ArticleToolbarProps {
 }
 
 export function ArticleToolbar({
+  hidden,
   showSyntax,
   showGrammar,
   filterExpanded,
@@ -31,7 +33,9 @@ export function ArticleToolbar({
   onToggleTopic,
 }: ArticleToolbarProps) {
   return (
-    <div className="sticky top-0 z-40 bg-white/80 dark:bg-gray-950/80 backdrop-blur-sm py-3 mb-6 border-b border-gray-200 dark:border-gray-800">
+    <div
+      className={`sticky top-0 z-40 bg-white/80 dark:bg-gray-950/80 backdrop-blur-sm py-3 mb-6 border-b border-gray-200 dark:border-gray-800 transition-transform duration-300 ${hidden ? "-translate-y-full" : "translate-y-0"}`}
+    >
       <div className="flex items-center gap-3 mb-2">
         <TogglePill active={showSyntax} onClick={onToggleSyntax} label="Satzglieder" />
         <TogglePill active={showGrammar} onClick={onToggleGrammar} label="Grammatik" />

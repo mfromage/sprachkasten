@@ -7,6 +7,7 @@ import { SentenceBlock } from "./SentenceBlock";
 import { VocabList } from "./VocabList";
 import { QuizSection } from "./QuizSection";
 import { useArticlePreferences } from "@/hooks/useArticlePreferences";
+import { useScrollDirection } from "@/hooks/useScrollDirection";
 import { extractTopicsFromArticle } from "./FilterPanel";
 
 interface ArticleViewProps {
@@ -15,6 +16,7 @@ interface ArticleViewProps {
 
 export function ArticleView({ article }: ArticleViewProps) {
   const prefs = useArticlePreferences();
+  const toolbarHidden = useScrollDirection();
 
   const availableTopics = useMemo(
     () => extractTopicsFromArticle(article.paragraphs),
@@ -22,10 +24,11 @@ export function ArticleView({ article }: ArticleViewProps) {
   );
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-2xl mx-auto px-6 py-12 overflow-x-hidden">
       <h1 className="text-3xl font-bold mb-6 leading-tight">{article.title}</h1>
 
       <ArticleToolbar
+        hidden={toolbarHidden}
         showSyntax={prefs.showSyntax}
         showGrammar={prefs.showGrammar}
         filterExpanded={prefs.filterExpanded}
