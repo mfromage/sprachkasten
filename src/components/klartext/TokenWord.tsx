@@ -1,0 +1,40 @@
+"use client";
+
+import { useState, useRef } from "react";
+import type { Token } from "@/lib/types";
+import { getSyntaxGroup, SYNTAX_GROUP_COLORS } from "@/lib/syntax-colors";
+import { WordPopover } from "./WordPopover";
+
+interface TokenWordProps {
+  token: Token;
+  showSyntax: boolean;
+}
+
+export function TokenWord({ token, showSyntax }: TokenWordProps) {
+  const [open, setOpen] = useState(false);
+  const spanRef = useRef<HTMLSpanElement>(null);
+
+  if (token.pos === "PUNCT") {
+    return <span>{token.text}</span>;
+  }
+
+  const group = getSyntaxGroup(token.syntactic_role);
+  const color = SYNTAX_GROUP_COLORS[group];
+
+  return (
+    <span className="relative inline" ref={spanRef}>
+      <span
+        onClick={() => setOpen(!open)}
+        className="cursor-pointer transition-all duration-200 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-sm px-0.5 -mx-0.5"
+        style={
+          showSyntax
+            ? { borderBottom: `3px solid ${color}`, paddingBottom: "2px" }
+            : undefined
+        }
+      >
+        {token.text}
+      </span>
+      {open && <WordPopover token={token} onClose={() => setOpen(false)} />}
+    </span>
+  );
+}
