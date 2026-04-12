@@ -1,23 +1,37 @@
+import { readFileSync, readdirSync } from "fs";
+import { join } from "path";
 import type { Article } from "./types";
 import type { ArticleContent, IndexContent } from "./content-schema";
 
-// Import content files
-import indexData from "../../content/index.json";
-import artikel1 from "../../content/articles/artikel-1.json";
-import macronAppelliertAnFuehrungInTeheran20260412 from "../../content/articles/macron-appelliert-an-fuehrung-in-teheran-2026-04-12.json";
-import duerfenNichtZuEinerAmpel20Werden20260422 from "../../content/articles/duerfen-nicht-zu-einer-ampel-2-0-werden-2026-04-22.json";
+const CONTENT_DIR = join(process.cwd(), "content");
+const ARTICLES_DIR = join(CONTENT_DIR, "articles");
 
-// Map slug to imported article data
-const ARTICLES: Record<string, ArticleContent> = {
-  "artikel-1": artikel1 as ArticleContent,
-  "macron-appelliert-an-fuehrung-in-teheran-2026-04-12":
-    macronAppelliertAnFuehrungInTeheran20260412 as ArticleContent,
-  "duerfen-nicht-zu-einer-ampel-2-0-werden-2026-04-22":
-    duerfenNichtZuEinerAmpel20Werden20260422 as ArticleContent,
-};
+// Cache for loaded articles
+const articleCache = new Map<string, ArticleContent>();
+
+function loadArticle(slug: string): ArticleContent | null {
+  // Check cache first
+  if (articleCache.has(slug)) {
+    return articleCache.get(slug)!;
+  }
+
+  const filePath = join(ARTICLES_DIR, `${slug}.json`);
+  try {
+    const content = JSON.parse(readFileSync(filePath, "utf-8")) as ArticleContent;
+    articleCache.set(slug, content);
+    return content;
+  } catch {
+    return null;
+  }
+}
+
+function loadIndex(): IndexContent {
+  const indexPath = join(CONTENT_DIR, "index.json");
+  return JSON.parse(readFileSync(indexPath, "utf-8")) as IndexContent;
+}
 
 export function getArticle(slug: string): Article | null {
-  const article = ARTICLES[slug];
+  const article = loadArticle(slug);
   if (!article) return null;
 
   return {
@@ -30,9 +44,11 @@ export function getArticle(slug: string): Article | null {
 }
 
 export function getArticleSlugs(): string[] {
-  return (indexData as IndexContent).articles.map((a) => a.slug);
+  // Read directly from filesystem - no need for index.json
+  const files = readdirSync(ARTICLES_DIR).filter((f) => f.endsWith(".json"));
+  return files.map((f) => f.replace(".json", ""));
 }
 
 export function getArticleIndex(): IndexContent {
-  return indexData as IndexContent;
+  return loadIndex();
 }
