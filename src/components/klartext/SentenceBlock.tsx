@@ -117,7 +117,7 @@ export function SentenceBlock({
       return (
         <span key={`phrase-${gi}`} className="relative inline">
           {needsSpace && " "}
-          <span className="relative inline-block pb-1">
+          <span className="relative inline-block">
             {group.tokens.map((token, i) => (
               <span key={token.id}>
                 {i > 0 && token.pos !== "PUNCT" && " "}
@@ -132,7 +132,7 @@ export function SentenceBlock({
             ))}
             {showSyntax && group.nounPhrase && (
               <span
-                className="absolute bottom-0 left-0 right-0 h-[2.5px] rounded-full"
+                className="absolute -bottom-1 left-0 right-0 h-[2.5px] rounded-full"
                 style={{ backgroundColor: getCaseColor(group.nounPhrase.case) }}
               />
             )}
