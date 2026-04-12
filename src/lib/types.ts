@@ -50,7 +50,8 @@ export interface VocabEntry {
 
 export interface QuizQuestion {
   question: string;
-  hint: string;
+  options: string[];
+  correct: number;
 }
 
 export interface Article {

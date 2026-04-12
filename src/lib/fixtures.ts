@@ -83,23 +83,53 @@ const FIXTURES: Record<string, Article> = {
     quiz: [
       {
         question: "Was will Israel laut dem Text mit der libanesischen Regierung erreichen?",
-        hint: "Israel will über ein Ende des Libanonkrieges verhandeln und direkte Gespräche mit der Regierung in Beirut aufnehmen.",
+        options: [
+          "Einen Handelsvertrag abschließen",
+          "Über ein Ende des Libanonkrieges verhandeln",
+          "Eine militärische Allianz bilden",
+          "Die Grenzen neu festlegen",
+        ],
+        correct: 1,
       },
       {
         question: "Welche Bedingung stellt der Libanon vor Verhandlungen?",
-        hint: "Die libanesische Führung verlangt ein Ende der israelischen Attacken vor dem Beginn von Verhandlungen.",
+        options: [
+          "Die USA müssen vermitteln",
+          "Israel muss Reparationen zahlen",
+          "Ein Ende der israelischen Attacken",
+          "Die Hizbullah muss zustimmen",
+        ],
+        correct: 2,
       },
       {
         question: "Wovor warnt US-Vizepräsident Vance den Iran?",
-        hint: 'Vance warnte Iran davor, \u201emit uns zu spielen\u201c. Darauf würden die USA sich nicht einlassen.',
+        options: [
+          "Vor neuen Sanktionen",
+          "Vor einem militärischen Angriff",
+          "Davor, mit den USA zu spielen",
+          "Vor einem Handelsembargo",
+        ],
+        correct: 2,
       },
       {
         question: "Was ist seit 1948 zwischen Israel und dem Libanon der Fall?",
-        hint: "Beide Länder befinden sich seit 1948 offiziell im Kriegszustand.",
+        options: [
+          "Sie haben einen Friedensvertrag",
+          "Sie befinden sich offiziell im Kriegszustand",
+          "Sie haben diplomatische Beziehungen",
+          "Sie teilen sich eine offene Grenze",
+        ],
+        correct: 1,
       },
       {
         question: "Was passierte am Mittwoch laut dem Text?",
-        hint: "Am Mittwoch waren im Zuge einer groß angelegten israelischen Luftangriffswelle mehr als 300 Menschen getötet worden.",
+        options: [
+          "Die Verhandlungen begannen in Islamabad",
+          "Netanjahu traf sich mit Trump",
+          "Mehr als 300 Menschen wurden bei Luftangriffen getötet",
+          "Iran schickte seine Delegation nach Pakistan",
+        ],
+        correct: 2,
       },
     ],
   },
