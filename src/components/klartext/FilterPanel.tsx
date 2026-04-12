@@ -18,7 +18,7 @@ interface FilterPanelProps {
   selectedLevels: string[];
   selectedTopics: string[];
   availableTopics: { id: string; name: string; level: string }[];
-  onToggleLevel: (level: string) => void;
+  onToggleLevel: (level: string, topicIdsAtLevel: string[]) => void;
   onToggleTopic: (topic: string) => void;
 }
 
@@ -51,10 +51,13 @@ export function FilterPanel({
           {LEVELS.map((level) => {
             const isSelected = selectedLevels.includes(level);
             const colorClass = LEVEL_COLORS[level] ?? "";
+            const topicIdsAtLevel = uniqueTopics
+              .filter((t) => t.level === level)
+              .map((t) => t.id);
             return (
               <button
                 key={level}
-                onClick={() => onToggleLevel(level)}
+                onClick={() => onToggleLevel(level, topicIdsAtLevel)}
                 className={`px-3 py-1 text-xs font-semibold rounded-full border transition-all duration-150 ${
                   isSelected
                     ? colorClass

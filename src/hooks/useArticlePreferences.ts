@@ -85,13 +85,31 @@ export function useArticlePreferences() {
     setPrefs((p) => ({ ...p, filterExpanded: value }));
   }, []);
 
-  const toggleLevel = useCallback((level: string) => {
-    setPrefs((p) => ({
-      ...p,
-      selectedLevels: p.selectedLevels.includes(level)
-        ? p.selectedLevels.filter((l) => l !== level)
-        : [...p.selectedLevels, level],
-    }));
+  const toggleLevel = useCallback((level: string, topicIdsAtLevel: string[] = []) => {
+    setPrefs((p) => {
+      const isSelected = p.selectedLevels.includes(level);
+      if (isSelected) {
+        // Deselecting level: remove level and all its topics
+        return {
+          ...p,
+          selectedLevels: p.selectedLevels.filter((l) => l !== level),
+          selectedTopics: p.selectedTopics.filter((t) => !topicIdsAtLevel.includes(t)),
+        };
+      } else {
+        // Selecting level: add level and all its topics
+        const newTopics = [...p.selectedTopics];
+        for (const topicId of topicIdsAtLevel) {
+          if (!newTopics.includes(topicId)) {
+            newTopics.push(topicId);
+          }
+        }
+        return {
+          ...p,
+          selectedLevels: [...p.selectedLevels, level],
+          selectedTopics: newTopics,
+        };
+      }
+    });
   }, []);
 
   const toggleTopic = useCallback((topic: string) => {
