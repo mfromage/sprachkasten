@@ -1,30 +1,37 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 
-function getInitialDark() {
-  if (typeof window === "undefined") return false;
-  const stored = localStorage.getItem("theme");
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  return stored === "dark" || (!stored && prefersDark);
+function getSnapshot() {
+  return (
+    localStorage.getItem("theme") === "dark" ||
+    (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)
+  );
+}
+
+function getServerSnapshot() {
+  return false; // Default to light on server
+}
+
+function subscribe(callback: () => void) {
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", callback);
+  return () => {
+    window.matchMedia("(prefers-color-scheme: dark)").removeEventListener("change", callback);
+  };
 }
 
 export function ThemeToggle() {
-  const [dark, setDark] = useState(getInitialDark);
-  const mounted = useRef(false);
+  const dark = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
   useEffect(() => {
-    if (!mounted.current) {
-      document.documentElement.classList.toggle("dark", dark);
-      mounted.current = true;
-    }
+    document.documentElement.classList.toggle("dark", dark);
   }, [dark]);
 
   function toggle() {
     const next = !dark;
-    setDark(next);
-    document.documentElement.classList.toggle("dark", next);
     localStorage.setItem("theme", next ? "dark" : "light");
+    document.documentElement.classList.toggle("dark", next);
+    window.dispatchEvent(new Event("storage")); // Trigger re-render
   }
 
   return (
@@ -32,6 +39,7 @@ export function ThemeToggle() {
       onClick={toggle}
       className="rounded-full p-2 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 transition-colors"
       aria-label={dark ? "Switch to light mode" : "Switch to dark mode"}
+      suppressHydrationWarning
     >
       {dark ? (
         <svg
