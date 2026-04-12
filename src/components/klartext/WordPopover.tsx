@@ -220,15 +220,21 @@ export function WordPopover({
 
   // For grouped phrases: show phrase info first, then member words
   if (isGrouped && nounPhrase) {
+    const headToken = phraseTokens?.find((t) => t.id === nounPhrase.head_token_id);
+    const headTranslation = headToken ? getTranslation(headToken) : null;
+
     return (
       <div
         ref={ref}
         className="fixed left-4 right-4 sm:absolute sm:left-auto sm:right-auto z-50 mt-2 sm:w-80 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
       >
         {/* Phrase info */}
-        <p className="text-base font-semibold text-gray-900 dark:text-gray-100 mb-2">
+        <p className="text-base font-semibold text-gray-900 dark:text-gray-100 mb-1">
           {nounPhrase.text}
         </p>
+        {headTranslation && (
+          <p className="text-sm text-gray-600 dark:text-gray-400 italic mb-2">{headTranslation}</p>
+        )}
         <div className="flex flex-wrap items-center gap-1.5 mb-2">
           <span className="inline-block rounded-full bg-blue-50 dark:bg-blue-900/30 px-2.5 py-0.5 text-xs font-medium text-blue-700 dark:text-blue-300">
             {CASE_SHORT[nounPhrase.case] ?? nounPhrase.case}
@@ -287,10 +293,15 @@ export function WordPopover({
         <p className="text-base font-semibold text-gray-900 dark:text-gray-100 mb-1">
           {verbPhrase.text}
         </p>
-        <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">
           Grundform:{" "}
           <span className="font-medium text-gray-700 dark:text-gray-300">{verbPhrase.lemma}</span>
         </p>
+        {mainVerb && getTranslation(mainVerb) && (
+          <p className="text-sm text-gray-600 dark:text-gray-400 italic mb-2">
+            {getTranslation(mainVerb)}
+          </p>
+        )}
         <div className="flex flex-wrap items-center gap-1.5 mb-2">
           <span className="inline-block rounded-full bg-emerald-50 dark:bg-emerald-900/30 px-2.5 py-0.5 text-xs font-medium text-emerald-700 dark:text-emerald-300">
             Trennbares Verb
@@ -324,7 +335,7 @@ export function WordPopover({
       ref={ref}
       className="fixed left-4 right-4 sm:absolute sm:left-auto sm:right-auto z-50 mt-2 sm:w-72 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
     >
-      <div className="flex items-baseline gap-2 mb-1.5">
+      <div className="flex items-baseline gap-2 mb-1">
         <span className="text-lg font-sans font-semibold">{token.text}</span>
         {gender && (
           <span className="text-sm text-gray-400 dark:text-gray-500">
@@ -332,6 +343,11 @@ export function WordPopover({
           </span>
         )}
       </div>
+      {getTranslation(token) && (
+        <p className="text-sm text-gray-600 dark:text-gray-400 italic mb-2">
+          {getTranslation(token)}
+        </p>
+      )}
 
       {token.lemma.toLowerCase() !== token.text.toLowerCase() && (
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
