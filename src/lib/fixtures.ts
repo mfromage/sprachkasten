@@ -11,8 +11,6 @@ const ARTICLES: Record<string, ArticleContent> = {
   "artikel-1": artikel1 as ArticleContent,
   "macron-appelliert-an-fuehrung-in-teheran-2026-04-12":
     macronAppelliertAnFuehrungInTeheran20260412 as ArticleContent,
-  "macron-appelliert-an-fuehrung-in-teheran-2026-04-12":
-    macronAppelliertAnFuehrungInTeheran20260412 as ArticleContent,
 };
 
 export function getArticle(slug: string): Article | null {
