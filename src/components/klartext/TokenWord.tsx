@@ -38,11 +38,18 @@ export function TokenWord({
   const syntaxColor = SYNTAX_GROUP_COLORS[syntaxGroup];
   const underlineColor = caseColor || syntaxColor;
 
+  const handleTap = () => setOpen(!open);
+
   return (
     <span className="relative inline" ref={spanRef}>
-      <span
-        onClick={() => setOpen(!open)}
-        className="cursor-pointer transition-all duration-200 hover:bg-gray-100/70 dark:hover:bg-gray-800/70 rounded-sm px-1 -mx-1 py-2 -my-2 sm:px-0.5 sm:-mx-0.5 sm:py-0 sm:-my-0 sm:pb-1"
+      <button
+        type="button"
+        onClick={handleTap}
+        onTouchEnd={(e) => {
+          e.preventDefault();
+          handleTap();
+        }}
+        className="cursor-pointer transition-all duration-200 hover:bg-gray-100/70 dark:hover:bg-gray-800/70 active:bg-gray-200/70 dark:active:bg-gray-700/70 rounded-sm px-1 -mx-1 py-1 -my-1 sm:px-0.5 sm:-mx-0.5 sm:py-0 sm:-my-0 sm:pb-1 touch-manipulation font-inherit text-inherit"
         style={highlightColor ? { backgroundColor: highlightColor } : undefined}
       >
         {token.text}
@@ -52,7 +59,7 @@ export function TokenWord({
             style={{ backgroundColor: underlineColor }}
           />
         )}
-      </span>
+      </button>
       {open && (
         <WordPopover
           token={token}
