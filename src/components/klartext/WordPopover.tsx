@@ -198,8 +198,12 @@ export function WordPopover({
     }
     document.addEventListener("mousedown", handleClick);
     document.addEventListener("keydown", handleKey);
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    // Delay scroll listener to avoid closing from scrollIntoView or tap micro-scrolls
+    const scrollTimeout = setTimeout(() => {
+      window.addEventListener("scroll", handleScroll, { passive: true });
+    }, 300);
     return () => {
+      clearTimeout(scrollTimeout);
       document.removeEventListener("mousedown", handleClick);
       document.removeEventListener("keydown", handleKey);
       window.removeEventListener("scroll", handleScroll);
