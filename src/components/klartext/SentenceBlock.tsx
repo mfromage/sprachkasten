@@ -57,7 +57,7 @@ export function SentenceBlock({
 
   // Filter grammar themes
   const visibleThemes = sentence.grammar_themes.filter((theme) =>
-    themePassesFilter(theme, selectedLevels, selectedTopics)
+    themePassesFilter(theme, selectedLevels, selectedTopics),
   );
 
   // Find noun phrase for each token
@@ -67,9 +67,12 @@ export function SentenceBlock({
 
   // Group tokens by noun_phrase for continuous underlines
   const groupTokensByPhrase = (tokens: typeof sentence.tokens) => {
-    const groups: { tokens: typeof sentence.tokens; nounPhrase?: typeof sentence.noun_phrases[0] }[] = [];
+    const groups: {
+      tokens: typeof sentence.tokens;
+      nounPhrase?: (typeof sentence.noun_phrases)[0];
+    }[] = [];
     let currentGroup: typeof sentence.tokens = [];
-    let currentNP: typeof sentence.noun_phrases[0] | undefined;
+    let currentNP: (typeof sentence.noun_phrases)[0] | undefined;
 
     tokens.forEach((token) => {
       const np = getNounPhraseForToken(token.id);
@@ -106,7 +109,9 @@ export function SentenceBlock({
             <TokenWord
               token={token}
               showSyntax={showSyntax}
-              highlightColor={activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined}
+              highlightColor={
+                activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined
+              }
               nounPhrase={group.nounPhrase}
             />
           </span>
@@ -124,7 +129,9 @@ export function SentenceBlock({
                 <TokenWord
                   token={token}
                   showSyntax={false}
-                  highlightColor={activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined}
+                  highlightColor={
+                    activeHighlight?.tokenIds.has(token.id) ? activeHighlight.color : undefined
+                  }
                   nounPhrase={group.nounPhrase}
                   phraseTokens={group.tokens}
                 />
@@ -146,7 +153,9 @@ export function SentenceBlock({
     <div
       className={showGrammar ? "pb-5 mb-5 border-b border-gray-200 dark:border-gray-800" : "mb-5"}
     >
-      <div className={`text-xl leading-[2] ${showSyntax ? "[word-spacing:4px]" : ""} ${showClauses ? "pt-5" : ""}`}>
+      <div
+        className={`text-xl leading-[2] ${showSyntax ? "[word-spacing:4px]" : ""} ${showClauses ? "pt-5" : ""}`}
+      >
         {renderTokens()}
       </div>
       {showGrammar && visibleThemes.length > 0 && (

@@ -109,7 +109,10 @@ export const ArticleSchema = z.object({
   slug: z.string().regex(/^[a-z0-9-]+$/, "Slug must be lowercase alphanumeric with hyphens"),
   title: z.string().min(1),
   source: z.string().optional(),
-  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Date must be YYYY-MM-DD").optional(),
+  date: z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/, "Date must be YYYY-MM-DD")
+    .optional(),
   level: z.enum(["A1", "A2", "B1", "B2", "C1", "C2"]).optional(),
   paragraphs: z.array(ParagraphSchema).min(1),
   vocabulary: z.array(VocabEntrySchema),
@@ -124,7 +127,7 @@ export const IndexSchema = z.object({
       title: z.string(),
       level: z.enum(["A1", "A2", "B1", "B2", "C1", "C2"]).optional(),
       date: z.string().optional(),
-    })
+    }),
   ),
 });
 

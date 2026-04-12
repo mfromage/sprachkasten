@@ -38,7 +38,7 @@ export function FilterPanel({
       if (!acc.find((x) => x.id === t.id)) acc.push(t);
       return acc;
     },
-    [] as { id: string; name: string; level: string }[]
+    [] as { id: string; name: string; level: string }[],
   );
 
   return (
@@ -51,9 +51,7 @@ export function FilterPanel({
           {LEVELS.map((level) => {
             const isSelected = selectedLevels.includes(level);
             const colorClass = LEVEL_COLORS[level] ?? "";
-            const topicIdsAtLevel = uniqueTopics
-              .filter((t) => t.level === level)
-              .map((t) => t.id);
+            const topicIdsAtLevel = uniqueTopics.filter((t) => t.level === level).map((t) => t.id);
             return (
               <button
                 key={level}
@@ -102,7 +100,7 @@ export function FilterPanel({
 
 // Helper to extract unique topics from article grammar themes
 export function extractTopicsFromArticle(
-  paragraphs: { sentences: { grammar_themes: GrammarTheme[] }[] }[]
+  paragraphs: { sentences: { grammar_themes: GrammarTheme[] }[] }[],
 ): { id: string; name: string; level: string }[] {
   const topicMap = new Map<string, { id: string; name: string; level: string }>();
 
@@ -127,7 +125,7 @@ export function extractTopicsFromArticle(
 export function themePassesFilter(
   theme: GrammarTheme,
   selectedLevels: string[],
-  selectedTopics: string[]
+  selectedTopics: string[],
 ): boolean {
   // No filters = show all
   if (selectedLevels.length === 0 && selectedTopics.length === 0) {

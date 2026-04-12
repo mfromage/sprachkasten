@@ -22,7 +22,7 @@ export default function KlartextPage({ params }: { params: Promise<{ slug: strin
 
   const availableTopics = useMemo(
     () => extractTopicsFromArticle(article.paragraphs),
-    [article.paragraphs]
+    [article.paragraphs],
   );
 
   return (

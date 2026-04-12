@@ -14,7 +14,13 @@ interface TokenWordProps {
   phraseTokens?: Token[];
 }
 
-export function TokenWord({ token, showSyntax, highlightColor, nounPhrase, phraseTokens }: TokenWordProps) {
+export function TokenWord({
+  token,
+  showSyntax,
+  highlightColor,
+  nounPhrase,
+  phraseTokens,
+}: TokenWordProps) {
   const [open, setOpen] = useState(false);
   const spanRef = useRef<HTMLSpanElement>(null);
 
@@ -43,7 +49,14 @@ export function TokenWord({ token, showSyntax, highlightColor, nounPhrase, phras
           />
         )}
       </span>
-      {open && <WordPopover token={token} nounPhrase={nounPhrase} phraseTokens={phraseTokens} onClose={() => setOpen(false)} />}
+      {open && (
+        <WordPopover
+          token={token}
+          nounPhrase={nounPhrase}
+          phraseTokens={phraseTokens}
+          onClose={() => setOpen(false)}
+        />
+      )}
     </span>
   );
 }

@@ -62,15 +62,9 @@ function TokenInfo({ token }: { token: Token }) {
           </span>
         )}
       </div>
-      {showLemma && (
-        <p className="text-xs text-gray-500 dark:text-gray-400">
-          ← {token.lemma}
-        </p>
-      )}
+      {showLemma && <p className="text-xs text-gray-500 dark:text-gray-400">← {token.lemma}</p>}
       {translation && (
-        <p className="text-xs text-gray-500 dark:text-gray-400 italic">
-          {translation}
-        </p>
+        <p className="text-xs text-gray-500 dark:text-gray-400 italic">{translation}</p>
       )}
     </div>
   );
@@ -140,9 +134,7 @@ export function WordPopover({ token, nounPhrase, phraseTokens, onClose }: WordPo
             </span>
           )}
         </div>
-        <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">
-          {nounPhrase.case_reason}
-        </p>
+        <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">{nounPhrase.case_reason}</p>
         {nounPhrase.notes.length > 0 && (
           <div className="mb-3 flex flex-wrap gap-1">
             {nounPhrase.notes.map((note, i) => (
@@ -201,9 +193,7 @@ export function WordPopover({ token, nounPhrase, phraseTokens, onClose }: WordPo
       )}
 
       {translation && (
-        <p className="text-sm text-gray-600 dark:text-gray-400 italic mb-2">
-          {translation}
-        </p>
+        <p className="text-sm text-gray-600 dark:text-gray-400 italic mb-2">{translation}</p>
       )}
 
       <div className="flex flex-wrap items-center gap-1.5 mt-1">
@@ -247,9 +237,7 @@ export function WordPopover({ token, nounPhrase, phraseTokens, onClose }: WordPo
               </span>
             )}
           </div>
-          <p className="text-xs text-gray-500 dark:text-gray-400">
-            {nounPhrase.case_reason}
-          </p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">{nounPhrase.case_reason}</p>
           {nounPhrase.notes.length > 0 && (
             <div className="mt-2 flex flex-wrap gap-1">
               {nounPhrase.notes.map((note, i) => (

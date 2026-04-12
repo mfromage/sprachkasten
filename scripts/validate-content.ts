@@ -13,7 +13,11 @@ const ARTICLES_DIR = join(CONTENT_DIR, "articles");
 
 let hasErrors = false;
 
-function validateFile(path: string, schema: typeof ArticleSchema | typeof IndexSchema, label: string) {
+function validateFile(
+  path: string,
+  schema: typeof ArticleSchema | typeof IndexSchema,
+  label: string,
+) {
   console.log(`Validating ${label}...`);
 
   try {
@@ -69,7 +73,9 @@ if (existsSync(indexPath) && existsSync(ARTICLES_DIR)) {
 
   for (const entry of index.articles || []) {
     if (!articleSlugs.has(entry.slug)) {
-      console.error(`  ERROR: Index references "${entry.slug}" but content/articles/${entry.slug}.json not found`);
+      console.error(
+        `  ERROR: Index references "${entry.slug}" but content/articles/${entry.slug}.json not found`,
+      );
       hasErrors = true;
     }
   }
