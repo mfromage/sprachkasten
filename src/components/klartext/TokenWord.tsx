@@ -42,13 +42,13 @@ export function TokenWord({
     <span className="relative inline" ref={spanRef}>
       <span
         onClick={() => setOpen(!open)}
-        className="cursor-pointer transition-all duration-200 hover:bg-gray-100/70 dark:hover:bg-gray-800/70 rounded-sm px-0.5 -mx-0.5 pb-1"
+        className="cursor-pointer transition-all duration-200 hover:bg-gray-100/70 dark:hover:bg-gray-800/70 rounded-sm px-1 -mx-1 py-2 -my-2 sm:px-0.5 sm:-mx-0.5 sm:py-0 sm:-my-0 sm:pb-1"
         style={highlightColor ? { backgroundColor: highlightColor } : undefined}
       >
         {token.text}
         {showSyntax && (
           <span
-            className="absolute -bottom-1 left-0 right-0 h-[2.5px] rounded-full transition-colors duration-200"
+            className="absolute -bottom-1 left-0 right-0 h-[2.5px] rounded-full transition-colors duration-200 pointer-events-none"
             style={{ backgroundColor: underlineColor }}
           />
         )}
