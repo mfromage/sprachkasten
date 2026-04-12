@@ -1,7 +1,6 @@
 "use client";
 
 import { SyntaxLegend } from "./SyntaxLegend";
-import { ClauseLegend } from "./ClauseLegend";
 import { FilterPanel } from "./FilterPanel";
 
 interface ArticleToolbarProps {
@@ -40,7 +39,6 @@ export function ArticleToolbar({
       <div className="flex items-center gap-3 mb-2">
         <TogglePill active={showSyntax} onClick={onToggleSyntax} label="Satzglieder" />
         <TogglePill active={showGrammar} onClick={onToggleGrammar} label="Grammatik" />
-        <TogglePill active={showClauses} onClick={onToggleClauses} label="Satzstruktur" />
         <div className="flex-1" />
         <button
           onClick={onToggleFilter}
@@ -62,7 +60,6 @@ export function ArticleToolbar({
         </button>
       </div>
       {showSyntax && <SyntaxLegend />}
-      {showClauses && !showSyntax && <ClauseLegend />}
       <FilterPanel
         expanded={filterExpanded}
         selectedLevels={selectedLevels}
