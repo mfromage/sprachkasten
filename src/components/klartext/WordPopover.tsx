@@ -292,9 +292,6 @@ export function WordPopover({
           Grundform:{" "}
           <span className="font-medium text-gray-700 dark:text-gray-300">{verbPhrase.lemma}</span>
         </p>
-        {translation && (
-          <p className="text-sm text-gray-600 dark:text-gray-400 italic mb-2">{translation}</p>
-        )}
         <div className="flex flex-wrap items-center gap-1.5 mb-2">
           <span className="inline-block rounded-full bg-emerald-50 dark:bg-emerald-900/30 px-2.5 py-0.5 text-xs font-medium text-emerald-700 dark:text-emerald-300">
             Trennbares Verb
@@ -302,6 +299,8 @@ export function WordPopover({
         </div>
 
         {verbPhrase.conjugation && <ConjugationTable conjugation={verbPhrase.conjugation} />}
+
+        {mainVerb && <TranslationSection token={mainVerb} />}
 
         {/* Member words */}
         <div className="pt-3 mt-3 border-t border-gray-200 dark:border-gray-700 space-y-3">
