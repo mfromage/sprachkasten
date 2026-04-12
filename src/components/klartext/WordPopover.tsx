@@ -201,19 +201,24 @@ export function WordPopover({
     };
   }, [onClose]);
 
-  // Adjust position to prevent overflow
+  // Adjust position and scroll into view
   useEffect(() => {
     if (ref.current) {
-      const rect = ref.current.getBoundingClientRect();
-      const viewportWidth = window.innerWidth;
-      // If overflowing right, shift left
-      if (rect.right > viewportWidth - 16) {
-        const overflow = rect.right - viewportWidth + 16;
-        ref.current.style.transform = `translateX(-${overflow}px)`;
-      }
-      // If overflowing left, shift right
-      if (rect.left < 16) {
-        ref.current.style.transform = `translateX(${16 - rect.left}px)`;
+      const isMobile = window.innerWidth < 640;
+      if (isMobile) {
+        // On mobile, scroll popover into view
+        ref.current.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      } else {
+        // On desktop, adjust horizontal position to prevent overflow
+        const rect = ref.current.getBoundingClientRect();
+        const viewportWidth = window.innerWidth;
+        if (rect.right > viewportWidth - 16) {
+          const overflow = rect.right - viewportWidth + 16;
+          ref.current.style.transform = `translateX(-${overflow}px)`;
+        }
+        if (rect.left < 16) {
+          ref.current.style.transform = `translateX(${16 - rect.left}px)`;
+        }
       }
     }
   }, []);
@@ -226,7 +231,7 @@ export function WordPopover({
     return (
       <div
         ref={ref}
-        className="fixed left-4 right-4 sm:absolute sm:left-auto sm:right-auto z-50 mt-2 sm:w-80 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
+        className="fixed bottom-0 left-0 right-0 sm:absolute sm:bottom-auto sm:left-auto sm:right-auto z-50 sm:mt-2 sm:w-80 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
       >
         {/* Phrase info */}
         <p className="text-base font-semibold text-gray-900 dark:text-gray-100 mb-1">
@@ -287,7 +292,7 @@ export function WordPopover({
     return (
       <div
         ref={ref}
-        className="fixed left-4 right-4 sm:absolute sm:left-auto sm:right-auto z-50 mt-2 sm:w-80 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
+        className="fixed bottom-0 left-0 right-0 sm:absolute sm:bottom-auto sm:left-auto sm:right-auto z-50 sm:mt-2 sm:w-80 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
       >
         {/* Verb phrase info */}
         <p className="text-base font-semibold text-gray-900 dark:text-gray-100 mb-1">
