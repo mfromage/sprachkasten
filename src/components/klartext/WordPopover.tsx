@@ -1,11 +1,12 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import type { Token } from "@/lib/types";
+import type { Token, NounPhrase } from "@/lib/types";
 import { POS_LABELS_DE } from "@/lib/syntax-colors";
 
 interface WordPopoverProps {
   token: Token;
+  nounPhrase?: NounPhrase;
   onClose: () => void;
 }
 
@@ -22,7 +23,12 @@ const CASE_SHORT: Record<string, string> = {
   Gen: "Genitiv",
 };
 
-export function WordPopover({ token, onClose }: WordPopoverProps) {
+const NUMBER_DE: Record<string, string> = {
+  Sing: "Singular",
+  Plur: "Plural",
+};
+
+export function WordPopover({ token, nounPhrase, onClose }: WordPopoverProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -93,6 +99,35 @@ export function WordPopover({ token, onClose }: WordPopoverProps) {
           </span>
         )}
       </div>
+
+      {nounPhrase && (
+        <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
+          <div className="flex items-center gap-1.5 text-xs text-gray-600 dark:text-gray-400 mb-1">
+            <span className="font-medium">
+              {CASE_SHORT[nounPhrase.case] ?? nounPhrase.case}, {NUMBER_DE[nounPhrase.number] ?? nounPhrase.number}
+            </span>
+          </div>
+          <p className="text-xs text-gray-500 dark:text-gray-400">
+            {nounPhrase.case_reason}
+          </p>
+          {nounPhrase.notes.length > 0 && (
+            <div className="mt-2 space-y-1">
+              {nounPhrase.notes.map((note, i) => (
+                <span
+                  key={i}
+                  className={`inline-block rounded px-2 py-0.5 text-xs font-medium ${
+                    note.includes("N-Deklination")
+                      ? "bg-amber-50 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300"
+                      : "bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300"
+                  }`}
+                >
+                  {note}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }

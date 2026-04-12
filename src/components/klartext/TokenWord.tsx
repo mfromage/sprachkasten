@@ -1,16 +1,18 @@
 "use client";
 
 import { useState, useRef } from "react";
-import type { Token } from "@/lib/types";
+import type { Token, NounPhrase } from "@/lib/types";
 import { getSyntaxGroup, SYNTAX_GROUP_COLORS } from "@/lib/syntax-colors";
 import { WordPopover } from "./WordPopover";
 
 interface TokenWordProps {
   token: Token;
   showSyntax: boolean;
+  highlightColor?: string;
+  nounPhrase?: NounPhrase;
 }
 
-export function TokenWord({ token, showSyntax }: TokenWordProps) {
+export function TokenWord({ token, showSyntax, highlightColor, nounPhrase }: TokenWordProps) {
   const [open, setOpen] = useState(false);
   const spanRef = useRef<HTMLSpanElement>(null);
 
@@ -26,6 +28,7 @@ export function TokenWord({ token, showSyntax }: TokenWordProps) {
       <span
         onClick={() => setOpen(!open)}
         className="cursor-pointer transition-all duration-200 hover:bg-gray-100/70 dark:hover:bg-gray-800/70 rounded-sm px-0.5 -mx-0.5 pb-1"
+        style={highlightColor ? { backgroundColor: highlightColor } : undefined}
       >
         {token.text}
         {showSyntax && (
@@ -35,7 +38,7 @@ export function TokenWord({ token, showSyntax }: TokenWordProps) {
           />
         )}
       </span>
-      {open && <WordPopover token={token} onClose={() => setOpen(false)} />}
+      {open && <WordPopover token={token} nounPhrase={nounPhrase} onClose={() => setOpen(false)} />}
     </span>
   );
 }

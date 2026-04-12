@@ -1,0 +1,118 @@
+"use client";
+
+import { useState, useEffect, useCallback } from "react";
+
+const STORAGE_KEY = "sprachkasten:preferences";
+
+export interface ArticlePreferences {
+  showSyntax: boolean;
+  showGrammar: boolean;
+  showClauses: boolean;
+  selectedLevels: string[];
+  selectedTopics: string[];
+  filterExpanded: boolean;
+}
+
+const DEFAULT_PREFERENCES: ArticlePreferences = {
+  showSyntax: false,
+  showGrammar: false,
+  showClauses: false,
+  selectedLevels: [],
+  selectedTopics: [],
+  filterExpanded: false,
+};
+
+function loadPreferences(): ArticlePreferences {
+  if (typeof window === "undefined") return DEFAULT_PREFERENCES;
+  try {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) {
+      return { ...DEFAULT_PREFERENCES, ...JSON.parse(stored) };
+    }
+  } catch {
+    // Ignore parse errors
+  }
+  return DEFAULT_PREFERENCES;
+}
+
+function savePreferences(prefs: ArticlePreferences): void {
+  if (typeof window === "undefined") return;
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(prefs));
+  } catch {
+    // Ignore storage errors
+  }
+}
+
+export function useArticlePreferences() {
+  const [prefs, setPrefs] = useState<ArticlePreferences>(DEFAULT_PREFERENCES);
+  const [mounted, setMounted] = useState(false);
+
+  // Load from localStorage on mount
+  useEffect(() => {
+    setPrefs(loadPreferences());
+    setMounted(true);
+  }, []);
+
+  // Save to localStorage on change (after mount)
+  useEffect(() => {
+    if (mounted) {
+      savePreferences(prefs);
+    }
+  }, [prefs, mounted]);
+
+  const setShowSyntax = useCallback((value: boolean) => {
+    setPrefs((p) => ({ ...p, showSyntax: value }));
+  }, []);
+
+  const setShowGrammar = useCallback((value: boolean) => {
+    setPrefs((p) => ({ ...p, showGrammar: value }));
+  }, []);
+
+  const setShowClauses = useCallback((value: boolean) => {
+    setPrefs((p) => ({ ...p, showClauses: value }));
+  }, []);
+
+  const setSelectedLevels = useCallback((value: string[]) => {
+    setPrefs((p) => ({ ...p, selectedLevels: value }));
+  }, []);
+
+  const setSelectedTopics = useCallback((value: string[]) => {
+    setPrefs((p) => ({ ...p, selectedTopics: value }));
+  }, []);
+
+  const setFilterExpanded = useCallback((value: boolean) => {
+    setPrefs((p) => ({ ...p, filterExpanded: value }));
+  }, []);
+
+  const toggleLevel = useCallback((level: string) => {
+    setPrefs((p) => ({
+      ...p,
+      selectedLevels: p.selectedLevels.includes(level)
+        ? p.selectedLevels.filter((l) => l !== level)
+        : [...p.selectedLevels, level],
+    }));
+  }, []);
+
+  const toggleTopic = useCallback((topic: string) => {
+    setPrefs((p) => ({
+      ...p,
+      selectedTopics: p.selectedTopics.includes(topic)
+        ? p.selectedTopics.filter((t) => t !== topic)
+        : [...p.selectedTopics, topic],
+    }));
+  }, []);
+
+  return {
+    ...prefs,
+    mounted,
+    setShowSyntax,
+    setShowGrammar,
+    setShowClauses,
+    setSelectedLevels,
+    setSelectedTopics,
+    setFilterExpanded,
+    toggleLevel,
+    toggleTopic,
+  };
+}

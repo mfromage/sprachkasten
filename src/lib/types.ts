@@ -29,10 +29,30 @@ export interface GrammarTheme {
   evidence: string;
 }
 
+export interface NounPhrase {
+  text: string;
+  token_ids: number[];
+  head_token_id: number;
+  case: string;
+  case_reason: string;
+  gender: string;
+  number: string;
+  notes: string[];
+}
+
+export interface Clause {
+  type: "main" | "subordinate";
+  token_ids: number[];
+  connector: string | null;
+  verb: string;
+}
+
 export interface Sentence {
   sentence: string;
   tokens: Token[];
   units: Unit[];
+  noun_phrases: NounPhrase[];
+  clauses: Clause[];
   grammar_themes: GrammarTheme[];
 }
 

@@ -1,11 +1,11 @@
-import type { Article } from "./types";
-import article1 from "../../fixtures/artticle-1.json";
+import type { Article, Paragraph } from "./types";
+import article1 from "../../fixtures/fixture-1-1.json";
 
 const FIXTURES: Record<string, Article> = {
   "artikel-1": {
     slug: "artikel-1",
     title: "Treffen in Washington geplant / Israel greift weiter an / Vance warnt Iran vor Spiel",
-    paragraphs: article1.paragraphs,
+    paragraphs: article1.paragraphs as unknown as Paragraph[],
     vocabulary: [
       {
         word: "Regierung",

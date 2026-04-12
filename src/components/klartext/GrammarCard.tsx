@@ -1,7 +1,12 @@
+"use client";
+
+import { useCallback } from "react";
 import type { GrammarTheme } from "@/lib/types";
 
 interface GrammarCardProps {
   theme: GrammarTheme;
+  onHighlight?: (tokenIds: number[], level: string) => void;
+  onClearHighlight?: () => void;
 }
 
 const LEVEL_COLORS: Record<string, string> = {
@@ -13,12 +18,37 @@ const LEVEL_COLORS: Record<string, string> = {
   C2: "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400",
 };
 
-export function GrammarCard({ theme }: GrammarCardProps) {
+export function GrammarCard({ theme, onHighlight, onClearHighlight }: GrammarCardProps) {
   const levelClass =
     LEVEL_COLORS[theme.level] ?? "bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300";
 
+  const handleMouseEnter = useCallback(() => {
+    // Desktop: highlight on hover
+    if (window.matchMedia("(hover: hover)").matches && onHighlight) {
+      onHighlight(theme.token_ids, theme.level);
+    }
+  }, [onHighlight, theme.token_ids, theme.level]);
+
+  const handleMouseLeave = useCallback(() => {
+    if (window.matchMedia("(hover: hover)").matches && onClearHighlight) {
+      onClearHighlight();
+    }
+  }, [onClearHighlight]);
+
+  const handleClick = useCallback(() => {
+    // Mobile: toggle on tap
+    if (!window.matchMedia("(hover: hover)").matches && onHighlight) {
+      onHighlight(theme.token_ids, theme.level);
+    }
+  }, [onHighlight, theme.token_ids, theme.level]);
+
   return (
-    <div className="rounded-lg bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700/50 p-3 text-sm transition-all duration-300 animate-in slide-in-from-top-2 fade-in">
+    <div
+      className="rounded-lg bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700/50 p-3 text-sm transition-all duration-300 animate-in slide-in-from-top-2 fade-in cursor-pointer hover:border-gray-300 dark:hover:border-gray-600"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onClick={handleClick}
+    >
       <div className="flex items-center gap-2 mb-1">
         <span className="font-medium text-gray-900 dark:text-gray-100">{theme.theme}</span>
         <span
