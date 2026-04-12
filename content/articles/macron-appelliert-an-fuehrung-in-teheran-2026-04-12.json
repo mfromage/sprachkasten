@@ -28,8 +28,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["war"]
+                  "gender": "",
+                  "translations": [
+                    "war",
+                    "wars",
+                    "war of aggression",
+                    "aggressive war",
+                    "nuclear war",
+                    "war of liberation",
+                    "liberation war",
+                    "blitzkrieg"
+                  ]
                 }
               ],
               "conjugation": null
@@ -50,14 +59,9 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["trendy"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "in", "at", "into", "to"]
+                  "translations": ["on", "trendy", "trendy place", "trendy beverage"]
                 }
               ],
               "conjugation": null
@@ -79,8 +83,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["Middle East", "Near East"]
+                  "gender": "",
+                  "translations": [
+                    "the Middle East",
+                    "the Mideast",
+                    "the Near East",
+                    "Greater Middle East",
+                    "in the Middle East",
+                    "in the Mideast",
+                    "Middle-Eastern",
+                    "Mideastern"
+                  ]
                 }
               ],
               "conjugation": null
@@ -170,14 +183,15 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["appeal"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["appealed"]
+                  "translations": [
+                    "to appeal",
+                    "appealing",
+                    "appealed",
+                    "to appeal against a decision",
+                    "appeals"
+                  ]
                 }
               ],
               "conjugation": {
@@ -223,9 +237,18 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["at", "by", "on", "to"]
+                  "translations": [
+                    "on",
+                    "to deliver sth.",
+                    "delivering",
+                    "delivered",
+                    "delivers",
+                    "to deliver parcels / packages",
+                    "to furnish an additional supply of sth.",
+                    "to misdeliver sth."
+                  ]
                 }
               ],
               "conjugation": null
@@ -247,8 +270,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["guided tour", "conduct", "leadership", "leaders", "lead"]
+                  "gender": "",
+                  "translations": [
+                    "tutelage",
+                    "guided tour",
+                    "tours",
+                    "gallery tour",
+                    "self-guided audio tour",
+                    "tour of the company’s premises",
+                    "special guided tour",
+                    "self-guided tour"
+                  ]
                 }
               ],
               "conjugation": null
@@ -269,14 +301,9 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["trendy"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "in", "at", "into", "to"]
+                  "translations": ["on", "trendy", "trendy place", "trendy beverage"]
                 }
               ],
               "conjugation": null
@@ -297,7 +324,7 @@
               },
               "translations": [
                 {
-                  "pos": "",
+                  "pos": "n",
                   "gender": "",
                   "translations": ["Tehran"]
                 }
@@ -415,13 +442,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "neut",
-                  "translations": ["France"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -441,8 +462,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["president"]
+                  "gender": "",
+                  "translations": [
+                    "president /Pres.",
+                    "presidents",
+                    "Madam President",
+                    "Mister President",
+                    "President in the Chair",
+                    "honorary president",
+                    "President of the United States /POTUS",
+                    "presidential"
+                  ]
                 }
               ],
               "conjugation": null
@@ -480,9 +510,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["hold", "have", "own", "possess sth.", "have possession of sth."]
+                  "translations": [
+                    "to hold",
+                    "to have {had",
+                    "had}",
+                    "to own",
+                    "to possess sth.",
+                    "to have possession of sth.",
+                    "holding",
+                    "having"
+                  ]
                 }
               ],
               "conjugation": {
@@ -528,9 +567,18 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["at", "by", "on", "to"]
+                  "translations": [
+                    "on",
+                    "to deliver sth.",
+                    "delivering",
+                    "delivered",
+                    "delivers",
+                    "to deliver parcels / packages",
+                    "to furnish an additional supply of sth.",
+                    "to misdeliver sth."
+                  ]
                 }
               ],
               "conjugation": null
@@ -549,13 +597,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "masc",
-                  "translations": ["Iran"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -575,7 +617,7 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
+                  "gender": "",
                   "translations": ["head of state"]
                 }
               ],
@@ -614,14 +656,15 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["appeal"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["appealed"]
+                  "translations": [
+                    "to appeal",
+                    "appealing",
+                    "appealed",
+                    "to appeal against a decision",
+                    "appeals"
+                  ]
                 }
               ],
               "conjugation": {
@@ -684,14 +727,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -713,8 +760,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["liberty", "freedom", "licence", "license"]
+                  "gender": "",
+                  "translations": [
+                    "liberty",
+                    "liberties",
+                    "freedom",
+                    "freedom of decision-making",
+                    "freedom of choice",
+                    "freedom of decision",
+                    "personal freedom",
+                    "freedom of fishing"
+                  ]
                 }
               ],
               "conjugation": null
@@ -735,14 +791,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -764,8 +824,15 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["shipping industry"]
+                  "gender": "",
+                  "translations": [
+                    "shipping trade",
+                    "shipping business",
+                    "shipping industry",
+                    "maritime shipping business",
+                    "maritime shipping sector",
+                    "maritime industry"
+                  ]
                 }
               ],
               "conjugation": null
@@ -786,9 +853,9 @@
               },
               "translations": [
                 {
-                  "pos": "conj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["and", "then"]
+                  "translations": ["and", "then", "what then?", "then what?", "well?"]
                 }
               ],
               "conjugation": null
@@ -809,14 +876,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -838,8 +909,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["certitude", "sureness", "certainty", "safety", "security"]
+                  "gender": "",
+                  "translations": [
+                    "certitude",
+                    "sureness",
+                    "certainty",
+                    "to be a certainty",
+                    "safety",
+                    "safeties",
+                    "biosafety",
+                    "fire safety"
+                  ]
                 }
               ],
               "conjugation": null
@@ -860,14 +940,9 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["trendy"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "in", "at", "into", "to"]
+                  "translations": ["on", "trendy", "trendy place", "trendy beverage"]
                 }
               ],
               "conjugation": null
@@ -888,14 +963,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -917,8 +996,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["avenue", "alley", "strait", "straits", "road"]
+                  "gender": "",
+                  "translations": [
+                    "sea strait",
+                    "sea straits",
+                    "strait",
+                    "straits",
+                    "the strait between the Gulf of Oman and the Persian Gulf",
+                    "Strait of Bering",
+                    "Bering Strait",
+                    "Bering Straits"
+                  ]
                 }
               ],
               "conjugation": null
@@ -939,9 +1027,18 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["from", "of", "out of", "off"]
+                  "translations": [
+                    "from",
+                    "from the outside",
+                    "from the street",
+                    "the train from Eastbourne",
+                    "a coin from his pocket",
+                    "a document from the sixteenth century",
+                    "a letter from my aunt",
+                    "a photo from Doris"
+                  ]
                 }
               ],
               "conjugation": null
@@ -979,20 +1076,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
-                    "refit",
-                    "rebuild sth.",
-                    "retrieve",
-                    "reconstitute",
-                    "reconstruct"
+                    "retrieval",
+                    "version retrieval",
+                    "retrieval of a situation",
+                    "By then the situation was beyond retrieval.",
+                    "to rehabilitate sb.",
+                    "to restore sb. to health",
+                    "rehabilitating",
+                    "restoring to health"
                   ]
-                },
-                {
-                  "pos": "n",
-                  "gender": "neut",
-                  "translations": ["retrieval"]
                 }
               ],
               "conjugation": {
@@ -1297,9 +1392,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["herald", "adumbrate", "prefigure sth.", "signal"]
+                  "translations": [
+                    "to herald",
+                    "heralding",
+                    "heralded",
+                    "heralds",
+                    "to adumbrate",
+                    "adumbrating",
+                    "adumbrated",
+                    "to prefigure sth."
+                  ]
                 }
               ],
               "conjugation": {
@@ -1345,19 +1449,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["one"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["on"]
-                },
-                {
-                  "pos": "art",
-                  "gender": "",
-                  "translations": ["a", "an"]
+                  "translations": [
+                    "a",
+                    "an",
+                    "a child",
+                    "a woman",
+                    "an article",
+                    "one",
+                    "one week",
+                    "in one day"
+                  ]
                 }
               ],
               "conjugation": null
@@ -1396,8 +1499,14 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["clearance", "clearing out", "evacuation"]
+                  "gender": "",
+                  "translations": [
+                    "clearance",
+                    "clearing out",
+                    "house clearance",
+                    "evacuation",
+                    "evacuations"
+                  ]
                 }
               ],
               "conjugation": null
@@ -1435,14 +1544,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -1464,8 +1577,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["strait", "straits"]
+                  "gender": "",
+                  "translations": [
+                    "sea strait",
+                    "sea straits",
+                    "strait",
+                    "straits",
+                    "the strait between the Gulf of Oman and the Persian Gulf",
+                    "Strait of Bering",
+                    "Bering Strait",
+                    "Bering Straits"
+                  ]
                 }
               ],
               "conjugation": null
@@ -1486,9 +1608,18 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["at", "by", "on", "to"]
+                  "translations": [
+                    "on",
+                    "to deliver sth.",
+                    "delivering",
+                    "delivered",
+                    "delivers",
+                    "to deliver parcels / packages",
+                    "to furnish an additional supply of sth.",
+                    "to misdeliver sth."
+                  ]
                 }
               ],
               "conjugation": null
@@ -1672,9 +1803,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["hold", "have", "own", "possess sth.", "have possession of sth."]
+                  "translations": [
+                    "to hold",
+                    "to have {had",
+                    "had}",
+                    "to own",
+                    "to possess sth.",
+                    "to have possession of sth.",
+                    "holding",
+                    "having"
+                  ]
                 }
               ],
               "conjugation": {
@@ -1720,19 +1860,16 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["shy"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["for", "in front of", "ahead of", "before", "ago"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["prior to"]
+                  "translations": [
+                    "shy",
+                    "shy of midnight",
+                    "three days shy of …",
+                    "prior",
+                    "prior to",
+                    "prior to maturity"
+                  ]
                 }
               ],
               "conjugation": null
@@ -1754,13 +1891,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["reporter"]
-                },
-                {
-                  "pos": "",
                   "gender": "",
-                  "translations": ["reporters"]
+                  "translations": [
+                    "reporter",
+                    "reporters",
+                    "television reporter",
+                    "TV reporter",
+                    "criminal justice reporter",
+                    "crime reporter",
+                    "local reporter",
+                    "roving reporter"
+                  ]
                 }
               ],
               "conjugation": null
@@ -1781,14 +1922,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["speak", "tell"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["legends", "sagas", "fables"]
+                  "translations": [
+                    "legend",
+                    "saga",
+                    "legends",
+                    "sagas",
+                    "Arthurian legend",
+                    "heroic saga",
+                    "migratory legend",
+                    "fable"
+                  ]
                 }
               ],
               "conjugation": {
@@ -1851,14 +1996,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -1877,13 +2026,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "masc",
-                  "translations": ["Iran"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -1902,9 +2045,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["run", "fit in sth.", "set in sth.", "let in sb. in/into sth."]
+                  "translations": [
+                    "to consort with sb.",
+                    "to take up with sb.",
+                    "consorting",
+                    "taking up",
+                    "consorted",
+                    "taken up",
+                    "to consort together",
+                    "to consort with criminals"
+                  ]
                 }
               ],
               "conjugation": {
@@ -1950,9 +2102,18 @@
               },
               "translations": [
                 {
-                  "pos": "pron",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["each other", "one another", "yourself", "thyself", "yourselves"]
+                  "translations": [
+                    "each other",
+                    "one another",
+                    "yourself",
+                    "thyself",
+                    "You said it yourself.",
+                    "for yourself",
+                    "Know thyselves!",
+                    "Just be yourself."
+                  ]
                 }
               ],
               "conjugation": null
@@ -1973,9 +2134,9 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["potentially", "maybe", "perhaps", "possibly", "feasibly"]
+                  "translations": ["potentially"]
                 }
               ],
               "conjugation": null
@@ -1996,14 +2157,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["up"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "in", "at", "onto"]
+                  "translations": [
+                    "on",
+                    "up",
+                    "up and down",
+                    "Up you get!",
+                    "Come on!",
+                    "up to £50",
+                    "from EUR 10 up",
+                    "from the age of 16 up"
+                  ]
                 }
               ],
               "conjugation": null
@@ -2024,19 +2189,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["one"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["on"]
-                },
-                {
-                  "pos": "art",
-                  "gender": "",
-                  "translations": ["a", "an"]
+                  "translations": [
+                    "a",
+                    "an",
+                    "a child",
+                    "a woman",
+                    "an article",
+                    "one",
+                    "one week",
+                    "in one day"
+                  ]
                 }
               ],
               "conjugation": null
@@ -2058,8 +2222,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["deal", "business deal"]
+                  "gender": "",
+                  "translations": [
+                    "deal",
+                    "deals",
+                    "Are you forgetting our deal?",
+                    "I would never agree to such a deal.",
+                    "We got a good/bad deal on our holiday.",
+                    "On 17 September 1806, the war against France was a done deal.",
+                    "business deal",
+                    "business deals"
+                  ]
                 }
               ],
               "conjugation": null
@@ -2080,19 +2253,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["one"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["on"]
-                },
-                {
-                  "pos": "art",
-                  "gender": "",
-                  "translations": ["a", "an"]
+                  "translations": [
+                    "a",
+                    "an",
+                    "a child",
+                    "a woman",
+                    "an article",
+                    "one",
+                    "one week",
+                    "in one day"
+                  ]
                 }
               ],
               "conjugation": null
@@ -2130,9 +2302,9 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["potentially", "maybe", "perhaps", "possibly", "feasibly"]
+                  "translations": ["potentially"]
                 }
               ],
               "conjugation": null
@@ -2154,18 +2326,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["but"]
-                },
-                {
-                  "pos": "adv",
                   "gender": "",
-                  "translations": ["however"]
-                },
-                {
-                  "pos": "conj",
-                  "gender": "",
-                  "translations": ["but", "though"]
+                  "translations": [
+                    "but",
+                    "but for all that",
+                    "Why, yes!",
+                    "Of course not!",
+                    "Well, no!",
+                    "however",
+                    "though",
+                    "That’s possible, though not likely."
+                  ]
                 }
               ],
               "conjugation": null
@@ -2186,14 +2357,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["also", "too", "as well", "likewise", "similarly"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["for all you know", "for ought/aught you know"]
+                  "translations": [
+                    "also",
+                    "too",
+                    "as well [in Br. spoken",
+                    "in Am. formal / dated]",
+                    "We have to go as well.",
+                    "We, too, have been very pleased.",
+                    "He’s also from Wales.",
+                    "He’s from Wales, too."
+                  ]
                 }
               ],
               "conjugation": null
@@ -2214,14 +2389,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["not"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["noddies", "un…", "non-", "non…"]
+                  "translations": [
+                    "not",
+                    "not yet",
+                    "not a few",
+                    "certainly not",
+                    "not to say",
+                    "noddies",
+                    "un…",
+                    "non-"
+                  ]
                 }
               ],
               "conjugation": null
@@ -2432,20 +2611,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
-                    "autonomic",
-                    "sovereign",
+                    "self-contained",
                     "independent",
-                    "unattached",
-                    "self-contained"
+                    "self-contained course of study",
+                    "independent course of study",
+                    "self-contained chapters",
+                    "independent chapters",
+                    "self-contained system",
+                    "independent system"
                   ]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["independently"]
                 }
               ],
               "conjugation": null
@@ -2466,14 +2643,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["of them", "of it"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["thereof", "of the same …"]
+                  "translations": [
+                    "thereof",
+                    "of them",
+                    "of it",
+                    "more than 50,000 employees worldwide, of whom 20,000 in Europe",
+                    "around 60,000 mobile phone masts – a large number of which are located in Scotland",
+                    "We’ve already spent half of it.",
+                    "of the same …",
+                    "an original receipt or a certified copy thereof"
+                  ]
                 }
               ],
               "conjugation": null
@@ -2511,14 +2692,18 @@
               },
               "translations": [
                 {
-                  "pos": "pron",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["what", "wot"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["whatever", "whatsoever"]
+                  "translations": [
+                    "what",
+                    "wot",
+                    "What’s this?",
+                    "What about me?",
+                    "What’s your address?",
+                    "On what day?",
+                    "What day is it today?",
+                    "It’s amazing what’s out there!"
+                  ]
                 }
               ],
               "conjugation": null
@@ -2539,9 +2724,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["happen", "occur", "pass", "transpire", "sieve sth."]
+                  "translations": [
+                    "to happen",
+                    "happening",
+                    "occurring",
+                    "happened",
+                    "occurred",
+                    "it happens",
+                    "it occurs",
+                    "it happened"
+                  ]
                 }
               ],
               "conjugation": {
@@ -2604,14 +2798,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
-                  "gender": "",
-                  "translations": ["develop", "will", "shall", "grow"]
-                },
-                {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["development", "becoming", "genesis"]
+                  "gender": "",
+                  "translations": [
+                    "development",
+                    "becoming",
+                    "to be in development",
+                    "to be in the making",
+                    "genesis",
+                    "to develop",
+                    "developing",
+                    "developed"
+                  ]
                 }
               ],
               "conjugation": {
@@ -2657,14 +2855,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -2703,18 +2905,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["but"]
-                },
-                {
-                  "pos": "adv",
                   "gender": "",
-                  "translations": ["however"]
-                },
-                {
-                  "pos": "conj",
-                  "gender": "",
-                  "translations": ["but", "though"]
+                  "translations": [
+                    "but",
+                    "but for all that",
+                    "Why, yes!",
+                    "Of course not!",
+                    "Well, no!",
+                    "however",
+                    "though",
+                    "That’s possible, though not likely."
+                  ]
                 }
               ],
               "conjugation": null
@@ -2735,14 +2936,17 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
-                    "obtain sth.",
-                    "prepare sth.",
-                    "produce sth.",
-                    "clinch a win",
-                    "win"
+                    "to mine",
+                    "to extract",
+                    "to win sth.",
+                    "mining",
+                    "extracting",
+                    "winning",
+                    "mined",
+                    "extracted"
                   ]
                 }
               ],
@@ -2877,14 +3081,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -2922,19 +3130,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
-                  "gender": "",
-                  "translations": ["equal sth.", "give sth.", "be"]
-                },
-                {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["existence", "being"]
-                },
-                {
-                  "pos": "pron",
                   "gender": "",
-                  "translations": ["his", "its"]
+                  "translations": [
+                    "to equal sth.",
+                    "to give sth.",
+                    "Six minus four equals two.",
+                    "to be {was/were",
+                    "been}",
+                    "being",
+                    "been",
+                    "I am"
+                  ]
                 }
               ],
               "conjugation": {
@@ -2980,14 +3187,9 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["trendy"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "in", "at", "into", "to"]
+                  "translations": ["on", "trendy", "trendy place", "trendy beverage"]
                 }
               ],
               "conjugation": null
@@ -3008,9 +3210,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["damned", "greatly", "thoroughly", "jolly", "right"]
+                  "translations": [
+                    "damned",
+                    "the damnedest",
+                    "greatly",
+                    "thoroughly",
+                    "greatly / thoroughly annoying",
+                    "thoroughly anti-social",
+                    "to greatly admire sb.",
+                    "to greatly / thoroughly enjoy sth."
+                  ]
                 }
               ],
               "conjugation": null
@@ -3031,9 +3242,17 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["deep", "profound"]
+                  "translations": [
+                    "deep",
+                    "profound",
+                    "a deep discussion on the meaning of life.",
+                    "a deep/profound understanding of sth.",
+                    "deep/profound reforms",
+                    "profound/deep changes",
+                    "This book is far too deep for me."
+                  ]
                 }
               ],
               "conjugation": null
@@ -3055,13 +3274,16 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
+                  "gender": "",
                   "translations": [
                     "trial",
+                    "pretrial",
+                    "to proceed with the trial",
+                    "to dispose of a case without trial",
                     "bargaining",
-                    "negotiations",
+                    "tough bargaining",
                     "negotiation",
-                    "arguments"
+                    "contract negotiation"
                   ]
                 }
               ],
@@ -3083,19 +3305,16 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["too", "as well"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["as from", "as of"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["with", "cum"]
+                  "translations": [
+                    "as from",
+                    "as of",
+                    "The project was terminated as of July 1.",
+                    "too",
+                    "as well",
+                    "to be there too"
+                  ]
                 }
               ],
               "conjugation": null
@@ -3116,14 +3335,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -3142,13 +3365,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "masc",
-                  "translations": ["Iran"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -3184,14 +3401,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
-                  "gender": "",
-                  "translations": ["go on to say", "state further", "add that …", "add on"]
-                },
-                {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["addition"]
+                  "gender": "",
+                  "translations": [
+                    "addition",
+                    "without the addition of",
+                    "without adding",
+                    "while adding of",
+                    "the addition of an extra name to the headstone",
+                    "the addition of new computers to the school",
+                    "the addition of further users to the right of way",
+                    "to thicken the soup by the addition of cream"
+                  ]
                 }
               ],
               "conjugation": {
@@ -3235,13 +3456,7 @@
                 "mood": null,
                 "person": "3"
               },
-              "translations": [
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["he"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -3422,12 +3637,7 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["for"]
-                },
-                {
-                  "pos": "",
+                  "pos": "n",
                   "gender": "",
                   "translations": ["per"]
                 }
@@ -3450,9 +3660,18 @@
               },
               "translations": [
                 {
-                  "pos": "",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["him"]
+                  "translations": [
+                    "he",
+                    "he is",
+                    "he’s",
+                    "Is that him?",
+                    "It’s him.",
+                    "him",
+                    "I told him that …",
+                    "he and his"
+                  ]
                 }
               ],
               "conjugation": null
@@ -3473,14 +3692,17 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
-                    "make",
-                    "put in",
-                    "send in",
-                    "submit a tender/bid for sth.",
-                    "equal sth."
+                    "tender",
+                    "bid",
+                    "tenders",
+                    "bids",
+                    "syndicate bid",
+                    "syndicated bid",
+                    "a tender for the renovation project",
+                    "a bid for the renovation project"
                   ]
                 }
               ],
@@ -3528,13 +3750,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["E", "E sharp", "E flat", "E double sharp", "E double flat"]
-                },
-                {
-                  "pos": "pron",
                   "gender": "",
-                  "translations": ["it"]
+                  "translations": [
+                    "E",
+                    "E sharp",
+                    "E flat",
+                    "E double sharp",
+                    "E double flat",
+                    "E Major",
+                    "E minor",
+                    "id"
+                  ]
                 }
               ],
               "conjugation": null
@@ -3556,18 +3782,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["but"]
-                },
-                {
-                  "pos": "adv",
                   "gender": "",
-                  "translations": ["however"]
-                },
-                {
-                  "pos": "conj",
-                  "gender": "",
-                  "translations": ["but", "though"]
+                  "translations": [
+                    "but",
+                    "but for all that",
+                    "Why, yes!",
+                    "Of course not!",
+                    "Well, no!",
+                    "however",
+                    "though",
+                    "That’s possible, though not likely."
+                  ]
                 }
               ],
               "conjugation": null
@@ -3586,7 +3811,13 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [],
+              "translations": [
+                {
+                  "pos": "n",
+                  "gender": "",
+                  "translations": ["no", "under no circumstances", "She didn’t say a word."]
+                }
+              ],
               "conjugation": null
             },
             {
@@ -3606,13 +3837,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["contrast", "distinction", "difference"]
-                },
-                {
-                  "pos": "",
                   "gender": "",
-                  "translations": ["distinguished", "differentiated", "discerned", "discriminated"]
+                  "translations": [
+                    "contrast (with",
+                    "to)",
+                    "contrasts",
+                    "in contrast to",
+                    "by contrast",
+                    "contrary to",
+                    "as opposed to",
+                    "to contrast"
+                  ]
                 }
               ],
               "conjugation": null
@@ -3651,18 +3886,14 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["Ob"]
-                },
-                {
-                  "pos": "conj",
                   "gender": "",
-                  "translations": ["whether", "if"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on account of"]
+                  "translations": [
+                    "whether",
+                    "if",
+                    "on account of",
+                    "Do not be angry at me on account of these words.",
+                    "Ob"
+                  ]
                 }
               ],
               "conjugation": null
@@ -3684,13 +3915,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["E", "E sharp", "E flat", "E double sharp", "E double flat"]
-                },
-                {
-                  "pos": "pron",
                   "gender": "",
-                  "translations": ["it"]
+                  "translations": [
+                    "E",
+                    "E sharp",
+                    "E flat",
+                    "E double sharp",
+                    "E double flat",
+                    "E Major",
+                    "E minor",
+                    "id"
+                  ]
                 }
               ],
               "conjugation": null
@@ -3711,19 +3946,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["one"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["on"]
-                },
-                {
-                  "pos": "art",
-                  "gender": "",
-                  "translations": ["a", "an"]
+                  "translations": [
+                    "a",
+                    "an",
+                    "a child",
+                    "a woman",
+                    "an article",
+                    "one",
+                    "one week",
+                    "in one day"
+                  ]
                 }
               ],
               "conjugation": null
@@ -3745,8 +3979,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["deal", "business deal"]
+                  "gender": "",
+                  "translations": [
+                    "deal",
+                    "deals",
+                    "Are you forgetting our deal?",
+                    "I would never agree to such a deal.",
+                    "We got a good/bad deal on our holiday.",
+                    "On 17 September 1806, the war against France was a done deal.",
+                    "business deal",
+                    "business deals"
+                  ]
                 }
               ],
               "conjugation": null
@@ -3767,19 +4010,16 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["too", "as well"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["as from", "as of"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["with", "cum"]
+                  "translations": [
+                    "as from",
+                    "as of",
+                    "The project was terminated as of July 1.",
+                    "too",
+                    "as well",
+                    "to be there too"
+                  ]
                 }
               ],
               "conjugation": null
@@ -3800,14 +4040,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -3826,13 +4070,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "masc",
-                  "translations": ["Iran"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -3851,9 +4089,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["perform sth.", "deal", "deal out", "equal sth.", "give sth."]
+                  "translations": [
+                    "to perform sth.",
+                    "performing",
+                    "performed",
+                    "performs",
+                    "unperformed",
+                    "to perform a play",
+                    "to perform renaissance-style entertainments",
+                    "to perform the part/role of King Lear"
+                  ]
                 }
               ],
               "conjugation": {
@@ -4067,13 +4314,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "masc",
-                  "translations": ["Iran"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -4092,9 +4333,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["hold", "have", "own", "possess sth.", "have possession of sth."]
+                  "translations": [
+                    "to hold",
+                    "to have {had",
+                    "had}",
+                    "to own",
+                    "to possess sth.",
+                    "to have possession of sth.",
+                    "holding",
+                    "having"
+                  ]
                 }
               ],
               "conjugation": {
@@ -4141,13 +4391,16 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
+                  "gender": "",
                   "translations": [
                     "piece of information",
                     "information",
-                    "specification",
-                    "swank",
-                    "boasting"
+                    "pieces of information",
+                    "info",
+                    "passenger information",
+                    "financial information",
+                    "finance information",
+                    "basic information"
                   ]
                 }
               ],
@@ -4169,14 +4422,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -4214,9 +4471,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["disclaim sth.", "refute sth.", "disavow sth."]
+                  "translations": [
+                    "to disclaim sth.",
+                    "to refute sth.",
+                    "to disavow sth.",
+                    "disclaiming",
+                    "refuting",
+                    "disavowing",
+                    "disclaimed",
+                    "refuted"
+                  ]
                 }
               ],
               "conjugation": {
@@ -4279,14 +4545,16 @@
               },
               "translations": [
                 {
-                  "pos": "",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["what … for", "what … of", "according to which"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["whereupon"]
+                  "translations": [
+                    "what … for",
+                    "what … of",
+                    "What are you looking for?",
+                    "whereupon",
+                    "according to which",
+                    "a rule, according to which"
+                  ]
                 }
               ],
               "conjugation": null
@@ -4309,17 +4577,16 @@
                 {
                   "pos": "n",
                   "gender": "",
-                  "translations": ["a brace of", "deuce", "twain", "two"]
-                },
-                {
-                  "pos": "num",
-                  "gender": "",
-                  "translations": ["two"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["twain"]
+                  "translations": [
+                    "a brace of",
+                    "a brace of goals",
+                    "a brace of wins",
+                    "a brace of men at a table",
+                    "twain",
+                    "two",
+                    "two and a half",
+                    "two days running"
+                  ]
                 }
               ],
               "conjugation": null
@@ -4357,14 +4624,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -4386,8 +4657,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["avenue", "alley", "strait", "straits", "road"]
+                  "gender": "",
+                  "translations": [
+                    "sea strait",
+                    "sea straits",
+                    "strait",
+                    "straits",
+                    "the strait between the Gulf of Oman and the Persian Gulf",
+                    "Strait of Bering",
+                    "Bering Strait",
+                    "Bering Straits"
+                  ]
                 }
               ],
               "conjugation": null
@@ -4408,9 +4688,18 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["from", "of", "out of", "off"]
+                  "translations": [
+                    "from",
+                    "from the outside",
+                    "from the street",
+                    "the train from Eastbourne",
+                    "a coin from his pocket",
+                    "a document from the sixteenth century",
+                    "a letter from my aunt",
+                    "a photo from Doris"
+                  ]
                 }
               ],
               "conjugation": null
@@ -4448,9 +4737,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["traverse", "ford", "cross"]
+                  "translations": [
+                    "transit",
+                    "transit through a zodiac sign",
+                    "to ford an area of water",
+                    "fording an area of water",
+                    "forded an area of water",
+                    "to pass through",
+                    "to pass across",
+                    "to cross"
+                  ]
                 }
               ],
               "conjugation": {
@@ -4654,14 +4952,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -4682,36 +4984,17 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
-                    "matching",
-                    "appropriate",
-                    "adequate",
-                    "pertinent",
-                    "commensurate"
-                  ]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": [
-                    "analogically",
-                    "by analogy",
-                    "in the same way",
-                    "accordingly",
-                    "correlatively"
-                  ]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": [
+                    "observance",
+                    "observation",
+                    "adherence",
+                    "compliance",
+                    "observance of the regulation",
+                    "compliance with the regulation",
                     "in observance of sth.",
-                    "in adherence to sth.",
-                    "in compliance with sth.",
-                    "corresponding",
-                    "being in accordance with"
+                    "in adherence to sth."
                   ]
                 }
               ],
@@ -4734,13 +5017,16 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
+                  "gender": "",
                   "translations": [
                     "piece of information",
                     "information",
-                    "specification",
-                    "swank",
-                    "boasting"
+                    "pieces of information",
+                    "info",
+                    "passenger information",
+                    "financial information",
+                    "finance information",
+                    "basic information"
                   ]
                 }
               ],
@@ -4762,14 +5048,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -4790,12 +5080,7 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["for"]
-                },
-                {
-                  "pos": "",
+                  "pos": "n",
                   "gender": "",
                   "translations": ["per"]
                 }
@@ -4818,14 +5103,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -4846,14 +5135,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["near", "nearby", "close-by", "close", "proximal"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["close"]
+                  "translations": [
+                    "near",
+                    "proximate",
+                    "nigh",
+                    "nearer",
+                    "nearest",
+                    "from near and far",
+                    "nearby",
+                    "close-by"
+                  ]
                 }
               ],
               "conjugation": null
@@ -4875,8 +5168,8 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["East", "orient"]
+                  "gender": "",
+                  "translations": ["East /E", "orient"]
                 }
               ],
               "conjugation": null
@@ -4897,9 +5190,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["responsible", "competent", "relevant"]
+                  "translations": [
+                    "responsible",
+                    "fully responsible",
+                    "with overall responsibility",
+                    "holding overall responsibility",
+                    "to be primarily / mainly responsible for sth.",
+                    "to be responsible for",
+                    "the responsible minister",
+                    "He is responsible for recruiting and training new staff."
+                  ]
                 }
               ],
               "conjugation": null
@@ -4954,14 +5256,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
-                  "gender": "",
-                  "translations": ["develop", "will", "shall", "grow"]
-                },
-                {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["development", "becoming", "genesis"]
+                  "gender": "",
+                  "translations": [
+                    "development",
+                    "becoming",
+                    "to be in development",
+                    "to be in the making",
+                    "genesis",
+                    "to develop",
+                    "developing",
+                    "developed"
+                  ]
                 }
               ],
               "conjugation": {
@@ -5024,14 +5330,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["abrasive", "biting", "cutting", "mordant", "pungent"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["bitingly", "cuttingly", "mordantly", "pungently", "stingingly"]
+                  "translations": [
+                    "abrasive",
+                    "abrasive criticism",
+                    "biting",
+                    "cutting",
+                    "mordant",
+                    "pungent",
+                    "stinging",
+                    "sharp"
+                  ]
                 }
               ],
               "conjugation": null
@@ -5052,14 +5362,17 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
-                    "reject sth.",
-                    "dismiss sth.",
-                    "quash sth.",
-                    "rebuff sb.",
-                    "spur sb."
+                    "to reject sth.",
+                    "rejecting",
+                    "rejected",
+                    "rejects",
+                    "to reject a petition/request",
+                    "to reject food",
+                    "to reject a sample",
+                    "to dismiss sth."
                   ]
                 }
               ],
@@ -5140,14 +5453,17 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
-                    "profess sth.",
-                    "pronounce sth.",
-                    "explain",
-                    "adjudge",
-                    "clarify sth."
+                    "to profess sth.",
+                    "professing",
+                    "professed",
+                    "professes",
+                    "to profess little enthusiasm",
+                    "to profess his love for her",
+                    "to profess your innocence",
+                    "She professed herself amazed at the success the film has had."
                   ]
                 }
               ],
@@ -5194,14 +5510,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -5222,7 +5542,7 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
                   "translations": ["Iranian"]
                 }
@@ -5296,14 +5616,17 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
                     "on",
-                    "according to",
-                    "in accordance with",
-                    "in conformity with",
-                    "as per"
+                    "to resort",
+                    "resorting",
+                    "resorted",
+                    "pursuant to sth.",
+                    "under sth.",
+                    "as defined in sth.",
+                    "pursuant to the laws of New York State"
                   ]
                 }
               ],
@@ -5326,13 +5649,16 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
+                  "gender": "",
                   "translations": [
                     "piece of information",
                     "information",
-                    "specification",
-                    "swank",
-                    "boasting"
+                    "pieces of information",
+                    "info",
+                    "passenger information",
+                    "financial information",
+                    "finance information",
+                    "basic information"
                   ]
                 }
               ],
@@ -5354,14 +5680,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -5383,7 +5713,7 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
+                  "gender": "",
                   "translations": ["state television", "state-run television"]
                 }
               ],
@@ -5636,14 +5966,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -5665,8 +5999,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["decision", "ruling", "determination", "fiat", "move"]
+                  "gender": "",
+                  "translations": [
+                    "decision",
+                    "decisions",
+                    "reasoned decision",
+                    "final decision",
+                    "temporary decision",
+                    "provisional decision",
+                    "financing decision",
+                    "ministerial decision"
+                  ]
                 }
               ],
               "conjugation": null
@@ -5687,19 +6030,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["upwards of", "over"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "by", "above", "over", "across"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["in excess of", "by way of"]
+                  "translations": [
+                    "on",
+                    "upwards of",
+                    "upwards of 100 employees",
+                    "upwards of 500 °C",
+                    "by way of",
+                    "over",
+                    "in excess of",
+                    "cost in excess of USD 50,000"
+                  ]
                 }
               ],
               "conjugation": null
@@ -5720,14 +6062,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -5749,8 +6095,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["lane", "shipping lane", "transit passage", "passage", "transit"]
+                  "gender": "",
+                  "translations": [
+                    "lane",
+                    "shipping lane",
+                    "transit passage",
+                    "passage",
+                    "suspension of innocent passage",
+                    "transit",
+                    "air transit",
+                    "transit of persons"
+                  ]
                 }
               ],
               "conjugation": null
@@ -5771,9 +6126,18 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["from", "of", "out of", "off"]
+                  "translations": [
+                    "from",
+                    "from the outside",
+                    "from the street",
+                    "the train from Eastbourne",
+                    "a coin from his pocket",
+                    "a document from the sixteenth century",
+                    "a letter from my aunt",
+                    "a photo from Doris"
+                  ]
                 }
               ],
               "conjugation": null
@@ -5794,9 +6158,18 @@
               },
               "translations": [
                 {
-                  "pos": "pron",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["which", "who", "some", "any"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -5818,8 +6191,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["ship", "boat", "vessel"]
+                  "gender": "",
+                  "translations": [
+                    "ship",
+                    "boat",
+                    "ships",
+                    "boats",
+                    "small ship",
+                    "excursion ship",
+                    "sightseeing boat",
+                    "tour boat"
+                  ]
                 }
               ],
               "conjugation": null
@@ -5840,14 +6222,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["also", "too", "as well", "likewise", "similarly"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["for all you know", "for ought/aught you know"]
+                  "translations": [
+                    "also",
+                    "too",
+                    "as well [in Br. spoken",
+                    "in Am. formal / dated]",
+                    "We have to go as well.",
+                    "We, too, have been very pleased.",
+                    "He’s also from Wales.",
+                    "He’s from Wales, too."
+                  ]
                 }
               ],
               "conjugation": null
@@ -5868,9 +6254,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["always", "aye", "all the time", "24/7", "ever"]
+                  "translations": [
+                    "always",
+                    "aye",
+                    "used to + verb",
+                    "It used to be.",
+                    "Things aren’t what they used to be.",
+                    "I used to play the piano a lot.",
+                    "Didn’t you use to have long hair?",
+                    "You didn’t use to be like this."
+                  ]
                 }
               ],
               "conjugation": null
@@ -5891,14 +6286,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
-                  "gender": "",
-                  "translations": ["lie", "be located", "be situated"]
-                },
-                {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["recumbency"]
+                  "gender": "",
+                  "translations": [
+                    "couch",
+                    "couches",
+                    "The couch folds out.",
+                    "to lie {lay",
+                    "lain}",
+                    "lying",
+                    "lain",
+                    "he/she lies"
+                  ]
                 }
               ],
               "conjugation": {
@@ -5944,14 +6343,18 @@
               },
               "translations": [
                 {
-                  "pos": "",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["care of"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "near", "by", "at", "with"]
+                  "translations": [
+                    "address",
+                    "addresses",
+                    "company address",
+                    "company’s address",
+                    "house address",
+                    "residential address",
+                    "business address",
+                    "care of /c/o"
+                  ]
                 }
               ],
               "conjugation": null
@@ -5972,14 +6375,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -6017,14 +6424,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -6045,9 +6456,9 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["Islamic", "Islamicate"]
+                  "translations": ["Islamic", "islamic group /IG", "Islamic law", "Islamicate"]
                 }
               ],
               "conjugation": null
@@ -6066,13 +6477,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "fem",
-                  "translations": ["republic"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -6089,13 +6494,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "masc",
-                  "translations": ["Iran"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -6148,20 +6547,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
-                    "accent",
-                    "accentuate",
-                    "underline sth.",
-                    "underscore sth.",
-                    "emphasize sth."
+                    "emphasizing",
+                    "to accent",
+                    "to accentuate",
+                    "accenting",
+                    "accentuating",
+                    "accented",
+                    "accentuated",
+                    "accents"
                   ]
-                },
-                {
-                  "pos": "n",
-                  "gender": "neut",
-                  "translations": ["emphasizing"]
                 }
               ],
               "conjugation": {
@@ -6205,13 +6602,7 @@
                 "mood": null,
                 "person": "3"
               },
-              "translations": [
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["he"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -6405,14 +6796,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -6434,8 +6829,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["permission", "permit", "concession", "say-so"]
+                  "gender": "",
+                  "translations": [
+                    "permission",
+                    "permissions",
+                    "permission to go out",
+                    "permission to film",
+                    "permission to shoot",
+                    "shooting permission",
+                    "permissions to film",
+                    "permissions to shoot"
+                  ]
                 }
               ],
               "conjugation": null
@@ -6456,20 +6860,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
-                    "be in force",
-                    "be effective",
-                    "be valid",
-                    "hold true",
-                    "hold good"
+                    "force",
+                    "to be in force",
+                    "to be effective",
+                    "to come/enter into force",
+                    "to be incepted",
+                    "to remain in force",
+                    "to bring sth. into force",
+                    "to put sth. into effect"
                   ]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["be effective"]
                 }
               ],
               "conjugation": {
@@ -6515,14 +6917,15 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
                     "in addition",
                     "additionally",
                     "besides",
                     "what is more",
-                    "moreover"
+                    "moreover",
+                    "I don’t want to bore you, and besides it’s getting late."
                   ]
                 }
               ],
@@ -6544,14 +6947,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["other than", "no more than", "merely", "only", "just"]
-                },
-                {
-                  "pos": "conj",
-                  "gender": "",
-                  "translations": ["but for", "except for"]
+                  "translations": [
+                    "other than",
+                    "but other than that",
+                    "none other than the president",
+                    "I don’t know any German people other than you.",
+                    "You can’t get there other than by foot.",
+                    "The truth was known to no one other than himself.",
+                    "She doesn’t eat meat, but other than that she’ll eat just about anything.",
+                    "no person other than yourself"
+                  ]
                 }
               ],
               "conjugation": null
@@ -6573,13 +6980,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["jack", "knave"]
-                },
-                {
-                  "pos": "prep",
                   "gender": "",
-                  "translations": ["under", "below", "underneath", "among", "amongst"]
+                  "translations": [
+                    "jack",
+                    "knave",
+                    "jack of hearts",
+                    "jack of diamonds",
+                    "jack of clubs",
+                    "jack of spades",
+                    "beneath",
+                    "underneath"
+                  ]
                 }
               ],
               "conjugation": null
@@ -6600,9 +7011,15 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["nitty-gritty", "specific", "intrinsic"]
+                  "translations": [
+                    "nitty-gritty",
+                    "specific",
+                    "highly specific",
+                    "intrinsic",
+                    "intrinsic value"
+                  ]
                 }
               ],
               "conjugation": null
@@ -6624,8 +7041,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["condition", "requirement", "stipulation", "qualifier"]
+                  "gender": "",
+                  "translations": [
+                    "condition",
+                    "requirement",
+                    "building requirements",
+                    "planning condition",
+                    "on condition",
+                    "conditions",
+                    "reasonable term and condition",
+                    "outdoor conditions"
+                  ]
                 }
               ],
               "conjugation": null
@@ -6741,14 +7167,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["up"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "in", "at", "onto"]
+                  "translations": [
+                    "on",
+                    "up",
+                    "up and down",
+                    "Up you get!",
+                    "Come on!",
+                    "up to £50",
+                    "from EUR 10 up",
+                    "from the age of 16 up"
+                  ]
                 }
               ],
               "conjugation": null
@@ -6769,19 +7199,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["any"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["any"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["anybody", "anyone", "every", "each"]
+                  "translations": [
+                    "some",
+                    "Some wit has added a naught.",
+                    "any",
+                    "every",
+                    "each",
+                    "every time",
+                    "each time",
+                    "every other"
+                  ]
                 }
               ],
               "conjugation": null
@@ -6803,8 +7232,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["experiment", "trial", "attempt", "try", "trying"]
+                  "gender": "",
+                  "translations": [
+                    "experiment",
+                    "trial",
+                    "experiments",
+                    "trials",
+                    "double-slit experiment",
+                    "thought experiment",
+                    "school experiment",
+                    "pallet experiment"
+                  ]
                 }
               ],
               "conjugation": null
@@ -6842,14 +7280,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -6871,8 +7313,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["strait", "straits", "navigable waterway", "naviation waterway"]
+                  "gender": "",
+                  "translations": [
+                    "sea strait",
+                    "sea straits",
+                    "strait",
+                    "straits",
+                    "the strait between the Gulf of Oman and the Persian Gulf",
+                    "Strait of Bering",
+                    "Bering Strait",
+                    "Bering Straits"
+                  ]
                 }
               ],
               "conjugation": null
@@ -6893,19 +7344,16 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["too", "as well"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["as from", "as of"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["with", "cum"]
+                  "translations": [
+                    "as from",
+                    "as of",
+                    "The project was terminated as of July 1.",
+                    "too",
+                    "as well",
+                    "to be there too"
+                  ]
                 }
               ],
               "conjugation": null
@@ -6926,19 +7374,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["one"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["on"]
-                },
-                {
-                  "pos": "art",
-                  "gender": "",
-                  "translations": ["a", "an"]
+                  "translations": [
+                    "a",
+                    "an",
+                    "a child",
+                    "a woman",
+                    "an article",
+                    "one",
+                    "one week",
+                    "in one day"
+                  ]
                 }
               ],
               "conjugation": null
@@ -6960,8 +7407,8 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["warship", "man-of-war"]
+                  "gender": "",
+                  "translations": ["warship", "warships", "surface warship", "man-of-war"]
                 }
               ],
               "conjugation": null
@@ -6982,19 +7429,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["closed", "shut"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["too"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["to", "with", "at", "on", "for"]
+                  "translations": [
+                    "closed",
+                    "shut",
+                    "closed from 1 to 3 p.m.",
+                    "We’re closed",
+                    "We’re shut.",
+                    "to",
+                    "to the",
+                    "to go to the window"
+                  ]
                 }
               ],
               "conjugation": null
@@ -7015,19 +7461,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
-                  "gender": "",
-                  "translations": ["go through", "pass through"]
-                },
-                {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["transit passage", "passage"]
-                },
-                {
-                  "pos": "",
                   "gender": "",
-                  "translations": ["thrilled through"]
+                  "translations": [
+                    "transit passage",
+                    "passage",
+                    "suspension of innocent passage",
+                    "to thrill through sb.",
+                    "thrilling through",
+                    "thrilled through",
+                    "Pleasure thrilled through every nerve in his body.",
+                    "As she watched his back disappear, a strange emotion thrilled up into her chest."
+                  ]
                 }
               ],
               "conjugation": {
@@ -7090,14 +7535,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
-                  "gender": "",
-                  "translations": ["develop", "will", "shall", "grow"]
-                },
-                {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["development", "becoming", "genesis"]
+                  "gender": "",
+                  "translations": [
+                    "development",
+                    "becoming",
+                    "to be in development",
+                    "to be in the making",
+                    "genesis",
+                    "to develop",
+                    "developing",
+                    "developed"
+                  ]
                 }
               ],
               "conjugation": {
@@ -7143,14 +7592,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -7169,13 +7622,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "masc",
-                  "translations": ["Iran"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -7194,19 +7641,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["one"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["on"]
-                },
-                {
-                  "pos": "art",
-                  "gender": "",
-                  "translations": ["a", "an"]
+                  "translations": [
+                    "a",
+                    "an",
+                    "a child",
+                    "a woman",
+                    "an article",
+                    "one",
+                    "one week",
+                    "in one day"
+                  ]
                 }
               ],
               "conjugation": null
@@ -7244,14 +7690,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["good at", "fierce", "sound", "violent", "heavy"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["deeply", "strongly", "potently", "stiffly"]
+                  "translations": [
+                    "pronouncedly",
+                    "a pronouncedly mild winter",
+                    "pronouncedly negative economic growth",
+                    "more pronouncedly neoliberal bent",
+                    "good at",
+                    "fierce",
+                    "to look fierce",
+                    "The band is back and sounds as fierce as ever."
+                  ]
                 }
               ],
               "conjugation": null
@@ -7273,8 +7723,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["answer", "reply", "response"]
+                  "gender": "",
+                  "translations": [
+                    "answer",
+                    "reply",
+                    "answers",
+                    "replies",
+                    "We shall be much obliged by an early answer from you",
+                    "the answer to this riddle",
+                    "More money is not the answer to this problem.",
+                    "The dilemma has no simple answers."
+                  ]
                 }
               ],
               "conjugation": null
@@ -7312,9 +7771,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["perform sth.", "deal", "deal out", "equal sth.", "give sth."]
+                  "translations": [
+                    "to perform sth.",
+                    "performing",
+                    "performed",
+                    "performs",
+                    "unperformed",
+                    "to perform a play",
+                    "to perform renaissance-style entertainments",
+                    "to perform the part/role of King Lear"
+                  ]
                 }
               ],
               "conjugation": {
@@ -7506,13 +7974,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "neut",
-                  "translations": ["Israel"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -7573,14 +8035,17 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
                     "on",
-                    "according to",
-                    "in accordance with",
-                    "in conformity with",
-                    "as per"
+                    "to resort",
+                    "resorting",
+                    "resorted",
+                    "pursuant to sth.",
+                    "under sth.",
+                    "as defined in sth.",
+                    "pursuant to the laws of New York State"
                   ]
                 }
               ],
@@ -7603,8 +8068,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["word"]
+                  "gender": "",
+                  "translations": [
+                    "word",
+                    "words",
+                    "derivative",
+                    "native word",
+                    "technical word",
+                    "function word",
+                    "a whole word",
+                    "loanword"
+                  ]
                 }
               ],
               "conjugation": null
@@ -7625,9 +8099,18 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["from", "of", "out of", "off"]
+                  "translations": [
+                    "from",
+                    "from the outside",
+                    "from the street",
+                    "the train from Eastbourne",
+                    "a coin from his pocket",
+                    "a document from the sixteenth century",
+                    "a letter from my aunt",
+                    "a photo from Doris"
+                  ]
                 }
               ],
               "conjugation": null
@@ -7649,13 +8132,14 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["Prime Minister", "Taoiseach"]
-                },
-                {
-                  "pos": "",
                   "gender": "",
-                  "translations": ["Prime Ministers"]
+                  "translations": [
+                    "Prime Minister /PM",
+                    "Taoiseach",
+                    "Prime Ministers",
+                    "deputy prime minister",
+                    "Tánaiste"
+                  ]
                 }
               ],
               "conjugation": null
@@ -7710,19 +8194,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["one"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["on"]
-                },
-                {
-                  "pos": "art",
-                  "gender": "",
-                  "translations": ["a", "an"]
+                  "translations": [
+                    "a",
+                    "an",
+                    "a child",
+                    "a woman",
+                    "an article",
+                    "one",
+                    "one week",
+                    "in one day"
+                  ]
                 }
               ],
               "conjugation": null
@@ -7760,19 +8243,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["authentic", "genuine", "unfeigned", "real", "devout"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["genuinely", "properly", "sure"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["bona fide", "Yessir"]
+                  "translations": [
+                    "devout",
+                    "It is my devout hope that they can live together in peace.",
+                    "genuinely",
+                    "resistant",
+                    "stable",
+                    "proof",
+                    "resistant / stable at red heat",
+                    "light-resisting"
+                  ]
                 }
               ],
               "conjugation": null
@@ -7794,13 +8276,13 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["peace agreement", "peace treaty"]
-                },
-                {
-                  "pos": "",
                   "gender": "",
-                  "translations": ["peace agreements", "peace treaties"]
+                  "translations": [
+                    "peace agreement",
+                    "peace treaty",
+                    "peace agreements",
+                    "peace treaties"
+                  ]
                 }
               ],
               "conjugation": null
@@ -7838,19 +8320,16 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["too", "as well"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["as from", "as of"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["with", "cum"]
+                  "translations": [
+                    "as from",
+                    "as of",
+                    "The project was terminated as of July 1.",
+                    "too",
+                    "as well",
+                    "to be there too"
+                  ]
                 }
               ],
               "conjugation": null
@@ -7871,14 +8350,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -7897,13 +8380,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "masc",
-                  "translations": ["Lebanon"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -7922,9 +8399,18 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["at", "by", "on", "to"]
+                  "translations": [
+                    "on",
+                    "to deliver sth.",
+                    "delivering",
+                    "delivered",
+                    "delivers",
+                    "to deliver parcels / packages",
+                    "to furnish an additional supply of sth.",
+                    "to misdeliver sth."
+                  ]
                 }
               ],
               "conjugation": null
@@ -8115,14 +8601,17 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
-                    "corroborate",
-                    "fortify",
-                    "confirm sth.",
-                    "vouch for sth.",
-                    "cement"
+                    "to confirm sth.",
+                    "to affirm sth.",
+                    "to vouch for sth.",
+                    "confirming",
+                    "affirming",
+                    "vouching for",
+                    "confirmed",
+                    "affirmed"
                   ]
                 }
               ],
@@ -8169,25 +8658,17 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
                     "simultaneous",
-                    "concurrent",
-                    "coeval",
-                    "contemporaneous",
-                    "coetaneous"
-                  ]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": [
                     "simultaneously",
-                    "at the same time",
+                    "The administrative fee must be paid in simultaneously.",
+                    "She was writing, eating, and talking all at the same time.",
+                    "concurrent",
+                    "to be concurrent with sth.",
                     "concurrently",
-                    "coevally",
-                    "on the fly"
+                    "isochronal"
                   ]
                 }
               ],
@@ -8224,13 +8705,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "neut",
-                  "translations": ["Israel"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -8249,9 +8724,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["fight", "strive", "war", "tussle", "battle"]
+                  "translations": [
+                    "to fight {fought",
+                    "fought}",
+                    "fighting",
+                    "fought",
+                    "he/she fights",
+                    "I/he/she fought",
+                    "he/she has/had fought",
+                    "to fight in the war"
+                  ]
                 }
               ],
               "conjugation": {
@@ -8297,19 +8781,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["following", "more"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["along", "on", "onward", "onwards", "further"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["broader", "farther", "further", "larger", "longer"]
+                  "translations": [
+                    "broad",
+                    "broader",
+                    "broadest",
+                    "far",
+                    "farther",
+                    "further",
+                    "farthest",
+                    "furthest"
+                  ]
                 }
               ],
               "conjugation": null
@@ -8330,14 +8813,15 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["about", "around"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["against", "towards", "toward", "versus"]
+                  "translations": [
+                    "about",
+                    "about six o’clock",
+                    "around",
+                    "about/around five in the morning",
+                    "versus /vs."
+                  ]
                 }
               ],
               "conjugation": null
@@ -8358,14 +8842,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -8386,7 +8874,7 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
                   "translations": ["Lebanese"]
                 }
@@ -8443,9 +8931,18 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["until", "till", "'til", "up until", "up till"]
+                  "translations": [
+                    "pending",
+                    "pending the arrest warrant",
+                    "Their identity was not made public, pending notification of the relatives.",
+                    "Flight operations were suspended pending investigation of the crash.",
+                    "by",
+                    "no later than",
+                    "at the latest",
+                    "at ten at the latest"
+                  ]
                 }
               ],
               "conjugation": null
@@ -8466,14 +8963,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -8495,8 +8996,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["certitude", "sureness", "certainty", "safety", "security"]
+                  "gender": "",
+                  "translations": [
+                    "certitude",
+                    "sureness",
+                    "certainty",
+                    "to be a certainty",
+                    "safety",
+                    "safeties",
+                    "biosafety",
+                    "fire safety"
+                  ]
                 }
               ],
               "conjugation": null
@@ -8517,14 +9027,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -8546,8 +9060,8 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["small town or village"]
+                  "gender": "",
+                  "translations": ["small town or village", "small towns or villages"]
                 }
               ],
               "conjugation": null
@@ -8568,14 +9082,9 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["trendy"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "in", "at", "into", "to"]
+                  "translations": ["on", "trendy", "trendy place", "trendy beverage"]
                 }
               ],
               "conjugation": null
@@ -8597,8 +9106,8 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "masc",
-                  "translations": ["north"]
+                  "gender": "",
+                  "translations": ["north /N"]
                 }
               ],
               "conjugation": null
@@ -8617,13 +9126,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "neut",
-                  "translations": ["Israel"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -8684,19 +9187,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
-                  "gender": "",
-                  "translations": ["equal sth.", "give sth.", "be"]
-                },
-                {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["existence", "being"]
-                },
-                {
-                  "pos": "pron",
                   "gender": "",
-                  "translations": ["his", "its"]
+                  "translations": [
+                    "to equal sth.",
+                    "to give sth.",
+                    "Six minus four equals two.",
+                    "to be {was/were",
+                    "been}",
+                    "being",
+                    "been",
+                    "I am"
+                  ]
                 }
               ],
               "conjugation": {
@@ -8965,14 +9467,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -8993,7 +9499,7 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
                   "translations": ["Lebanese"]
                 }
@@ -9017,8 +9523,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["government", "administration", "regimen"]
+                  "gender": "",
+                  "translations": [
+                    "government /Gov./ /Govt.",
+                    "administration",
+                    "governments",
+                    "administrations",
+                    "No 10",
+                    "10 Downing Street",
+                    "government in exile",
+                    "exile government"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9039,9 +9554,9 @@
               },
               "translations": [
                 {
-                  "pos": "conj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["and", "then"]
+                  "translations": ["and", "then", "what then?", "then what?", "well?"]
                 }
               ],
               "conjugation": null
@@ -9060,13 +9575,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "neut",
-                  "translations": ["Israel"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -9085,19 +9594,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
-                  "gender": "",
-                  "translations": ["want", "will"]
-                },
-                {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["volition"]
-                },
-                {
-                  "pos": "adj",
                   "gender": "",
-                  "translations": ["woollen", "woolly", "woolen"]
+                  "translations": [
+                    "volition",
+                    "of one’s own volition",
+                    "to do sth. of one’s own volition",
+                    "to want sth.",
+                    "wanting",
+                    "wanted",
+                    "I want",
+                    "you want"
+                  ]
                 }
               ],
               "conjugation": {
@@ -9143,9 +9651,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["proximate", "next"]
+                  "translations": [
+                    "neighbour",
+                    "neighbor",
+                    "Love thy neighbour as thyself.",
+                    "next",
+                    "very next",
+                    "the next time",
+                    "the next day",
+                    "next week"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9167,8 +9684,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["week"]
+                  "gender": "",
+                  "translations": [
+                    "week",
+                    "weeks",
+                    "holiday week",
+                    "following week",
+                    "previous week",
+                    "week before",
+                    "preceding week",
+                    "Easter week"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9189,9 +9715,9 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["for the first time"]
+                  "translations": ["for the first time", "for the first time in a long while"]
                 }
               ],
               "conjugation": null
@@ -9212,19 +9738,16 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["since", "for"]
-                },
-                {
-                  "pos": "conj",
-                  "gender": "",
-                  "translations": ["since"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["ever since"]
+                  "translations": [
+                    "since",
+                    "since I’ve been living here",
+                    "since he knows that",
+                    "ever since",
+                    "ever since I have lived here",
+                    "Ever since I’ve had it, the device has been a bit of a pain to start."
+                  ]
                 }
               ],
               "conjugation": null
@@ -9246,8 +9769,16 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["decade", "decennium"]
+                  "gender": "",
+                  "translations": [
+                    "decade",
+                    "decennium",
+                    "10-year period",
+                    "decades",
+                    "decenniums",
+                    "10-year periods",
+                    "the noughties"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9268,20 +9799,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
                   "translations": [
-                    "direct",
-                    "straight",
-                    "one-level",
-                    "plain-spoken",
-                    "straightforward"
+                    "hand",
+                    "hands",
+                    "child’s hand",
+                    "by hand",
+                    "manual",
+                    "manually",
+                    "to shake hands",
+                    "to hold in the hand"
                   ]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["directly", "straightly", "really", "squarely", "forthrightly"]
                 }
               ],
               "conjugation": null
@@ -9303,13 +9832,16 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
+                  "gender": "",
                   "translations": [
                     "interview",
-                    "conversation",
-                    "talk",
-                    "interlocution",
-                    "telephone call"
+                    "interviews",
+                    "hiring interview",
+                    "explorative interview",
+                    "TV interview",
+                    "television interview",
+                    "preinterview",
+                    "guided interview"
                   ]
                 }
               ],
@@ -9331,14 +9863,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["up"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "in", "at", "onto"]
+                  "translations": [
+                    "on",
+                    "up",
+                    "up and down",
+                    "Up you get!",
+                    "Come on!",
+                    "up to £50",
+                    "from EUR 10 up",
+                    "from the age of 16 up"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9359,14 +9895,16 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["political"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["politically"]
+                  "translations": [
+                    "political",
+                    "a political imperative",
+                    "political groups",
+                    "politically",
+                    "politically motivated violence",
+                    "to be politically desired"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9388,8 +9926,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["plain", "plane", "level", "rank", "layer"]
+                  "gender": "",
+                  "translations": [
+                    "plain",
+                    "plains",
+                    "river plain",
+                    "plane",
+                    "inclined plane",
+                    "datum plane",
+                    "initial plane",
+                    "basis"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9410,14 +9957,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
-                  "gender": "",
-                  "translations": ["go", "operate sth.", "guide", "shepherd", "lead"]
-                },
-                {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["conduct"]
+                  "gender": "",
+                  "translations": [
+                    "conduct",
+                    "conduct of business",
+                    "conduct of negotiations",
+                    "conduct of hearing",
+                    "escorting",
+                    "to go {went",
+                    "gone}",
+                    "going"
+                  ]
                 }
               ],
               "conjugation": {
@@ -9658,8 +10209,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["medium", "psychic"]
+                  "gender": "",
+                  "translations": [
+                    "voice",
+                    "active voice",
+                    "middle voice",
+                    "passive voice",
+                    "medium",
+                    "media",
+                    "tabloid medium",
+                    "tabloid media"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9680,9 +10240,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["hold", "have", "own", "possess sth.", "have possession of sth."]
+                  "translations": [
+                    "to hold",
+                    "to have {had",
+                    "had}",
+                    "to own",
+                    "to possess sth.",
+                    "to have possession of sth.",
+                    "holding",
+                    "having"
+                  ]
                 }
               ],
               "conjugation": {
@@ -9728,19 +10297,18 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["upwards of", "over"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "by", "above", "over", "across"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["in excess of", "by way of"]
+                  "translations": [
+                    "on",
+                    "upwards of",
+                    "upwards of 100 employees",
+                    "upwards of 500 °C",
+                    "by way of",
+                    "over",
+                    "in excess of",
+                    "cost in excess of USD 50,000"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9761,14 +10329,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["ample", "extensive", "major", "grand", "sizably"]
-                },
-                {
-                  "pos": "adv",
-                  "gender": "",
-                  "translations": ["largely"]
+                  "translations": [
+                    "ample",
+                    "extensive",
+                    "an ample garden",
+                    "an extensive garden",
+                    "major",
+                    "a major event",
+                    "a major contribution",
+                    "the major disaster of the century"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9790,13 +10362,16 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
+                  "gender": "",
                   "translations": [
                     "difference",
+                    "differences",
+                    "absolute difference",
                     "difference of opinion",
                     "divergence of opinion",
                     "disagreement",
-                    "dissension"
+                    "dissension",
+                    "beef"
                   ]
                 }
               ],
@@ -9818,14 +10393,18 @@
               },
               "translations": [
                 {
-                  "pos": "",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["care of"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "near", "by", "at", "with"]
+                  "translations": [
+                    "address",
+                    "addresses",
+                    "company address",
+                    "company’s address",
+                    "house address",
+                    "residential address",
+                    "business address",
+                    "care of /c/o"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9846,14 +10425,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -9875,13 +10458,16 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
+                  "gender": "",
                   "translations": [
                     "trial",
+                    "pretrial",
+                    "to proceed with the trial",
+                    "to dispose of a case without trial",
                     "bargaining",
-                    "negotiations",
+                    "tough bargaining",
                     "negotiation",
-                    "arguments"
+                    "contract negotiation"
                   ]
                 }
               ],
@@ -9903,19 +10489,16 @@
               },
               "translations": [
                 {
-                  "pos": "adv",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["too", "as well"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["as from", "as of"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["with", "cum"]
+                  "translations": [
+                    "as from",
+                    "as of",
+                    "The project was terminated as of July 1.",
+                    "too",
+                    "as well",
+                    "to be there too"
+                  ]
                 }
               ],
               "conjugation": null
@@ -9936,14 +10519,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -9981,14 +10568,9 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["trendy"]
-                },
-                {
-                  "pos": "prep",
-                  "gender": "",
-                  "translations": ["on", "in", "at", "into", "to"]
+                  "translations": ["on", "trendy", "trendy place", "trendy beverage"]
                 }
               ],
               "conjugation": null
@@ -10007,13 +10589,7 @@
                 "mood": null,
                 "person": null
               },
-              "translations": [
-                {
-                  "pos": "n",
-                  "gender": "neut",
-                  "translations": ["Pakistan"]
-                }
-              ],
+              "translations": [],
               "conjugation": null
             },
             {
@@ -10032,9 +10608,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["report back", "chronicle", "relate", "tell", "report sth."]
+                  "translations": [
+                    "to report back",
+                    "reporting back",
+                    "reported back",
+                    "to chronicle",
+                    "chronicling",
+                    "chronicled",
+                    "to tell {told",
+                    "told} sth."
+                  ]
                 }
               ],
               "conjugation": {
@@ -10235,14 +10820,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
@@ -10264,8 +10853,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["news agency", "new service", "newswire"]
+                  "gender": "",
+                  "translations": [
+                    "news agency",
+                    "new service",
+                    "newswire",
+                    "news agencies",
+                    "new services",
+                    "United Press International /UPI",
+                    "Associated Press /AP",
+                    "Canadian Press /CP"
+                  ]
                 }
               ],
               "conjugation": null
@@ -10303,9 +10901,9 @@
               },
               "translations": [
                 {
-                  "pos": "conj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["and", "then"]
+                  "translations": ["and", "then", "what then?", "then what?", "well?"]
                 }
               ],
               "conjugation": null
@@ -10343,14 +10941,18 @@
               },
               "translations": [
                 {
-                  "pos": "v",
-                  "gender": "",
-                  "translations": ["speak", "enunciate", "converse"]
-                },
-                {
                   "pos": "n",
-                  "gender": "neut",
-                  "translations": ["speaking"]
+                  "gender": "",
+                  "translations": [
+                    "speaking",
+                    "speaking in front of an audience",
+                    "speaking in public",
+                    "public speaking",
+                    "to speak {spoke",
+                    "spoken}",
+                    "That speaks volumes .",
+                    "What she wears speaks volumes about her."
+                  ]
                 }
               ],
               "conjugation": {
@@ -10396,9 +10998,18 @@
               },
               "translations": [
                 {
-                  "pos": "prep",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["from", "of", "out of", "off"]
+                  "translations": [
+                    "from",
+                    "from the outside",
+                    "from the street",
+                    "the train from Eastbourne",
+                    "a coin from his pocket",
+                    "a document from the sixteenth century",
+                    "a letter from my aunt",
+                    "a photo from Doris"
+                  ]
                 }
               ],
               "conjugation": null
@@ -10436,14 +11047,18 @@
               },
               "translations": [
                 {
-                  "pos": "adj",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["covered", "inflated", "overblown", "rotund", "overwrought"]
-                },
-                {
-                  "pos": "",
-                  "gender": "",
-                  "translations": ["covered", "put a cover", "overriden", "overdone", "coated"]
+                  "translations": [
+                    "covered",
+                    "to cover sth.",
+                    "to put a cover on sth.",
+                    "covering",
+                    "putting a cover",
+                    "put a cover",
+                    "covers",
+                    "puts a cover"
+                  ]
                 }
               ],
               "conjugation": null
@@ -10465,8 +11080,17 @@
               "translations": [
                 {
                   "pos": "n",
-                  "gender": "fem",
-                  "translations": ["pretension", "demand", "request", "claim", "postulation"]
+                  "gender": "",
+                  "translations": [
+                    "demand",
+                    "request",
+                    "partial demand",
+                    "on demand",
+                    "within three days of demand",
+                    "claim",
+                    "claims",
+                    "total claim"
+                  ]
                 }
               ],
               "conjugation": null
@@ -10504,14 +11128,18 @@
               },
               "translations": [
                 {
-                  "pos": "art",
+                  "pos": "n",
                   "gender": "",
-                  "translations": ["the"]
-                },
-                {
-                  "pos": "pron",
-                  "gender": "",
-                  "translations": ["that", "who", "which"]
+                  "translations": [
+                    "who",
+                    "whom",
+                    "whomever",
+                    "whomsoever",
+                    "the player whom I was to replace",
+                    "I also talked to Gabriel, who I’d met only once before.",
+                    "He disliked the president, whom he once described as an 'insufferable bore'.",
+                    "This is Kaz, who I told you about."
+                  ]
                 }
               ],
               "conjugation": null
