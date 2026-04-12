@@ -58,7 +58,7 @@ export function WordPopover({ token, onClose }: WordPopoverProps) {
       className="absolute z-50 mt-2 w-auto min-w-48 max-w-64 rounded-xl bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-200 dark:ring-gray-700 p-4 animate-in fade-in zoom-in-95"
     >
       <div className="flex items-baseline gap-2 mb-1.5">
-        <span className="text-lg font-serif font-semibold">{token.text}</span>
+        <span className="text-lg font-sans font-semibold">{token.text}</span>
         {gender && (
           <span className="text-sm text-gray-400 dark:text-gray-500">
             ({GENDER_SHORT[gender] ?? gender})

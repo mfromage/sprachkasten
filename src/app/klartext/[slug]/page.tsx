@@ -23,7 +23,7 @@ export default function KlartextPage({
 
   return (
     <main className="max-w-2xl mx-auto px-6 py-12">
-      <h1 className="font-serif text-3xl font-bold mb-6 leading-tight">
+      <h1 className="text-3xl font-bold mb-6 leading-tight">
         {article.title}
       </h1>
 
