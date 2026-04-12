@@ -102,9 +102,14 @@ export function WordPopover({ token, nounPhrase, phraseTokens, onClose }: WordPo
     if (ref.current) {
       const rect = ref.current.getBoundingClientRect();
       const viewportWidth = window.innerWidth;
+      // If overflowing right, shift left
       if (rect.right > viewportWidth - 16) {
-        ref.current.style.left = "auto";
-        ref.current.style.right = "0";
+        const overflow = rect.right - viewportWidth + 16;
+        ref.current.style.transform = `translateX(-${overflow}px)`;
+      }
+      // If overflowing left, shift right
+      if (rect.left < 16) {
+        ref.current.style.transform = `translateX(${16 - rect.left}px)`;
       }
     }
   }, []);
