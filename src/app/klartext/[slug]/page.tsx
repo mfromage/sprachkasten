@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { getArticle } from "@/lib/fixtures";
 import { ArticleToolbar } from "@/components/klartext/ArticleToolbar";
 import { SentenceBlock } from "@/components/klartext/SentenceBlock";
+import { VocabList } from "@/components/klartext/VocabList";
 
 export default function KlartextPage({
   params,
@@ -48,6 +49,8 @@ export default function KlartextPage({
           </div>
         ))}
       </article>
+
+      <VocabList vocabulary={article.vocabulary} />
     </main>
   );
 }

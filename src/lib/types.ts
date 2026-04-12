@@ -41,8 +41,16 @@ export interface Paragraph {
   sentences: Sentence[];
 }
 
+export interface VocabEntry {
+  word: string;
+  article: string | null;
+  translation: string;
+  example: string;
+}
+
 export interface Article {
   slug: string;
   title: string;
   paragraphs: Paragraph[];
+  vocabulary: VocabEntry[];
 }
