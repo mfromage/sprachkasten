@@ -133,7 +133,7 @@ export function SentenceBlock({
             {showSyntax && group.nounPhrase && (
               <span
                 className="absolute left-0 right-0 h-[2.5px] rounded-full"
-                style={{ bottom: "-4px", backgroundColor: getCaseColor(group.nounPhrase.case) }}
+                style={{ bottom: "4px", backgroundColor: getCaseColor(group.nounPhrase.case) }}
               />
             )}
           </span>
@@ -144,7 +144,7 @@ export function SentenceBlock({
 
   return (
     <div
-      className={showGrammar ? "pb-5 mb-5 border-b border-gray-200 dark:border-gray-800" : "mb-1"}
+      className={showGrammar ? "pb-5 mb-5 border-b border-gray-200 dark:border-gray-800" : "mb-5"}
     >
       <div className={`text-xl leading-[2] ${showSyntax ? "[word-spacing:4px]" : ""} ${showClauses ? "pt-5" : ""}`}>
         {renderTokens()}

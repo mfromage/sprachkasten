@@ -42,8 +42,8 @@ export interface NounPhrase {
   head_token_id: number;
   case: string;
   case_reason: string;
-  gender: string;
-  number: string;
+  gender: string | null;
+  number: string | null;
   notes: string[];
 }
 

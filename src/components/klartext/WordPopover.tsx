@@ -129,9 +129,11 @@ export function WordPopover({ token, nounPhrase, phraseTokens, onClose }: WordPo
           <span className="inline-block rounded-full bg-blue-50 dark:bg-blue-900/30 px-2.5 py-0.5 text-xs font-medium text-blue-700 dark:text-blue-300">
             {CASE_SHORT[nounPhrase.case] ?? nounPhrase.case}
           </span>
-          <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-400">
-            {NUMBER_DE[nounPhrase.number] ?? nounPhrase.number}
-          </span>
+          {nounPhrase.number && (
+            <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-400">
+              {NUMBER_DE[nounPhrase.number] ?? nounPhrase.number}
+            </span>
+          )}
           {nounPhrase.gender && (
             <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-400">
               {GENDER_SHORT[nounPhrase.gender] ?? nounPhrase.gender}
@@ -234,9 +236,11 @@ export function WordPopover({ token, nounPhrase, phraseTokens, onClose }: WordPo
             <span className="inline-block rounded-full bg-blue-50 dark:bg-blue-900/30 px-2.5 py-0.5 text-xs font-medium text-blue-700 dark:text-blue-300">
               {CASE_SHORT[nounPhrase.case] ?? nounPhrase.case}
             </span>
-            <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-400">
-              {NUMBER_DE[nounPhrase.number] ?? nounPhrase.number}
-            </span>
+            {nounPhrase.number && (
+              <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-400">
+                {NUMBER_DE[nounPhrase.number] ?? nounPhrase.number}
+              </span>
+            )}
             {nounPhrase.gender && (
               <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-400">
                 {GENDER_SHORT[nounPhrase.gender] ?? nounPhrase.gender}
