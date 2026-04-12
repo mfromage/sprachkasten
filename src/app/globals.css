@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-lora), Georgia, Cambria, serif;
+
+  --color-subject: #2563eb;
+  --color-predicate: #dc2626;
+  --color-object: #16a34a;
+  --color-modifier: #d97706;
+  --color-connector: #9333ea;
+  --color-other: #6b7280;
+}
+
+.dark {
+  --color-subject: #60a5fa;
+  --color-predicate: #f87171;
+  --color-object: #4ade80;
+  --color-modifier: #fbbf24;
+  --color-connector: #c084fc;
+  --color-other: #9ca3af;
+}
