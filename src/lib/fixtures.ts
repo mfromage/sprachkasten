@@ -5,12 +5,15 @@ import type { ArticleContent, IndexContent } from "./content-schema";
 import indexData from "../../content/index.json";
 import artikel1 from "../../content/articles/artikel-1.json";
 import macronAppelliertAnFuehrungInTeheran20260412 from "../../content/articles/macron-appelliert-an-fuehrung-in-teheran-2026-04-12.json";
+import duerfenNichtZuEinerAmpel20Werden20260422 from "../../content/articles/duerfen-nicht-zu-einer-ampel-2-0-werden-2026-04-22.json";
 
 // Map slug to imported article data
 const ARTICLES: Record<string, ArticleContent> = {
   "artikel-1": artikel1 as ArticleContent,
   "macron-appelliert-an-fuehrung-in-teheran-2026-04-12":
     macronAppelliertAnFuehrungInTeheran20260412 as ArticleContent,
+  "duerfen-nicht-zu-einer-ampel-2-0-werden-2026-04-22":
+    duerfenNichtZuEinerAmpel20Werden20260422 as ArticleContent,
 };
 
 export function getArticle(slug: string): Article | null {
