@@ -11,13 +11,15 @@ const FIXTURES: Record<string, Article> = {
         word: "Regierung",
         article: "die",
         translation: "government",
-        example: "Israel will mit der libanesischen Regierung über ein Ende des Libanonkrieges verhandeln.",
+        example:
+          "Israel will mit der libanesischen Regierung über ein Ende des Libanonkrieges verhandeln.",
       },
       {
         word: "verhandeln",
         article: null,
         translation: "to negotiate",
-        example: "Israel will mit der libanesischen Regierung über ein Ende des Libanonkrieges verhandeln.",
+        example:
+          "Israel will mit der libanesischen Regierung über ein Ende des Libanonkrieges verhandeln.",
       },
       {
         word: "Angriffe",
@@ -29,19 +31,22 @@ const FIXTURES: Record<string, Article> = {
         word: "Treffen",
         article: "das",
         translation: "meeting",
-        example: "In der kommenden Woche soll es ein vorbereitendes Treffen der Botschafter beider Länder geben.",
+        example:
+          "In der kommenden Woche soll es ein vorbereitendes Treffen der Botschafter beider Länder geben.",
       },
       {
         word: "Botschafter",
         article: "der",
         translation: "ambassador",
-        example: "In der kommenden Woche soll es ein vorbereitendes Treffen der Botschafter beider Länder geben.",
+        example:
+          "In der kommenden Woche soll es ein vorbereitendes Treffen der Botschafter beider Länder geben.",
       },
       {
         word: "mitteilen",
         article: null,
         translation: "to announce, to inform",
-        example: "Der israelische Regierungschef hatte am Donnerstag mitgeteilt, er habe sein Kabinett angewiesen.",
+        example:
+          "Der israelische Regierungschef hatte am Donnerstag mitgeteilt, er habe sein Kabinett angewiesen.",
       },
       {
         word: "anweisen",
@@ -65,19 +70,22 @@ const FIXTURES: Record<string, Article> = {
         word: "Zurückhaltung",
         article: "die",
         translation: "restraint",
-        example: "Netanjahu hat sich bereit erklärt, Zurückhaltung im Libanonkrieg walten zu lassen.",
+        example:
+          "Netanjahu hat sich bereit erklärt, Zurückhaltung im Libanonkrieg walten zu lassen.",
       },
       {
         word: "Luftangriffswelle",
         article: "die",
         translation: "wave of airstrikes",
-        example: "Am Mittwoch waren im Zuge einer groß angelegten israelischen Luftangriffswelle mehr als 300 Menschen getötet worden.",
+        example:
+          "Am Mittwoch waren im Zuge einer groß angelegten israelischen Luftangriffswelle mehr als 300 Menschen getötet worden.",
       },
       {
         word: "gefährden",
         article: null,
         translation: "to endanger, to jeopardize",
-        example: "Die fortgesetzten israelischen Schläge gefährden auch die amerikanisch-iranischen Verhandlungen.",
+        example:
+          "Die fortgesetzten israelischen Schläge gefährden auch die amerikanisch-iranischen Verhandlungen.",
       },
     ],
     quiz: [

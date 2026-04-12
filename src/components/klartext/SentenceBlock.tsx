@@ -10,7 +10,9 @@ interface SentenceBlockProps {
 
 export function SentenceBlock({ sentence, showSyntax, showGrammar }: SentenceBlockProps) {
   return (
-    <div className={showGrammar ? "pb-5 mb-5 border-b border-gray-200 dark:border-gray-800" : "mb-1"}>
+    <div
+      className={showGrammar ? "pb-5 mb-5 border-b border-gray-200 dark:border-gray-800" : "mb-1"}
+    >
       <div className={`text-xl leading-[2] ${showSyntax ? "[word-spacing:4px]" : ""}`}>
         {sentence.tokens.map((token, i) => (
           <span key={token.id}>

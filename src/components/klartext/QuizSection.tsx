@@ -52,8 +52,7 @@ function QuizCard({ index, question }: { index: number; question: QuizQuestion }
             className +=
               "border-red-300 dark:border-red-700 bg-red-50 dark:bg-red-900/20 text-red-800 dark:text-red-300";
           } else {
-            className +=
-              "border-gray-100 dark:border-gray-800 text-gray-400 dark:text-gray-600";
+            className += "border-gray-100 dark:border-gray-800 text-gray-400 dark:text-gray-600";
           }
 
           return (
@@ -72,7 +71,9 @@ function QuizCard({ index, question }: { index: number; question: QuizQuestion }
         })}
       </div>
       {answered && (
-        <p className={`mt-3 text-sm font-medium animate-in fade-in ${isCorrect ? "text-emerald-600 dark:text-emerald-400" : "text-red-600 dark:text-red-400"}`}>
+        <p
+          className={`mt-3 text-sm font-medium animate-in fade-in ${isCorrect ? "text-emerald-600 dark:text-emerald-400" : "text-red-600 dark:text-red-400"}`}
+        >
           {isCorrect ? "Richtig!" : "Leider falsch."}
         </p>
       )}

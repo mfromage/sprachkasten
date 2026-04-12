@@ -88,20 +88,14 @@
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                1,
-                2
-              ],
+              "token_ids": [1, 2],
               "evidence": "in + Washington (Präposition mit Dativ)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                1,
-                2
-              ],
+              "token_ids": [1, 2],
               "evidence": "in (Wechselpräposition, Dat)"
             }
           ]
@@ -188,10 +182,7 @@
           "units": [
             {
               "type": "separable_verb",
-              "token_ids": [
-                1,
-                3
-              ],
+              "token_ids": [1, 3],
               "surface": "greift ... an",
               "lemma": "angreifen"
             }
@@ -201,28 +192,21 @@
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                0
-              ],
+              "token_ids": [0],
               "evidence": "Israel (Nominativ, Subjekt)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                1
-              ],
+              "token_ids": [1],
               "evidence": "greift (Indikativ Präsens)"
             },
             {
               "theme_id": "trennbare_verben",
               "theme": "Trennbare Verben",
               "level": "A1",
-              "token_ids": [
-                1,
-                3
-              ],
+              "token_ids": [1, 3],
               "evidence": "greift ... an → angreifen"
             }
           ]
@@ -342,37 +326,28 @@
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "Iran (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                0
-              ],
+              "token_ids": [0],
               "evidence": "Vance (Nominativ, Subjekt)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                1
-              ],
+              "token_ids": [1],
               "evidence": "warnt (Indikativ Präsens)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                3,
-                5
-              ],
+              "token_ids": [3, 5],
               "evidence": "vor (Wechselpräposition, Acc)"
             }
           ]
@@ -804,124 +779,91 @@
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                4,
-                5
-              ],
+              "token_ids": [4, 5],
               "evidence": "libanesischen Regierung (Adjektivdeklination, Dat)"
             },
             {
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                19
-              ],
+              "token_ids": [19],
               "evidence": "Angriffe (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "genitiv",
               "theme": "Genitiv",
               "level": "B1",
-              "token_ids": [
-                9,
-                10
-              ],
+              "token_ids": [9, 10],
               "evidence": "des Libanonkrieges (Genitiv)"
             },
             {
               "theme_id": "infinitiv_mit_zu",
               "theme": "Infinitiv mit zu",
               "level": "B1",
-              "token_ids": [
-                23
-              ],
+              "token_ids": [23],
               "evidence": "fortzusetzen (Infinitiv mit zu, eingebettet)"
             },
             {
               "theme_id": "infinitiv_ohne_zu",
               "theme": "Infinitiv ohne zu",
               "level": "B1",
-              "token_ids": [
-                1,
-                11
-              ],
+              "token_ids": [1, 11],
               "evidence": "will + verhandeln (Infinitiv ohne zu)"
             },
             {
               "theme_id": "modalverben",
               "theme": "Modalverben",
               "level": "A1",
-              "token_ids": [
-                1,
-                11
-              ],
+              "token_ids": [1, 11],
               "evidence": "will + verhandeln (Modalverb)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                0
-              ],
+              "token_ids": [0],
               "evidence": "Israel (Nominativ, Subjekt)"
             },
             {
               "theme_id": "praepositionaladverbien",
               "theme": "Präpositionaladverbien (dafür, damit, darauf)",
               "level": "B1",
-              "token_ids": [
-                16
-              ],
+              "token_ids": [16],
               "evidence": "darauf (Präpositionaladverb)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                2,
-                5
-              ],
+              "token_ids": [2, 5],
               "evidence": "mit + Regierung (Präposition mit Dativ)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                1
-              ],
+              "token_ids": [1],
               "evidence": "will (Indikativ Präsens)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                13
-              ],
+              "token_ids": [13],
               "evidence": "beharrt (Indikativ Präsens)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                6,
-                8
-              ],
+              "token_ids": [6, 8],
               "evidence": "über (Wechselpräposition, Acc)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                20,
-                22
-              ],
+              "token_ids": [20, 22],
               "evidence": "auf (Wechselpräposition, Acc)"
             }
           ]
@@ -1236,183 +1178,133 @@
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                2,
-                3
-              ],
+              "token_ids": [2, 3],
               "evidence": "kommenden Woche (Adjektivdeklination, Dat)"
             },
             {
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                7,
-                8
-              ],
+              "token_ids": [7, 8],
               "evidence": "übereinstimmenden Medienberichten (Adjektivdeklination, Dat)"
             },
             {
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                10,
-                11
-              ],
+              "token_ids": [10, 11],
               "evidence": "vorbereitendes Treffen (Adjektivdeklination, Acc)"
             },
             {
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                11
-              ],
+              "token_ids": [11],
               "evidence": "Treffen (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "es_funktionen",
               "theme": "es als Platzhalter",
               "level": "B2",
-              "token_ids": [
-                5
-              ],
+              "token_ids": [5],
               "evidence": "es (Platzhalter/Expletiv)"
             },
             {
               "theme_id": "genitiv",
               "theme": "Genitiv",
               "level": "B1",
-              "token_ids": [
-                12,
-                13
-              ],
+              "token_ids": [12, 13],
               "evidence": "der Botschafter (Genitiv)"
             },
             {
               "theme_id": "genitiv",
               "theme": "Genitiv",
               "level": "B1",
-              "token_ids": [
-                14,
-                15
-              ],
+              "token_ids": [14, 15],
               "evidence": "beider Länder (Genitiv)"
             },
             {
               "theme_id": "infinitiv_ohne_zu",
               "theme": "Infinitiv ohne zu",
               "level": "B1",
-              "token_ids": [
-                4,
-                18
-              ],
+              "token_ids": [4, 18],
               "evidence": "soll + geben (Infinitiv ohne zu)"
             },
             {
               "theme_id": "modalverben",
               "theme": "Modalverben",
               "level": "A1",
-              "token_ids": [
-                4,
-                18
-              ],
+              "token_ids": [4, 18],
               "evidence": "soll + geben (Modalverb)"
             },
             {
               "theme_id": "nominalisierung",
               "theme": "Nominalisierung",
               "level": "C1",
-              "token_ids": [
-                11
-              ],
+              "token_ids": [11],
               "evidence": "Treffen (Nominalisierung)"
             },
             {
               "theme_id": "partizip_als_adjektiv",
               "theme": "Partizip I/II als Adjektiv",
               "level": "B1",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "kommenden (Partizip I als Adjektiv)"
             },
             {
               "theme_id": "partizip_als_adjektiv",
               "theme": "Partizip I/II als Adjektiv",
               "level": "B1",
-              "token_ids": [
-                7
-              ],
+              "token_ids": [7],
               "evidence": "übereinstimmenden (Partizip I als Adjektiv)"
             },
             {
               "theme_id": "partizip_als_adjektiv",
               "theme": "Partizip I/II als Adjektiv",
               "level": "B1",
-              "token_ids": [
-                10
-              ],
+              "token_ids": [10],
               "evidence": "vorbereitendes (Partizip I als Adjektiv)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                0,
-                3
-              ],
+              "token_ids": [0, 3],
               "evidence": "In + Woche (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                16,
-                17
-              ],
+              "token_ids": [16, 17],
               "evidence": "in + Washington (Präposition mit Dativ)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                4
-              ],
+              "token_ids": [4],
               "evidence": "soll (Indikativ Präsens)"
             },
             {
               "theme_id": "temporale_praepositionen",
               "theme": "Temporale Präpositionen",
               "level": "A1",
-              "token_ids": [
-                0,
-                3
-              ],
+              "token_ids": [0, 3],
               "evidence": "In Woche (temporale Präposition)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                0,
-                3
-              ],
+              "token_ids": [0, 3],
               "evidence": "In (Wechselpräposition, Dat)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                16,
-                17
-              ],
+              "token_ids": [16, 17],
               "evidence": "in (Wechselpräposition, Dat)"
             }
           ]
@@ -2102,300 +1994,217 @@
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                1,
-                2
-              ],
+              "token_ids": [1, 2],
               "evidence": "israelische Regierungschef (Adjektivdeklination, Nom)"
             },
             {
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                16,
-                17
-              ],
+              "token_ids": [16, 17],
               "evidence": "direkte Gespräche (Adjektivdeklination, Acc)"
             },
             {
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                33,
-                34
-              ],
+              "token_ids": [33, 34],
               "evidence": "iranischen Revolutionswächtern (Adjektivdeklination, Dat)"
             },
             {
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                35,
-                36
-              ],
+              "token_ids": [35, 36],
               "evidence": "gelenkten Hizbullah (Adjektivdeklination, Acc)"
             },
             {
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                40,
-                41
-              ],
+              "token_ids": [40, 41],
               "evidence": "friedlicher Beziehungen (Adjektivdeklination, Gen)"
             },
             {
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                13
-              ],
+              "token_ids": [13],
               "evidence": "Kabinett (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                17
-              ],
+              "token_ids": [17],
               "evidence": "Gespräche (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "genitiv",
               "theme": "Genitiv",
               "level": "B1",
-              "token_ids": [
-                40,
-                41
-              ],
+              "token_ids": [40, 41],
               "evidence": "friedlicher Beziehungen (Genitiv)"
             },
             {
               "theme_id": "infinitiv_mit_zu",
               "theme": "Infinitiv mit zu",
               "level": "B1",
-              "token_ids": [
-                23
-              ],
+              "token_ids": [23],
               "evidence": "aufzunehmen (Infinitiv mit zu, eingebettet)"
             },
             {
               "theme_id": "infinitiv_ohne_zu",
               "theme": "Infinitiv ohne zu",
               "level": "B1",
-              "token_ids": [
-                43,
-                42
-              ],
+              "token_ids": [43, 42],
               "evidence": "sollten + konzentrieren (Infinitiv ohne zu)"
             },
             {
               "theme_id": "konjunktiv_1",
               "theme": "Konjunktiv I (indirekte Rede)",
               "level": "B2",
-              "token_ids": [
-                11
-              ],
+              "token_ids": [11],
               "evidence": "habe (Konjunktiv I)"
             },
             {
               "theme_id": "modalverben",
               "theme": "Modalverben",
               "level": "A1",
-              "token_ids": [
-                43,
-                42
-              ],
+              "token_ids": [43, 42],
               "evidence": "sollten + konzentrieren (Modalverb)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "Regierungschef (Nominativ, Subjekt)"
             },
             {
               "theme_id": "partizip_als_adjektiv",
               "theme": "Partizip I/II als Adjektiv",
               "level": "B1",
-              "token_ids": [
-                35
-              ],
+              "token_ids": [35],
               "evidence": "gelenkten (Partizip II als Adjektiv)"
             },
             {
               "theme_id": "perfekt",
               "theme": "Perfekt",
               "level": "A1",
-              "token_ids": [
-                5,
-                8
-              ],
+              "token_ids": [5, 8],
               "evidence": "hatte ... mitgeteilt (Perfekt)"
             },
             {
               "theme_id": "personalpronomen",
               "theme": "Personalpronomen",
               "level": "A1",
-              "token_ids": [
-                26
-              ],
+              "token_ids": [26],
               "evidence": "sich (Personalpronomen, Acc)"
             },
             {
               "theme_id": "plusquamperfekt",
               "theme": "Plusquamperfekt",
               "level": "B1",
-              "token_ids": [
-                5,
-                8
-              ],
+              "token_ids": [5, 8],
               "evidence": "hatte ... mitgeteilt (Plusquamperfekt)"
             },
             {
               "theme_id": "possessivartikel",
               "theme": "Possessivartikel",
               "level": "A1",
-              "token_ids": [
-                12
-              ],
+              "token_ids": [12],
               "evidence": "sein (Possessivartikel)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                6,
-                7
-              ],
+              "token_ids": [6, 7],
               "evidence": "am + Donnerstag (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                18,
-                20
-              ],
+              "token_ids": [18, 20],
               "evidence": "mit + Regierung (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                21,
-                22
-              ],
+              "token_ids": [21, 22],
               "evidence": "in + Beirut (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                31,
-                34
-              ],
+              "token_ids": [31, 34],
               "evidence": "von + Revolutionswächtern (Präposition mit Dativ)"
             },
             {
               "theme_id": "praeteritum",
               "theme": "Präteritum",
               "level": "A2",
-              "token_ids": [
-                5
-              ],
+              "token_ids": [5],
               "evidence": "hatte (Indikativ Präteritum)"
             },
             {
               "theme_id": "praeteritum",
               "theme": "Präteritum",
               "level": "A2",
-              "token_ids": [
-                43
-              ],
+              "token_ids": [43],
               "evidence": "sollten (Indikativ Präteritum)"
             },
             {
               "theme_id": "reflexive_verben",
               "theme": "Reflexive Verben",
               "level": "A2",
-              "token_ids": [
-                42,
-                26
-              ],
+              "token_ids": [42, 26],
               "evidence": "sich konzentrieren (reflexives Verb)"
             },
             {
               "theme_id": "reflexive_verben",
               "theme": "Reflexive Verben",
               "level": "A2",
-              "token_ids": [
-                43,
-                26
-              ],
+              "token_ids": [43, 26],
               "evidence": "sich sollten (reflexives Verb)"
             },
             {
               "theme_id": "relativsaetze",
               "theme": "Relativsätze",
               "level": "B1",
-              "token_ids": [
-                25,
-                43
-              ],
+              "token_ids": [25, 43],
               "evidence": "die ... (Relativsatz)"
             },
             {
               "theme_id": "temporale_praepositionen",
               "theme": "Temporale Präpositionen",
               "level": "A1",
-              "token_ids": [
-                6,
-                7
-              ],
+              "token_ids": [6, 7],
               "evidence": "am Donnerstag (temporale Präposition)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                6,
-                7
-              ],
+              "token_ids": [6, 7],
               "evidence": "am (Wechselpräposition, Dat)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                21,
-                22
-              ],
+              "token_ids": [21, 22],
               "evidence": "in (Wechselpräposition, Dat)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                27,
-                29
-              ],
+              "token_ids": [27, 29],
               "evidence": "auf (Wechselpräposition, Acc)"
             }
           ]
@@ -2560,57 +2369,42 @@
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                1
-              ],
+              "token_ids": [1],
               "evidence": "Länder (Nominativ, Subjekt)"
             },
             {
               "theme_id": "personalpronomen",
               "theme": "Personalpronomen",
               "level": "A1",
-              "token_ids": [
-                3
-              ],
+              "token_ids": [3],
               "evidence": "sich (Personalpronomen, Acc)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                7,
-                8
-              ],
+              "token_ids": [7, 8],
               "evidence": "im + Kriegszustand (Präposition mit Dativ)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "befinden (Indikativ Präsens)"
             },
             {
               "theme_id": "reflexive_verben",
               "theme": "Reflexive Verben",
               "level": "A2",
-              "token_ids": [
-                2,
-                3
-              ],
+              "token_ids": [2, 3],
               "evidence": "sich befinden (reflexives Verb)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                7,
-                8
-              ],
+              "token_ids": [7, 8],
               "evidence": "im (Wechselpräposition, Dat)"
             }
           ]
@@ -2930,116 +2724,84 @@
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                1,
-                2
-              ],
+              "token_ids": [1, 2],
               "evidence": "libanesische Führung (Adjektivdeklination, Nom)"
             },
             {
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                12,
-                13
-              ],
+              "token_ids": [12, 13],
               "evidence": "israelischen Attacken (Adjektivdeklination, Gen)"
             },
             {
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                10
-              ],
+              "token_ids": [10],
               "evidence": "Ende (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "genitiv",
               "theme": "Genitiv",
               "level": "B1",
-              "token_ids": [
-                11,
-                12,
-                13
-              ],
+              "token_ids": [11, 12, 13],
               "evidence": "der israelischen Attacken (Genitiv)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "Führung (Nominativ, Subjekt)"
             },
             {
               "theme_id": "personalpronomen",
               "theme": "Personalpronomen",
               "level": "A1",
-              "token_ids": [
-                4
-              ],
+              "token_ids": [4],
               "evidence": "sich (Personalpronomen, Acc)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                14,
-                16
-              ],
+              "token_ids": [14, 16],
               "evidence": "vor + Beginn (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                17,
-                18
-              ],
+              "token_ids": [17, 18],
               "evidence": "von + Verhandlungen (Präposition mit Dativ)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                3
-              ],
+              "token_ids": [3],
               "evidence": "zeigt (Indikativ Präsens)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                7
-              ],
+              "token_ids": [7],
               "evidence": "verlangt (Indikativ Präsens)"
             },
             {
               "theme_id": "reflexive_verben",
               "theme": "Reflexive Verben",
               "level": "A2",
-              "token_ids": [
-                3,
-                4
-              ],
+              "token_ids": [3, 4],
               "evidence": "sich zeigt (reflexives Verb)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                14,
-                16
-              ],
+              "token_ids": [14, 16],
               "evidence": "vor (Wechselpräposition, Dat)"
             }
           ]
@@ -3414,156 +3176,112 @@
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                11,
-                12
-              ],
+              "token_ids": [11, 12],
               "evidence": "persönlichen Gespräch (Adjektivdeklination, Dat)"
             },
             {
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                17
-              ],
+              "token_ids": [17],
               "evidence": "Zurückhaltung (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "infinitiv_mit_zu",
               "theme": "Infinitiv mit zu",
               "level": "B1",
-              "token_ids": [
-                21,
-                22
-              ],
+              "token_ids": [21, 22],
               "evidence": "zu lassen (Infinitiv mit zu)"
             },
             {
               "theme_id": "infinitiv_ohne_zu",
               "theme": "Infinitiv ohne zu",
               "level": "B1",
-              "token_ids": [
-                22,
-                20
-              ],
+              "token_ids": [22, 20],
               "evidence": "lassen + walten (Infinitiv ohne zu)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                9
-              ],
+              "token_ids": [9],
               "evidence": "Netanjahu (Nominativ, Subjekt)"
             },
             {
               "theme_id": "perfekt",
               "theme": "Perfekt",
               "level": "A1",
-              "token_ids": [
-                7,
-                15
-              ],
+              "token_ids": [7, 15],
               "evidence": "hat ... erklärt (Perfekt)"
             },
             {
               "theme_id": "personalpronomen",
               "theme": "Personalpronomen",
               "level": "A1",
-              "token_ids": [
-                8
-              ],
+              "token_ids": [8],
               "evidence": "sich (Personalpronomen, Dat)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                0,
-                2
-              ],
+              "token_ids": [0, 2],
               "evidence": "Nach + Worten (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                10,
-                12
-              ],
+              "token_ids": [10, 12],
               "evidence": "im + Gespräch (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                18,
-                19
-              ],
+              "token_ids": [18, 19],
               "evidence": "im + Libanonkrieg (Präposition mit Dativ)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                7
-              ],
+              "token_ids": [7],
               "evidence": "hat (Indikativ Präsens)"
             },
             {
               "theme_id": "reflexive_verben",
               "theme": "Reflexive Verben",
               "level": "A2",
-              "token_ids": [
-                7,
-                8
-              ],
+              "token_ids": [7, 8],
               "evidence": "sich hat (reflexives Verb)"
             },
             {
               "theme_id": "reflexive_verben",
               "theme": "Reflexive Verben",
               "level": "A2",
-              "token_ids": [
-                15,
-                8
-              ],
+              "token_ids": [15, 8],
               "evidence": "sich erklärt (reflexives Verb)"
             },
             {
               "theme_id": "verb_lassen",
               "theme": "Das Verb lassen",
               "level": "B1",
-              "token_ids": [
-                22,
-                20
-              ],
+              "token_ids": [22, 20],
               "evidence": "lassen ... walten (Verb lassen)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                10,
-                12
-              ],
+              "token_ids": [10, 12],
               "evidence": "im (Wechselpräposition, Dat)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                18,
-                19
-              ],
+              "token_ids": [18, 19],
               "evidence": "im (Wechselpräposition, Dat)"
             }
           ]
@@ -3863,134 +3581,98 @@
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                4,
-                5
-              ],
+              "token_ids": [4, 5],
               "evidence": "israelische Luftwaffe (Adjektivdeklination, Nom)"
             },
             {
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                8
-              ],
+              "token_ids": [8],
               "evidence": "Angriffe (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                16
-              ],
+              "token_ids": [16],
               "evidence": "Tote (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "es_funktionen",
               "theme": "es als Platzhalter",
               "level": "B2",
-              "token_ids": [
-                14
-              ],
+              "token_ids": [14],
               "evidence": "es (Platzhalter/Expletiv)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                5
-              ],
+              "token_ids": [5],
               "evidence": "Luftwaffe (Nominativ, Subjekt)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                0,
-                1
-              ],
+              "token_ids": [0, 1],
               "evidence": "Am + Freitag (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                9,
-                10
-              ],
+              "token_ids": [9, 10],
               "evidence": "in + Libanon (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                12,
-                13
-              ],
+              "token_ids": [12, 13],
               "evidence": "bei + denen (Präposition mit Dativ)"
             },
             {
               "theme_id": "praeteritum",
               "theme": "Präteritum",
               "level": "A2",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "flog (Indikativ Präteritum)"
             },
             {
               "theme_id": "praeteritum",
               "theme": "Präteritum",
               "level": "A2",
-              "token_ids": [
-                17
-              ],
+              "token_ids": [17],
               "evidence": "gab (Indikativ Präteritum)"
             },
             {
               "theme_id": "relativsaetze",
               "theme": "Relativsätze",
               "level": "B1",
-              "token_ids": [
-                13,
-                17
-              ],
+              "token_ids": [13, 17],
               "evidence": "denen ... (Relativsatz)"
             },
             {
               "theme_id": "temporale_praepositionen",
               "theme": "Temporale Präpositionen",
               "level": "A1",
-              "token_ids": [
-                0,
-                1
-              ],
+              "token_ids": [0, 1],
               "evidence": "Am Freitag (temporale Präposition)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                0,
-                1
-              ],
+              "token_ids": [0, 1],
               "evidence": "Am (Wechselpräposition, Dat)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                9,
-                10
-              ],
+              "token_ids": [9, 10],
               "evidence": "in (Wechselpräposition, Dat)"
             }
           ]
@@ -4260,108 +3942,77 @@
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                7,
-                9
-              ],
+              "token_ids": [7, 9],
               "evidence": "angelegten Luftangriffswelle (Adjektivdeklination, Gen)"
             },
             {
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                8,
-                9
-              ],
+              "token_ids": [8, 9],
               "evidence": "israelischen Luftangriffswelle (Adjektivdeklination, Dat)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                13
-              ],
+              "token_ids": [13],
               "evidence": "Menschen (Nominativ, Subjekt)"
             },
             {
               "theme_id": "passiv_ohne_subjekt",
               "theme": "Passiv ohne Subjekt",
               "level": "C1",
-              "token_ids": [
-                15,
-                14
-              ],
+              "token_ids": [15, 14],
               "evidence": "worden getötet (Passiv ohne Subjekt)"
             },
             {
               "theme_id": "passiv_vorgangspassiv",
               "theme": "Vorgangspassiv",
               "level": "B1",
-              "token_ids": [
-                15,
-                14
-              ],
+              "token_ids": [15, 14],
               "evidence": "worden ... getötet (Vorgangspassiv)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                0,
-                1
-              ],
+              "token_ids": [0, 1],
               "evidence": "Am + Mittwoch (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                3,
-                4
-              ],
+              "token_ids": [3, 4],
               "evidence": "im + Zuge (Präposition mit Dativ)"
             },
             {
               "theme_id": "praeteritum",
               "theme": "Präteritum",
               "level": "A2",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "waren (Indikativ Präteritum)"
             },
             {
               "theme_id": "temporale_praepositionen",
               "theme": "Temporale Präpositionen",
               "level": "A1",
-              "token_ids": [
-                0,
-                1
-              ],
+              "token_ids": [0, 1],
               "evidence": "Am Mittwoch (temporale Präposition)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                0,
-                1
-              ],
+              "token_ids": [0, 1],
               "evidence": "Am (Wechselpräposition, Dat)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                3,
-                4
-              ],
+              "token_ids": [3, 4],
               "evidence": "im (Wechselpräposition, Dat)"
             }
           ]
@@ -4651,78 +4302,56 @@
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                1,
-                3
-              ],
+              "token_ids": [1, 3],
               "evidence": "fortgesetzten Schläge (Adjektivdeklination, Nom)"
             },
             {
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                2,
-                3
-              ],
+              "token_ids": [2, 3],
               "evidence": "israelischen Schläge (Adjektivdeklination, Nom)"
             },
             {
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                10,
-                11
-              ],
+              "token_ids": [10, 11],
               "evidence": "amerikanisch-iranischen Verhandlungen (Adjektivdeklination, Acc)"
             },
             {
               "theme_id": "genitiv",
               "theme": "Genitiv",
               "level": "B1",
-              "token_ids": [
-                15,
-                16
-              ],
+              "token_ids": [15, 16],
               "evidence": "des Krieges (Genitiv)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                3
-              ],
+              "token_ids": [3],
               "evidence": "Schläge (Nominativ, Subjekt)"
             },
             {
               "theme_id": "praepositionen_mit_akkusativ",
               "theme": "Präpositionen mit Akkusativ",
               "level": "A1",
-              "token_ids": [
-                4,
-                6
-              ],
+              "token_ids": [4, 6],
               "evidence": "gegen + Hizbullah (Präposition mit Akkusativ)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                7
-              ],
+              "token_ids": [7],
               "evidence": "gefährden (Indikativ Präsens)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                12,
-                14
-              ],
+              "token_ids": [12, 14],
               "evidence": "über (Wechselpräposition, Acc)"
             }
           ]
@@ -4887,86 +4516,63 @@
               "theme_id": "modalverben",
               "theme": "Modalverben",
               "level": "A1",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "sollen (Modalverb)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                1
-              ],
+              "token_ids": [1],
               "evidence": "Gespräche (Nominativ, Subjekt)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                3,
-                5
-              ],
+              "token_ids": [3, 5],
               "evidence": "an + Samstag (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                6,
-                7
-              ],
+              "token_ids": [6, 7],
               "evidence": "in + Islamabad (Präposition mit Dativ)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "sollen (Indikativ Präsens)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                8
-              ],
+              "token_ids": [8],
               "evidence": "beginnen (Indikativ Präsens)"
             },
             {
               "theme_id": "temporale_praepositionen",
               "theme": "Temporale Präpositionen",
               "level": "A1",
-              "token_ids": [
-                3,
-                5
-              ],
+              "token_ids": [3, 5],
               "evidence": "an Samstag (temporale Präposition)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                3,
-                5
-              ],
+              "token_ids": [3, 5],
               "evidence": "an (Wechselpräposition, Dat)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                6,
-                7
-              ],
+              "token_ids": [6, 7],
               "evidence": "in (Wechselpräposition, Dat)"
             }
           ]
@@ -5266,47 +4872,35 @@
               "theme_id": "modalverben",
               "theme": "Modalverben",
               "level": "A1",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "soll (Modalverb)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                1
-              ],
+              "token_ids": [1],
               "evidence": "US-Delegation (Nominativ, Subjekt)"
             },
             {
               "theme_id": "passiv_ohne_subjekt",
               "theme": "Passiv ohne Subjekt",
               "level": "C1",
-              "token_ids": [
-                9,
-                8
-              ],
+              "token_ids": [9, 8],
               "evidence": "werden geleitet (Passiv ohne Subjekt)"
             },
             {
               "theme_id": "passiv_vorgangspassiv",
               "theme": "Vorgangspassiv",
               "level": "B1",
-              "token_ids": [
-                9,
-                8
-              ],
+              "token_ids": [9, 8],
               "evidence": "werden ... geleitet (Vorgangspassiv)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "soll (Indikativ Präsens)"
             }
           ]
@@ -5591,124 +5185,91 @@
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                0,
-                1
-              ],
+              "token_ids": [0, 1],
               "evidence": "Iranische Quellen (Adjektivdeklination, Nom)"
             },
             {
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                7
-              ],
+              "token_ids": [7],
               "evidence": "Bericht (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "genitiv",
               "theme": "Genitiv",
               "level": "B1",
-              "token_ids": [
-                10
-              ],
+              "token_ids": [10],
               "evidence": "Teherans (Genitiv)"
             },
             {
               "theme_id": "konjunktiv_1",
               "theme": "Konjunktiv I (indirekte Rede)",
               "level": "B2",
-              "token_ids": [
-                16
-              ],
+              "token_ids": [16],
               "evidence": "sei (Konjunktiv I)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                1
-              ],
+              "token_ids": [1],
               "evidence": "Quellen (Nominativ, Subjekt)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                11
-              ],
+              "token_ids": [11],
               "evidence": "Delegation (Nominativ, Subjekt)"
             },
             {
               "theme_id": "perfekt",
               "theme": "Perfekt",
               "level": "A1",
-              "token_ids": [
-                16,
-                15
-              ],
+              "token_ids": [16, 15],
               "evidence": "sei ... eingetroffen (Perfekt)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                3,
-                4
-              ],
+              "token_ids": [3, 4],
               "evidence": "am + Freitag (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                13,
-                14
-              ],
+              "token_ids": [13, 14],
               "evidence": "in + Islamabad (Präposition mit Dativ)"
             },
             {
               "theme_id": "praeteritum",
               "theme": "Präteritum",
               "level": "A2",
-              "token_ids": [
-                2
-              ],
+              "token_ids": [2],
               "evidence": "dementierten (Indikativ Präteritum)"
             },
             {
               "theme_id": "temporale_praepositionen",
               "theme": "Temporale Präpositionen",
               "level": "A1",
-              "token_ids": [
-                3,
-                4
-              ],
+              "token_ids": [3, 4],
               "evidence": "am Freitag (temporale Präposition)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                3,
-                4
-              ],
+              "token_ids": [3, 4],
               "evidence": "am (Wechselpräposition, Dat)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                13,
-                14
-              ],
+              "token_ids": [13, 14],
               "evidence": "in (Wechselpräposition, Dat)"
             }
           ]
@@ -5978,112 +5539,84 @@
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                8
-              ],
+              "token_ids": [8],
               "evidence": "Angriffe (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "es_funktionen",
               "theme": "es als Platzhalter",
               "level": "B2",
-              "token_ids": [
-                14
-              ],
+              "token_ids": [14],
               "evidence": "es (Platzhalter/Expletiv)"
             },
             {
               "theme_id": "konditionale_nebensaetze",
               "theme": "Konditionale Nebensätze (wenn, falls)",
               "level": "B2",
-              "token_ids": [
-                5,
-                11
-              ],
+              "token_ids": [5, 11],
               "evidence": "wenn ... (konditionaler Nebensatz)"
             },
             {
               "theme_id": "konjunktiv_1",
               "theme": "Konjunktiv I (indirekte Rede)",
               "level": "B2",
-              "token_ids": [
-                1
-              ],
+              "token_ids": [1],
               "evidence": "werde (Konjunktiv I)"
             },
             {
               "theme_id": "konjunktiv_1",
               "theme": "Konjunktiv I (indirekte Rede)",
               "level": "B2",
-              "token_ids": [
-                11
-              ],
+              "token_ids": [11],
               "evidence": "einstelle (Konjunktiv I)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                0
-              ],
+              "token_ids": [0],
               "evidence": "Iran (Nominativ, Subjekt)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                6
-              ],
+              "token_ids": [6],
               "evidence": "Israel (Nominativ, Subjekt)"
             },
             {
               "theme_id": "possessivartikel",
               "theme": "Possessivartikel",
               "level": "A1",
-              "token_ids": [
-                7
-              ],
+              "token_ids": [7],
               "evidence": "seine (Possessivartikel)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                9,
-                10
-              ],
+              "token_ids": [9, 10],
               "evidence": "in + Libanon (Präposition mit Dativ)"
             },
             {
               "theme_id": "praeteritum",
               "theme": "Präteritum",
               "level": "A2",
-              "token_ids": [
-                13
-              ],
+              "token_ids": [13],
               "evidence": "hieß (Indikativ Präteritum)"
             },
             {
               "theme_id": "verb_am_ende",
               "theme": "Verb am Ende (Nebensatz)",
               "level": "A2",
-              "token_ids": [
-                5,
-                11
-              ],
+              "token_ids": [5, 11],
               "evidence": "wenn ... einstelle (Verb am Ende im Nebensatz)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                9,
-                10
-              ],
+              "token_ids": [9, 10],
               "evidence": "in (Wechselpräposition, Dat)"
             }
           ]
@@ -6323,115 +5856,84 @@
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                7
-              ],
+              "token_ids": [7],
               "evidence": "Gebühren (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "dass_saetze",
               "theme": "dass-Sätze",
               "level": "A2",
-              "token_ids": [
-                5,
-                13
-              ],
+              "token_ids": [5, 13],
               "evidence": "dass ... (dass-Satz)"
             },
             {
               "theme_id": "konjunktiv_1",
               "theme": "Konjunktiv I (indirekte Rede)",
               "level": "B2",
-              "token_ids": [
-                13
-              ],
+              "token_ids": [13],
               "evidence": "erhebe (Konjunktiv I)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                0
-              ],
+              "token_ids": [0],
               "evidence": "Trump (Nominativ, Subjekt)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                6
-              ],
+              "token_ids": [6],
               "evidence": "Iran (Nominativ, Subjekt)"
             },
             {
               "theme_id": "praepositionen_mit_akkusativ",
               "theme": "Präpositionen mit Akkusativ",
               "level": "A1",
-              "token_ids": [
-                8,
-                10
-              ],
+              "token_ids": [8, 10],
               "evidence": "für + Durchfahrt (Präposition mit Akkusativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                2,
-                3
-              ],
+              "token_ids": [2, 3],
               "evidence": "am + Donnerstag (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                11,
-                12
-              ],
+              "token_ids": [11, 12],
               "evidence": "von + Schiffen (Präposition mit Dativ)"
             },
             {
               "theme_id": "praeteritum",
               "theme": "Präteritum",
               "level": "A2",
-              "token_ids": [
-                1
-              ],
+              "token_ids": [1],
               "evidence": "kritisierte (Indikativ Präteritum)"
             },
             {
               "theme_id": "temporale_praepositionen",
               "theme": "Temporale Präpositionen",
               "level": "A1",
-              "token_ids": [
-                2,
-                3
-              ],
+              "token_ids": [2, 3],
               "evidence": "am Donnerstag (temporale Präposition)"
             },
             {
               "theme_id": "verb_am_ende",
               "theme": "Verb am Ende (Nebensatz)",
               "level": "A2",
-              "token_ids": [
-                5,
-                13
-              ],
+              "token_ids": [5, 13],
               "evidence": "dass ... erhebe (Verb am Ende im Nebensatz)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                2,
-                3
-              ],
+              "token_ids": [2, 3],
               "evidence": "am (Wechselpräposition, Dat)"
             }
           ]
@@ -6761,104 +6263,77 @@
               "theme_id": "adverbiale_konnektoren",
               "theme": "Adverbiale Konnektoren (deshalb, trotzdem, dann)",
               "level": "A2",
-              "token_ids": [
-                12
-              ],
+              "token_ids": [12],
               "evidence": "davor (adverbialer Konnektor)"
             },
             {
               "theme_id": "infinitiv_mit_zu",
               "theme": "Infinitiv mit zu",
               "level": "B1",
-              "token_ids": [
-                17,
-                18
-              ],
+              "token_ids": [17, 18],
               "evidence": "zu spielen (Infinitiv mit zu)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                0
-              ],
+              "token_ids": [0],
               "evidence": "US-Vizepräsident (Nominativ, Subjekt)"
             },
             {
               "theme_id": "personalpronomen",
               "theme": "Personalpronomen",
               "level": "A1",
-              "token_ids": [
-                16
-              ],
+              "token_ids": [16],
               "evidence": "uns (Personalpronomen, Dat)"
             },
             {
               "theme_id": "possessivartikel",
               "theme": "Possessivartikel",
               "level": "A1",
-              "token_ids": [
-                8
-              ],
+              "token_ids": [8],
               "evidence": "seinem (Possessivartikel)"
             },
             {
               "theme_id": "praepositionaladverbien",
               "theme": "Präpositionaladverbien (dafür, damit, darauf)",
               "level": "B1",
-              "token_ids": [
-                12
-              ],
+              "token_ids": [12],
               "evidence": "davor (Präpositionaladverb)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                7,
-                9
-              ],
+              "token_ids": [7, 9],
               "evidence": "vor + Abflug (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                10,
-                11
-              ],
+              "token_ids": [10, 11],
               "evidence": "nach + Islamabad (Präposition mit Dativ)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                15,
-                16
-              ],
+              "token_ids": [15, 16],
               "evidence": "mit + uns (Präposition mit Dativ)"
             },
             {
               "theme_id": "praeteritum",
               "theme": "Präteritum",
               "level": "A2",
-              "token_ids": [
-                4
-              ],
+              "token_ids": [4],
               "evidence": "warnte (Indikativ Präteritum)"
             },
             {
               "theme_id": "wechselpraepositionen",
               "theme": "Wechselpräpositionen",
               "level": "A1",
-              "token_ids": [
-                7,
-                9
-              ],
+              "token_ids": [7, 9],
               "evidence": "vor (Wechselpräposition, Dat)"
             }
           ]
@@ -6993,65 +6468,49 @@
               "theme_id": "konjunktiv_2",
               "theme": "Konjunktiv II",
               "level": "B1",
-              "token_ids": [
-                1
-              ],
+              "token_ids": [1],
               "evidence": "würden (Konjunktiv II)"
             },
             {
               "theme_id": "negation",
               "theme": "Negation",
               "level": "A1",
-              "token_ids": [
-                5
-              ],
+              "token_ids": [5],
               "evidence": "nicht (Negation)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                3
-              ],
+              "token_ids": [3],
               "evidence": "USA (Nominativ, Subjekt)"
             },
             {
               "theme_id": "personalpronomen",
               "theme": "Personalpronomen",
               "level": "A1",
-              "token_ids": [
-                4
-              ],
+              "token_ids": [4],
               "evidence": "sich (Personalpronomen, Acc)"
             },
             {
               "theme_id": "praepositionaladverbien",
               "theme": "Präpositionaladverbien (dafür, damit, darauf)",
               "level": "B1",
-              "token_ids": [
-                0
-              ],
+              "token_ids": [0],
               "evidence": "Darauf (Präpositionaladverb)"
             },
             {
               "theme_id": "reflexive_verben",
               "theme": "Reflexive Verben",
               "level": "A2",
-              "token_ids": [
-                1,
-                4
-              ],
+              "token_ids": [1, 4],
               "evidence": "sich würden (reflexives Verb)"
             },
             {
               "theme_id": "reflexive_verben",
               "theme": "Reflexive Verben",
               "level": "A2",
-              "token_ids": [
-                6,
-                4
-              ],
+              "token_ids": [6, 4],
               "evidence": "sich einlassen (reflexives Verb)"
             }
           ]
@@ -7396,114 +6855,84 @@
               "theme_id": "adjektivdeklination",
               "theme": "Adjektivdeklination",
               "level": "A2",
-              "token_ids": [
-                8,
-                9
-              ],
+              "token_ids": [8, 9],
               "evidence": "gutem Willen (Adjektivdeklination, Dat)"
             },
             {
               "theme_id": "akkusativ",
               "theme": "Akkusativ",
               "level": "A1",
-              "token_ids": [
-                18
-              ],
+              "token_ids": [18],
               "evidence": "Hand (Akkusativ, direktes Objekt)"
             },
             {
               "theme_id": "futur_1",
               "theme": "Futur I",
               "level": "B1",
-              "token_ids": [
-                13,
-                19
-              ],
+              "token_ids": [13, 19],
               "evidence": "werden ... ausstrecken (Futur I)"
             },
             {
               "theme_id": "infinitiv_mit_zu",
               "theme": "Infinitiv mit zu",
               "level": "B1",
-              "token_ids": [
-                10,
-                11
-              ],
+              "token_ids": [10, 11],
               "evidence": "zu verhandeln (Infinitiv mit zu)"
             },
             {
               "theme_id": "konditionale_nebensaetze",
               "theme": "Konditionale Nebensätze (wenn, falls)",
               "level": "B2",
-              "token_ids": [
-                1,
-                5
-              ],
+              "token_ids": [1, 5],
               "evidence": "Wenn ... (konditionaler Nebensatz)"
             },
             {
               "theme_id": "n_deklination",
               "theme": "n-Deklination",
               "level": "B1",
-              "token_ids": [
-                9
-              ],
+              "token_ids": [9],
               "evidence": "Willen (Dat, n-Deklination von Wille)"
             },
             {
               "theme_id": "nominativ",
               "theme": "Nominativ",
               "level": "A1",
-              "token_ids": [
-                3
-              ],
+              "token_ids": [3],
               "evidence": "Iraner (Nominativ, Subjekt)"
             },
             {
               "theme_id": "personalpronomen",
               "theme": "Personalpronomen",
               "level": "A1",
-              "token_ids": [
-                15
-              ],
+              "token_ids": [15],
               "evidence": "ihnen (Personalpronomen, Dat)"
             },
             {
               "theme_id": "praepositionen_mit_dativ",
               "theme": "Präpositionen mit Dativ",
               "level": "A1",
-              "token_ids": [
-                7,
-                9
-              ],
+              "token_ids": [7, 9],
               "evidence": "mit + Willen (Präposition mit Dativ)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                5
-              ],
+              "token_ids": [5],
               "evidence": "sind (Indikativ Präsens)"
             },
             {
               "theme_id": "praesens",
               "theme": "Präsens",
               "level": "A1",
-              "token_ids": [
-                13
-              ],
+              "token_ids": [13],
               "evidence": "werden (Indikativ Präsens)"
             },
             {
               "theme_id": "verb_am_ende",
               "theme": "Verb am Ende (Nebensatz)",
               "level": "A2",
-              "token_ids": [
-                1,
-                11
-              ],
+              "token_ids": [1, 11],
               "evidence": "Wenn ... verhandeln (Verb am Ende im Nebensatz)"
             }
           ]

@@ -19,9 +19,7 @@ export function VocabList({ vocabulary }: VocabListProps) {
             <div className="flex items-baseline gap-2 mb-1">
               <span className="text-lg font-semibold">{entry.word}</span>
               {entry.article && (
-                <span className="text-sm text-gray-400 dark:text-gray-500">
-                  {entry.article}
-                </span>
+                <span className="text-sm text-gray-400 dark:text-gray-500">{entry.article}</span>
               )}
               <span className="text-sm text-indigo-600 dark:text-indigo-400">
                 {entry.translation}

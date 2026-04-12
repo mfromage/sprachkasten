@@ -38,16 +38,17 @@ Both can be active simultaneously. A legend strip appears when Satzglieder is on
 
 6 groups mapped from ~25 raw syntactic roles:
 
-| Group | Roles | CSS Variable |
-|-------|-------|-------------|
-| Subject | subject, expletive | `--color-subject` |
-| Predicate | predicate, separable_prefix | `--color-predicate` |
-| Objects | accusative_object, dative_object, prepositional_object, clausal_object | `--color-object` |
-| Modifiers | modifier, postnominal_modifier, genitive_attribute, apposition, comparative, relative_clause | `--color-modifier` |
-| Connectors | coordinating_conjunction, complementizer, conjunct, coordinated | `--color-connector` |
-| Other | punctuation, noun_kernel, proper_noun_component, negation, morphological_particle, sbp, pg, repeated_element | `--color-other` |
+| Group      | Roles                                                                                                        | CSS Variable        |
+| ---------- | ------------------------------------------------------------------------------------------------------------ | ------------------- |
+| Subject    | subject, expletive                                                                                           | `--color-subject`   |
+| Predicate  | predicate, separable_prefix                                                                                  | `--color-predicate` |
+| Objects    | accusative_object, dative_object, prepositional_object, clausal_object                                       | `--color-object`    |
+| Modifiers  | modifier, postnominal_modifier, genitive_attribute, apposition, comparative, relative_clause                 | `--color-modifier`  |
+| Connectors | coordinating_conjunction, complementizer, conjunct, coordinated                                              | `--color-connector` |
+| Other      | punctuation, noun_kernel, proper_noun_component, negation, morphological_particle, sbp, pg, repeated_element | `--color-other`     |
 
 Colors adapt to light/dark mode via CSS variables:
+
 - Subject: blue (#2563eb / #60a5fa)
 - Predicate: red (#dc2626 / #f87171)
 - Objects: green (#16a34a / #4ade80)
@@ -58,28 +59,36 @@ Colors adapt to light/dark mode via CSS variables:
 ## Components
 
 ### TokenWord
+
 Each word is a `<span>`:
+
 - Default: plain text
 - Satzglieder active: 3px colored bottom-border
 - Hover: subtle background highlight
 - Click: opens WordPopover
 
 ### WordPopover
+
 Shows on click: lemma, POS label in German, morphology table (Kasus, Numerus, Genus), English translation placeholder. Dismisses on click-outside or Escape.
 
 ### SentenceBlock
+
 Wraps each sentence. When Grammatik is active: bottom border separator, grammar cards appear below.
 
 ### GrammarCard
+
 Rounded card with soft background: theme name, level badge (A1/B2 pill), evidence text. Multiple per sentence stack vertically.
 
 ### MultiTokenUnit
+
 For units like separable verbs ("greift...an"): connecting visual link between token parts when Satzglieder is active.
 
 ### VocabList
+
 Card list: German word + article, English translation, example sentence with target word highlighted.
 
 ### QuizSection
+
 Question cards with "Show hint" accordion expand.
 
 ## File Structure
@@ -124,6 +133,7 @@ React `useState` in page component — two booleans (`showSyntax`, `showGrammar`
 ## Data Model
 
 Derived from fixture JSON:
+
 - `Article` → `Paragraph[]`
 - `Paragraph` → `{ text, sentences: Sentence[] }`
 - `Sentence` → `{ sentence, tokens: Token[], units: Unit[], grammar_themes: GrammarTheme[] }`

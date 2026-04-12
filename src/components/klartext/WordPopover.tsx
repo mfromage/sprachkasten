@@ -68,7 +68,8 @@ export function WordPopover({ token, onClose }: WordPopoverProps) {
 
       {token.lemma.toLowerCase() !== token.text.toLowerCase() && (
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-          Grundform: <span className="font-medium text-gray-700 dark:text-gray-300">{token.lemma}</span>
+          Grundform:{" "}
+          <span className="font-medium text-gray-700 dark:text-gray-300">{token.lemma}</span>
         </p>
       )}
 

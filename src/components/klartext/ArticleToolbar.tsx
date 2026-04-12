@@ -26,7 +26,15 @@ export function ArticleToolbar({
   );
 }
 
-function TogglePill({ active, onClick, label }: { active: boolean; onClick: () => void; label: string }) {
+function TogglePill({
+  active,
+  onClick,
+  label,
+}: {
+  active: boolean;
+  onClick: () => void;
+  label: string;
+}) {
   return (
     <button
       onClick={onClick}

@@ -1,10 +1,4 @@
-export type SyntaxGroup =
-  | "subject"
-  | "predicate"
-  | "object"
-  | "modifier"
-  | "connector"
-  | "other";
+export type SyntaxGroup = "subject" | "predicate" | "object" | "modifier" | "connector" | "other";
 
 const ROLE_TO_GROUP: Record<string, SyntaxGroup> = {
   subject: "subject",

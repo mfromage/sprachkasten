@@ -8,11 +8,7 @@ import { SentenceBlock } from "@/components/klartext/SentenceBlock";
 import { VocabList } from "@/components/klartext/VocabList";
 import { QuizSection } from "@/components/klartext/QuizSection";
 
-export default function KlartextPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default function KlartextPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params);
   const article = getArticle(slug);
 
@@ -25,9 +21,7 @@ export default function KlartextPage({
 
   return (
     <main className="max-w-2xl mx-auto px-6 py-12">
-      <h1 className="text-3xl font-bold mb-6 leading-tight">
-        {article.title}
-      </h1>
+      <h1 className="text-3xl font-bold mb-6 leading-tight">{article.title}</h1>
 
       <ArticleToolbar
         showSyntax={showSyntax}

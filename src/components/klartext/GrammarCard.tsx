@@ -14,21 +14,20 @@ const LEVEL_COLORS: Record<string, string> = {
 };
 
 export function GrammarCard({ theme }: GrammarCardProps) {
-  const levelClass = LEVEL_COLORS[theme.level] ?? "bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300";
+  const levelClass =
+    LEVEL_COLORS[theme.level] ?? "bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300";
 
   return (
     <div className="rounded-lg bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700/50 p-3 text-sm transition-all duration-300 animate-in slide-in-from-top-2 fade-in">
       <div className="flex items-center gap-2 mb-1">
-        <span className="font-medium text-gray-900 dark:text-gray-100">
-          {theme.theme}
-        </span>
-        <span className={`inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${levelClass}`}>
+        <span className="font-medium text-gray-900 dark:text-gray-100">{theme.theme}</span>
+        <span
+          className={`inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${levelClass}`}
+        >
           {theme.level}
         </span>
       </div>
-      <p className="text-gray-600 dark:text-gray-400 italic">
-        {theme.evidence}
-      </p>
+      <p className="text-gray-600 dark:text-gray-400 italic">{theme.evidence}</p>
     </div>
   );
 }
