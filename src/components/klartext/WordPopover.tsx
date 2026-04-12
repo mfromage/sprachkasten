@@ -102,16 +102,27 @@ export function WordPopover({ token, nounPhrase, onClose }: WordPopoverProps) {
 
       {nounPhrase && (
         <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
-          <div className="flex items-center gap-1.5 text-xs text-gray-600 dark:text-gray-400 mb-1">
-            <span className="font-medium">
-              {CASE_SHORT[nounPhrase.case] ?? nounPhrase.case}, {NUMBER_DE[nounPhrase.number] ?? nounPhrase.number}
+          <p className="text-sm font-medium text-gray-800 dark:text-gray-200 mb-1.5">
+            {nounPhrase.text}
+          </p>
+          <div className="flex flex-wrap items-center gap-1.5 mb-2">
+            <span className="inline-block rounded-full bg-blue-50 dark:bg-blue-900/30 px-2.5 py-0.5 text-xs font-medium text-blue-700 dark:text-blue-300">
+              {CASE_SHORT[nounPhrase.case] ?? nounPhrase.case}
             </span>
+            <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-400">
+              {NUMBER_DE[nounPhrase.number] ?? nounPhrase.number}
+            </span>
+            {nounPhrase.gender && (
+              <span className="inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-400">
+                {GENDER_SHORT[nounPhrase.gender] ?? nounPhrase.gender}
+              </span>
+            )}
           </div>
           <p className="text-xs text-gray-500 dark:text-gray-400">
             {nounPhrase.case_reason}
           </p>
           {nounPhrase.notes.length > 0 && (
-            <div className="mt-2 space-y-1">
+            <div className="mt-2 flex flex-wrap gap-1">
               {nounPhrase.notes.map((note, i) => (
                 <span
                   key={i}
